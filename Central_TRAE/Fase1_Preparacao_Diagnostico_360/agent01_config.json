@@ -1,0 +1,15 @@
+{
+  "communication": {
+    "primary": "slack",
+    "fallback": "email"
+  },
+  "data_store": {
+    "type": "csv",
+    "path": "Central_TRAE/Fase1_Preparacao_Diagnostico_360/Acessos_Stakeholders.csv"
+  },
+  "evidence_dir": "Central_TRAE/Evidencias_Fase1/01",
+  "schedule": {
+    "mode": "manual",
+    "cron": null
+  }
+}

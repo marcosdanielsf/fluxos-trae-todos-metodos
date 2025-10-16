@@ -1,0 +1,60 @@
+1. Cronograma- Mapa do Negócio;;;;;;;;
+Boas Vindas;;;;;;;;
+Name;Subelementos;Pessoa;Status;Data de entrega - Start;Data de entrega - End;Arquivos;Texto;Item ID (auto generated)
+Kickoff com o CEO;;ceo@hallennaiane.com;Concluído;2023-04-07;2023-04-07;;;4203918198
+Vídeo da Mentoria - AO VIVO;;ceo@hallennaiane.com;;;;;;4203918261
+Anexo do contrato;;ceo@hallennaiane.com;;;;;;4203918270
+;;;;2023-04-07;2023-04-07;;;
+;;;;;;;;
+Posicionamento de Marca;;;;;;;;
+Name;Subelementos;Pessoa;Status;Data de entrega - Start;Data de entrega - End;Arquivos;Texto;Item ID (auto generated)
+Segmentação de clientes;;;;;;;;4203918282
+Tipos de Posicionamento de mercado;;;;;;;;4203918184
+Vantagens Competitivas;;;;;;;;4203918275
+Vídeo da Mentoria-  AO VIVO;;;;;;;;4203918256
+;;;;;;;;
+;;;;;;;;
+Proposta de Valor;;;;;;;;
+Name;Subelementos;Pessoa;Status;Data de entrega - Start;Data de entrega - End;Arquivos;Texto;Item ID (auto generated)
+PUV;;;;;;;;4203918258
+Diferença entre Característica, Vantagem e Benefício;;;;;;;;4203918222
+Matriz BC&G;;;;;;;;4204107949
+Construindo um Produto Super Sexy;;;;;;;;4203981381
+Vídeo da Mentoria- AO VIVO;;;;;;;;4203918283
+;;;;;;;;
+;;;;;;;;
+Produtividade Empresarial;;;;;;;;
+Name;Subelementos;Pessoa;Status;Data de entrega - Start;Data de entrega - End;Arquivos;Texto;Item ID (auto generated)
+Princípio 80/20;;;;;;;;4203999406
+Pirâmide da Produtividade;;;;;;;;4203918190
+Contrato de Rotina do Gestor;;;;;;;;4203918235
+Vídeo da Mentoria- AO VIVO;;;;;;;;4203918238
+;;;;;;;;
+;;;;;;;;
+Jornada do Cliente;;;;;;;;
+Name;Subelementos;Pessoa;Status;Data de entrega - Start;Data de entrega - End;Arquivos;Texto;Item ID (auto generated)
+Estratégias de atração de clientes;;ceo@hallennaiane.com;;;;;;4203918188
+Entrega do Produto/Serviço (Experiência);;;;;;;;4203918194
+Esteira de Produtos;;;;;;;;4203918298
+Estratégias para aumento de faturamento;;;;;;;;4204018925
+Pós-Venda;;;;;;;;4203918209
+Vídeo da Mentoria- AO VIVO;;;;;;;;4203918289
+;;;;;;;;
+;;;;;;;;
+Gerando Parcerias de sucesso;;;;;;;;
+Name;Subelementos;Pessoa;Status;Data de entrega - Start;Data de entrega - End;Arquivos;Texto;Item ID (auto generated)
+Network- Como fazer? Qual a importância?;;;;;;;;4204084892
+Associação com marcas de relevância;;;;;;;;4204032060
+Clientes Campeões;;;;;;;;4204032795
+Atraindo Parceiros com habilidades complementares;;;;;;;;4204041365
+;;;;;;;;
+;;;;;;;;
+BÔNUS: Avaliação 360;;;;;;;;
+Name;Subelementos;Pessoa;Status;Data de entrega - Start;Data de entrega - End;Arquivos;Texto;Item ID (auto generated)
+Pontos fortes e fracos/ Ameaças e oportunidades;;;;;;;;4204336679
+;;;;;;;;
+;;;;;;;;
+Encerramento;;;;;;;;
+Name;Subelementos;Pessoa;Status;Data de entrega - Start;Data de entrega - End;Arquivos;Texto;Item ID (auto generated)
+Pesquisa de Satisfação- NPS;;;;;;;;4203918271
+Depoimento;;;;;;;;4203918262

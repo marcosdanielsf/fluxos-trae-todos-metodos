@@ -1,0 +1,55 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/5. FULL SALES 2/4. Processos de RH Comercial  /12. Cópia de [FSS] Tutor - Plano de Carreira.xlsx
+Categoria: P4. RH Comercial
+Data de Processamento: 2025-10-02T03:59:12.923282
+Nome: 12. Cópia de [FSS] Tutor - Plano de Carreira.xlsx
+Tamanho: 6781
+Data_Criacao: 2025-09-15T07:31:34.645355
+Data_Modificacao: 2025-06-02T16:54:25
+Checksum: a5780f8f5b8c122ebe6f28a6876be350
+
+=== CONTEÚDO ===
+
+=== PLANILHA: Página1 ===
+
+	Tutor							
+		Tutor Base 	Tutor Intermediário 	Tutor Avançado	Tutor Especialista			
+	Fixo base	1500.0	=C4+200	2500.0	3000.0			
+	Fixo por reunião com cliente e treinamento equipe	100.0	=C5+20	=D5+20	=E5+20			
+	Fixo por onboarding realizado	=C5*2	=D5*2	=E5*2	=F5*2			
+	Fixo meta batida	=C4+500	=D4+500	=E4+500	=F4+500			
+	Comissão por Venda/Renovação Extra Programa de Aceleração (= closer)	0.04	0.04	0.04	0.04			
+	Comissão por agendamento da indicação	0.02	0.02	0.02	0.02			
+	Comissao extra por originação ind. (Metade da comiss.) 	0.02	0.024	0.028	0.032			
+	Ganhos fixo + reunião (25 reuniões/treinamento)	=C4+C5*25	=D4+D5*25	=E4+E5*25	=F4+F5*25			
+	Estimativa de ganhos fixo + reunião + comissao	=C11+50000*(C8+C10)	=D11+100000*(D8+D10)	=E11+200000*(E8+E10)	=F11+300000*(F8+F10)			
+	Métricas de Passagem de Fase 							
+		Resultados 	Período  Mínimo	Habilidades e necessidades comportamentais 				
+	Tutor
+Intermediário 	Meta 1 por 3 meses	6 meses	NPS acima de 8,25
+70% de renovação média
+Ter asciduidade 
+Pontualidade 
+Cumprir CRM 
+Cumprir agenda de atendimentos
+Gerar vendas através de indicações e embaixadores  
+				
+		Faturamento gerado de 100 mil por 3 meses consecutivos com renovações, revendas, embaixadores e indicações						
+	Tutor
+Avançado	Meta 2 por 3 meses consecutivos 	6 meses	NPS acima de 8,5
+75% de renovação média
+Ter asciduidade 
+Pontualidade 
+Cumprir CRM 
+Cumprir agenda de atendimentos
+Gerar vendas através de indicações e embaixadores  				
+		Faturamento gerado de 200 mil por 3 meses consecutivos com renovações, revendas, embaixadores e indicações						
+	Tutor
+Especialista	Meta 3 por 3 meses consecutivos 	6 meses	NPS acima de 9
+80 % de renovação média
+Ministrar treinamentos outros closers internos
+Ministrar treinamentos externos
+Supervisão de Tutores
+Fazer fechamento de Novatos				
+		Faturamento gerado de 300 mil por 3 meses consecutivos com renovações, revendas, embaixadores e indicações						
+

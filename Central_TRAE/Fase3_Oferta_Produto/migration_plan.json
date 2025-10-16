@@ -1,0 +1,33 @@
+{
+  "parent_task": "86b7172qb",
+  "listId": "90147183567",
+  "fields": {
+    "departamento": "Produto & Engenharia",
+    "contexto_categoria_multi": ["Documentação", "Processo"],
+    "contexto_categoria_single_mapping": {
+      "1": "Documentação",
+      "2": "Documentação",
+      "3": "Documentação",
+      "4": "Documentação",
+      "5": "Documentação",
+      "6": "Processo",
+      "7": "Processo",
+      "8": "Processo"
+    },
+    "frequencia_default": "Sob Demanda",
+    "frequencia_override": { "7": "Contínuo" },
+    "link_ssot": "https://app.clickup.com/t/86b7172qb",
+    "evidence_base_dir": "../Evidencias_Fase3",
+    "attachments_required": true
+  },
+  "subtasks": [
+    { "order": 1, "title": "🧭 Proposta de Valor, Ladder de Ofertas, Pacotes & Escopo", "file": "01_Proposta_de_Valor_Ladder_Pacotes_Escopo.md", "evidence_dir": "01" },
+    { "order": 2, "title": "🧾 Fichas Técnicas de Produto", "file": "02_Fichas_Tecnicas_de_Produto.md", "evidence_dir": "02" },
+    { "order": 3, "title": "💲 Pricing, Termos & Garantias", "file": "03_Pricing_Termos_e_Garantias.md", "evidence_dir": "03" },
+    { "order": 4, "title": "📑 Materiais Comerciais (Deck, One-pager, Proposal)", "file": "04_Materiais_Comerciais.md", "evidence_dir": "04" },
+    { "order": 5, "title": "⚖️ Contratos, Políticas & Jurídico", "file": "05_Contratos_Politicas_e_Juridico.md", "evidence_dir": "05" },
+    { "order": 6, "title": "🎙️ Scripts de Vendas & Discovery", "file": "06_Scripts_de_Vendas_e_Discovery.md", "evidence_dir": "06" },
+    { "order": 7, "title": "🚀 GTM & Materiais de Lançamento", "file": "07_GTM_e_Materiais_de_Lancamento.md", "evidence_dir": "07" },
+    { "order": 8, "title": "📦 Playbook de Entrega, Onboarding & Gate", "file": "08_Playbook_de_Entrega_Onboarding_e_Gate.md", "evidence_dir": "08" }
+  ]
+}

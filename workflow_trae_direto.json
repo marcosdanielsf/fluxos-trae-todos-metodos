@@ -1,0 +1,44 @@
+{
+  "name": "Central TRAE - Direto",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "trae-direto",
+        "options": {}
+      },
+      "id": "webhook-trigger",
+      "name": "Webhook Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "webhookId": "trae-direto-webhook"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { \"status\": \"success\", \"message\": \"Central TRAE funcionando perfeitamente!\", \"dados_recebidos\": $json, \"timestamp\": new Date().toISOString(), \"webhook_url\": \"http://localhost:5678/webhook/trae-direto\" } }}"
+      },
+      "id": "webhook-response",
+      "name": "Resposta TRAE",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [440, 300]
+    }
+  ],
+  "connections": {
+    "Webhook Trigger": {
+      "main": [
+        [
+          {
+            "node": "Resposta TRAE",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {},
+  "versionId": "1"
+}

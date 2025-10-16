@@ -1,0 +1,43 @@
+﻿Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5
+,Tutor,,,,
+,,Tutor Base ,Tutor Intermediário ,Tutor Avançado,Tutor Especialista
+,Fixo base,1500,1700,2500,3000
+,Fixo por reunião com cliente e treinamento equipe,100,120,140,160
+,Fixo por onboarding realizado,200,240,280,320
+,Fixo meta batida,2000,2200,3000,3500
+,Comissão por Venda/Renovação Extra Programa de Aceleração (= closer),0.04,0.04,0.04,0.04
+,Comissão por agendamento da indicação,0.02,0.02,0.02,0.02
+,Comissao extra por originação ind. (Metade da comiss.) ,0.02,0.024,0.028,0.032
+,Ganhos fixo + reunião (25 reuniões/treinamento),4000,4700,6000,7000
+,Estimativa de ganhos fixo + reunião + comissao,7000,11100,19600,28600
+,,,,,
+,,,,,
+,Métricas de Passagem de Fase ,,,,
+,,Resultados ,Período  Mínimo,Habilidades e necessidades comportamentais ,
+,"Tutor
+Intermediário ",Meta 1 por 3 meses,6 meses,"NPS acima de 8,25
+70% de renovação média
+Ter asciduidade 
+Pontualidade 
+Cumprir CRM 
+Cumprir agenda de atendimentos
+Gerar vendas através de indicações e embaixadores  
+",
+,,"Faturamento gerado de 100 mil por 3 meses consecutivos com renovações, revendas, embaixadores e indicações",,,
+,"Tutor
+Avançado",Meta 2 por 3 meses consecutivos ,6 meses,"NPS acima de 8,5
+75% de renovação média
+Ter asciduidade 
+Pontualidade 
+Cumprir CRM 
+Cumprir agenda de atendimentos
+Gerar vendas através de indicações e embaixadores  ",
+,,"Faturamento gerado de 200 mil por 3 meses consecutivos com renovações, revendas, embaixadores e indicações",,,
+,"Tutor
+Especialista",Meta 3 por 3 meses consecutivos ,6 meses,"NPS acima de 9
+80 % de renovação média
+Ministrar treinamentos outros closers internos
+Ministrar treinamentos externos
+Supervisão de Tutores
+Fazer fechamento de Novatos",
+,,"Faturamento gerado de 300 mil por 3 meses consecutivos com renovações, revendas, embaixadores e indicações",,,

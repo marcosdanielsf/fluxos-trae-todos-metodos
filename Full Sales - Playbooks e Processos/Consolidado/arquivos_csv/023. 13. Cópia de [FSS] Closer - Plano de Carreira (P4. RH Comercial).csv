@@ -1,0 +1,59 @@
+﻿Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7
+,,Base de Comissões  - Fechamento High Ticket B2B ,,,,,
+,,,Closer Base ,Closer  Intermediário ,Closer Avançado,Closer Especialista,Closer Especialista 2
+,,Comissão,0.04,0.045,0.05,0.055,0.06
+,,Fixo base,2400,2500,2700,3000,3300
+,,Fixo meta 1,2550,2650,2850,3150,3450
+,,Fixo meta 2,2700,2800,3000,3300,3600
+,,Fixo meta 3,2900,3000,3200,3500,3800
+,,Venda por indicação,0.06,0.065,0.07,0.075,0.08
+,,Venda direta,0.08,,,,
+,,Estimativa de ganhos meta 1,15750,17500,19350,21300,28200
+,,3 atendimentos* - 20% de conv.,,,,,
+,,,,,,,
+,,Adicional Indicação,,,Etapa 1 ,Etapa 2 ,
+,,% e coleta de indicacaoes / call,0.5,,Coletar indicacao,Agendar indicacao,
+,,Indicacoes coletadas por call,5,(pegue de 5 a 10 ),,,
+,,Taxa de Agendamento ,0.25,,,,
+,,Conversão de indicacoes,0.3,,,,
+,,Valor total mes indicação,18562.5,,,,
+,,,,,,,
+,,Total,34312.5,,,,
+,,,,,,,
+,,Métricas de Passagem de Fase ,,,,,
+,,,Resultados ,Período  Mínimo,Habilidades e necessidades comportamentais ,,
+,,"Closer 
+Intermediário ",Meta 2 por 3 meses consecutivos ,6 meses,"Ter asciduidade 
+Pontualidade 
+Cumprir CRM 
+Cumprir agenda de atendimentos
+Gravar as suas ligações
+Gerar vendas através de indicações e embaixadores  
+",,
+,,,realizar 15% das vendas por indicação,,,,
+,,"Closer 
+Avançado",Meta 2 por 3 meses consecutivos ,6 meses,"Ministrar treinamentos outros closers internos
+Fazer fechamento de novatos",,
+,,,realizar 20% das vendas por indicação,,,,
+,,"Closer 
+Especialista",Meta 3 por 3 meses consecutivos ,6 meses,"Ministrar treinamentos outros closers internos
+Ministrar treinamentos externos
+Supervisão de Closers
+Fazer fechamento de Novatos",,
+,,,realizar 25% das vendas por indicação,,,,
+,,"Closer 
+Especialista2 ",Meta 4 por 3 meses consecutivos,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,Atendimentos Qualificados,,,,,
+,,Vendas,,,,,
+,,Eficiência ,0,,,,
+,,Valor total vendido ,,,,,
+,,Faturamento por lead atendido,0,,,,
+,,,,,,,
+,,,Eficiência,Valor Med.,Fixo,,
+,,Não bateu meta,,,"R$ 1.800,00",,
+,,Meta 1,0.25,"R$ 4.500,00","R$ 2.200,00",,
+,,Meta 2,0.3,"R$ 6.600,00","R$ 2.500,00",,
+,,Meta 3,0.35,"R$ 8.400,00","R$ 2.700,00",,

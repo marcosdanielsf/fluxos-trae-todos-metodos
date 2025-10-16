@@ -1,0 +1,12 @@
+Scripts para BDR's;;;;;;
+Nome do Grupo;;;;;;
+Name;Pessoa;Status;Data;Subitems;Custom AI prompt;Item ID (auto generated)
+Abordagem para Novo Seguidor;;;;1. Saudação com nome + carga empática + reconhecimento social + fechamento temporal,2. O que te levou a me seguir?,3. Abordagens para clientes dos EUA da Five Rings;;8281742866
+Subitems;Name;Owner;Status;Date;Item ID (auto generated);
+;1. Saudação com nome + carga empática + reconhecimento social + fechamento temporal;;;;8281742942;
+;2. O que te levou a me seguir?;;;;8281742979;
+;3. Abordagens para clientes dos EUA da Five Rings;;;;8281743016;
+Abordagem para Interesse em Produto/Serviço Específico (copy);;;;;;8281806527
+Abordagem para Interação em Stories/Conteúdos (copy);;;;;;8281806640
+Abordagem Personalizada (copy);;;;;;8281806742
+Abordagem para Desenvolvimento de Conversa (copy);;;;;;8281806869

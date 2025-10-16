@@ -1,0 +1,193 @@
+# Código Python - 119.py
+
+#!/usr/bin/env python3
+"""
+Script simplificado para indexar dados do CRM Socialfy no Pinecone.
+"""
+
+import os
+import json
+import time
+import hashlib
+from pathlib import Path
+from typing import List, Dict, Any
+
+# Configurações
+PINECONE_API_KEY = "***REMOVED***"
+OPENAI_API_KEY = "***REMOVED***"
+INDEX_NAME = "quickstart"
+NAMESPACE = "mottivme-docs"
+CHUNK_SIZE = 1000
+
+def get_embedding_openai(text: str) -> List[float]:
+    """Gera embedding usando OpenAI API via requests."""
+    import requests
+    
+    headers = {
+        "Authorization": f"Bearer {OPENAI_API_KEY}",
+        "Content-Type": "application/json"
+    }
+    
+    data = {
+        "input": text,
+        "model": "text-embedding-ada-002"
+    }
+    
+    try:
+        response = requests.post(
+            "https://api.openai.com/v1/embeddings",
+            headers=headers,
+            json=data
+        )
+        response.raise_for_status()
+        result = response.json()
+        return result["data"][0]["embedding"]
+    except Exception as e:
+        print(f"Erro ao gerar embedding: {e}")
+        # Fallback para embedding dummy
+        return [0.1] * 1536
+
+def chunk_text(text: str, chunk_size: int = CHUNK_SIZE) -> List[str]:
+    """Divide o texto em chunks menores."""
+    words = text.split()
+    chunks = []
+    current_chunk = []
+    current_size = 0
+    
+    for word in words:
+        word_size = len(word) + 1  # +1 para o espaço
+        if current_size + word_size > chunk_size and current_chunk:
+            chunks.append(' '.join(current_chunk))
+            current_chunk = [word]
+            current_size = word_size
+        else:
+            current_chunk.append(word)
+            current_size += word_size
+    
+    if current_chunk:
+        chunks.append(' '.join(current_chunk))
+    
+    return chunks
+
+def upsert_to_pinecone(vectors: List[Dict[str, Any]]) -> bool:
+    """Envia vetores para o Pinecone usando requests."""
+    import requests
+    
+    # Host correto obtido da API do Pinecone
+    url = "https://quickstart-b11hvzz.svc.aped-4627-b74a.pinecone.io/vectors/upsert"
+    
+    headers = {
+        "Api-Key": PINECONE_API_KEY,
+        "Content-Type": "application/json"
+    }
+    
+    data = {
+        "vectors": vectors,
+        "namespace": NAMESPACE
+    }
+    
+    try:
+        response = requests.post(url, headers=headers, json=data)
+        response.raise_for_status()
+        print(f"✅ Enviados {len(vectors)} vetores para o Pinecone")
+        return True
+    except Exception as e:
+        print(f"❌ Erro ao enviar para Pinecone: {e}")
+        return False
+
+def process_file(file_path: str) -> List[Dict[str, Any]]:
+    """Processa um arquivo e retorna vetores para indexação."""
+    print(f"📄 Processando: {file_path}")
+    
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+    except Exception as e:
+        print(f"❌ Erro ao ler arquivo {file_path}: {e}")
+        return []
+    
+    if not content.strip():
+        print(f"⚠️  Arquivo vazio: {file_path}")
+        return []
+    
+    # Divide em chunks
+    chunks = chunk_text(content)
+    vectors = []
+    
+    for i, chunk in enumerate(chunks):
+        if not chunk.strip():
+            continue
+            
+        # Gera ID único
+        chunk_id = hashlib.md5(f"{file_path}_{i}_{chunk[:50]}".encode()).hexdigest()
+        
+        # Gera embedding
+        embedding = get_embedding_openai(chunk)
+        
+        # Cria metadados
+        metadata = {
+            "source": os.path.basename(file_path),
+            "file_path": file_path,
+            "chunk_index": i,
+            "content": chunk[:500],  # Primeiros 500 caracteres para preview
+            "type": "socialfy_crm",
+            "category": "documentation"
+        }
+        
+        vector = {
+            "id": chunk_id,
+            "values": embedding,
+            "metadata": metadata
+        }
+        
+        vectors.append(vector)
+        print(f"  📝 Chunk {i+1}/{len(chunks)} processado")
+    
+    return vectors
+
+def main():
+    """Função principal para indexar arquivos do CRM Socialfy."""
+    print("🚀 Iniciando indexação do CRM Socialfy no Pinecone...")
+    
+    # Arquivos para indexar
+    files_to_index = [
+        "CRM Socialfy.txt",
+        "05_CRM_Socialfy/README.md",
+        "05_CRM_Socialfy/Documentacao_Tecnica/Resumo_Executivo_Socialfy.md",
+        "05_CRM_Socialfy/Documentacao_Tecnica/Socialfy_CRM_Descricao_Completa.md",
+        "05_CRM_Socialfy/Documentacao_Tecnica/Descricao_Empresa_Atualizada.md"
+    ]
+    
+    all_vectors = []
+    
+    for file_path in files_to_index:
+        if os.path.exists(file_path):
+            vectors = process_file(file_path)
+            all_vectors.extend(vectors)
+        else:
+            print(f"⚠️  Arquivo não encontrado: {file_path}")
+    
+    if not all_vectors:
+        print("❌ Nenhum vetor foi gerado. Verifique os arquivos.")
+        return
+    
+    print(f"📊 Total de vetores gerados: {len(all_vectors)}")
+    
+    # Envia em lotes
+    batch_size = 100
+    for i in range(0, len(all_vectors), batch_size):
+        batch = all_vectors[i:i+batch_size]
+        print(f"📤 Enviando lote {i//batch_size + 1}...")
+        
+        if upsert_to_pinecone(batch):
+            print(f"✅ Lote {i//batch_size + 1} enviado com sucesso")
+        else:
+            print(f"❌ Falha no envio do lote {i//batch_size + 1}")
+        
+        # Pausa entre lotes
+        time.sleep(1)
+    
+    print("🎉 Indexação concluída!")
+
+if __name__ == "__main__":
+    main()

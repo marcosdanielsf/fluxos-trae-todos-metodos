@@ -1,0 +1,18 @@
+{
+  "department": "Marketing & Sales",
+  "context": "Fase 5 — Pré-Vendas (SDR)",
+  "default_frequency": "semanal",
+  "ssot_link": "../METODO_TRAE_UNIFICADO.md",
+  "evidence_base_dir": "../Evidencias_Fase5",
+  "attachments_required": true,
+  "subtasks": [
+    { "id": "01", "name": "Listas & Dados", "file": "01_Listas_Dados.md", "evidence_dir": "../Evidencias_Fase5/01" },
+    { "id": "02", "name": "Cadências & Scripts", "file": "02_Cadencias_Scripts.md", "evidence_dir": "../Evidencias_Fase5/02" },
+    { "id": "03", "name": "Enriquecimento & Validação", "file": "03_Enriquecimento_Validacao.md", "evidence_dir": "../Evidencias_Fase5/03" },
+    { "id": "04", "name": "Outbound & Inbound Handoff", "file": "04_Outbound_Inbound.md", "evidence_dir": "../Evidencias_Fase5/04" },
+    { "id": "05", "name": "Qualificação (BANT/CHAMP)", "file": "05_Qualificacao.md", "evidence_dir": "../Evidencias_Fase5/05" },
+    { "id": "06", "name": "Agendamento & Calendars", "file": "06_Agendamento.md", "evidence_dir": "../Evidencias_Fase5/06" },
+    { "id": "07", "name": "CRM & Handoff para Vendas", "file": "07_CRM_Handoff.md", "evidence_dir": "../Evidencias_Fase5/07" },
+    { "id": "08", "name": "Relatórios SDR", "file": "08_Relatorios_SDR.md", "evidence_dir": "../Evidencias_Fase5/08" }
+  ]
+}

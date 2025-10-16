@@ -1,0 +1,18 @@
+{
+  "department": "CS",
+  "context": "Fase 7 — Onboarding & Sucesso do Cliente",
+  "default_frequency": "mensal",
+  "ssot_link": "../METODO_TRAE_UNIFICADO.md",
+  "evidence_base_dir": "../Evidencias_Fase7",
+  "attachments_required": true,
+  "subtasks": [
+    { "id": "01", "name": "Kickoff & Implementação", "file": "01_Kickoff_Implementacao.md", "evidence_dir": "../Evidencias_Fase7/01" },
+    { "id": "02", "name": "Playbooks & Treinamentos", "file": "02_Playbooks_Treinamentos.md", "evidence_dir": "../Evidencias_Fase7/02" },
+    { "id": "03", "name": "Health Score", "file": "03_Health_Score.md", "evidence_dir": "../Evidencias_Fase7/03" },
+    { "id": "04", "name": "QBR & Expansão", "file": "04_QBR_Expansao.md", "evidence_dir": "../Evidencias_Fase7/04" },
+    { "id": "05", "name": "Suporte & SLAs", "file": "05_Suporte_SLAs.md", "evidence_dir": "../Evidencias_Fase7/05" },
+    { "id": "06", "name": "NPS & Feedback", "file": "06_NPS_Feedback.md", "evidence_dir": "../Evidencias_Fase7/06" },
+    { "id": "07", "name": "Renovação", "file": "07_Renovacao.md", "evidence_dir": "../Evidencias_Fase7/07" },
+    { "id": "08", "name": "Reporting CS", "file": "08_Reporting_CS.md", "evidence_dir": "../Evidencias_Fase7/08" }
+  ]
+}

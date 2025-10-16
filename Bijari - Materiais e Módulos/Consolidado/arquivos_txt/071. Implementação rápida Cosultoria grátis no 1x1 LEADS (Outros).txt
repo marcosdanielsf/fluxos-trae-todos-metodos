@@ -1,0 +1,25 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/JP Bijari/Módulo 4 - Atração de clientes (geração de lead)/Aula 13 - Imple rápida CG pra base clientes/Implementação rápida Cosultoria grátis no 1x1 LEADS.docx
+Categoria: Outros
+Data de Processamento: 2025-10-10T08:25:31.324738
+Nome: Implementação rápida Cosultoria grátis no 1x1 LEADS.docx
+Tamanho: 7661
+Data_Criacao: 2025-09-15T07:24:32.975333
+Data_Modificacao: 2025-06-22T06:21:56
+Checksum: f453c8c741f2cf9cee429afa14e9e2d1
+
+=== CONTEÚDO ===
+
+Chamar no 1x1 os leads que deram no-show ou não compraram
+Passos:
+Ligar 3x seguidas do número normal, se não atender ligar pelo WhatsApp;
+Depois de 03 tentativas, mensagem no WhatsApp com vídeo do expert te validando (confirmando que você é do time te chamando pelo nome);
+Na mensagem do WhatsApp, se apresenta, reforça de onde vem o contato e tenta marcar um horário para a realizar a ligação.
+Modelo de mensagem: 
+Fala NOME! Tudo bem? Me chamo FULANO do time do EXPERT
+_____________
+Algum tempo atrás você se cadastrou para uma Consultoria Grátis com o objetivo de CONQUISTAR X (objetivo do formulário) e você estava com DIFICULDADE EM Y (dor do formulário). 
+
+Como está o andamento disso?
+_____________
+Te pergunto pois surgiram 2 vagas disponíveis pra essa semana, terça às X ou quarta às Y. Gostaria de participar para que juntos possamos CONQUISTAR X (objetivo do formulário)?

@@ -1,0 +1,224 @@
+{
+  "name": "Central TRAE - Diagnóstico 360° Completo",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "diagnostico-360",
+        "options": {}
+      },
+      "id": "webhook-trigger",
+      "name": "Webhook Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [250, 300],
+      "webhookId": "diagnostico-360-trae"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "string": [
+            {
+              "value1": "={{$json.action}}",
+              "operation": "equals",
+              "value2": "criar_workflow"
+            }
+          ]
+        }
+      },
+      "id": "verificar-acao",
+      "name": "Verificar Ação",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [450, 300]
+    },
+    {
+      "parameters": {
+        "functionCode": "const projeto = $input.item.json.projeto || 'Projeto Padrão';\nconst cliente = $input.item.json.cliente || 'Cliente Padrão';\nconst tipo = $input.item.json.tipo || 'Completo';\nconst timestamp = new Date().toISOString();\n\nconst estruturaPastas = {\n  raiz: `Central_TRAE`,\n  fases: [\n    {\n      nome: 'Fase1_Preparacao_Diagnostico_360',\n      descricao: 'Preparação e Diagnóstico 360°',\n      subpastas: [\n        'Documentacao_Base',\n        'Analise_Inicial',\n        'Stakeholders',\n        'Cronograma_Planejamento'\n      ],\n      arquivos: [\n        'README_Fase1.md',\n        'Checklist_Diagnostico.md',\n        'Template_Entrevista_Stakeholders.md',\n        'Acessos_Stakeholders.csv',\n        'Cronograma_Fase1.csv'\n      ]\n    },\n    {\n      nome: 'Fase2_Desenho_Processos',\n      descricao: 'Desenho e Mapeamento de Processos',\n      subpastas: [\n        'Processos_AsIs',\n        'Processos_ToBe',\n        'Fluxogramas',\n        'Documentacao_Tecnica'\n      ],\n      arquivos: [\n        'README_Fase2.md',\n        'Template_Mapeamento_Processo.md',\n        'Matriz_RACI.csv'\n      ]\n    },\n    {\n      nome: 'Fase3_Configuracao_Sistemas',\n      descricao: 'Configuração de Sistemas e Integrações',\n      subpastas: [\n        'Configuracoes_Monday',\n        'Configuracoes_N8N',\n        'Integracao_APIs',\n        'Testes_Validacao'\n      ],\n      arquivos: [\n        'README_Fase3.md',\n        'Documentacao_Integracao.md',\n        'Plano_Testes.md'\n      ]\n    },\n    {\n      nome: 'Fase4_Treinamento_GoLive',\n      descricao: 'Treinamento e Go-Live',\n      subpastas: [\n        'Materiais_Treinamento',\n        'Manuais_Usuario',\n        'Videos_Tutoriais',\n        'Suporte_GoLive'\n      ],\n      arquivos: [\n        'README_Fase4.md',\n        'Cronograma_Treinamento.csv',\n        'Checklist_GoLive.md'\n      ]\n    },\n    {\n      nome: 'Fase5_Monitoramento_Melhoria',\n      descricao: 'Monitoramento Contínuo e Melhorias',\n      subpastas: [\n        'Dashboards',\n        'Relatorios_Performance',\n        'Backlog_Melhorias',\n        'Documentacao_Evolucao'\n      ],\n      arquivos: [\n        'README_Fase5.md',\n        'Template_Relatorio_Mensal.md',\n        'KPIs_Monitoramento.csv'\n      ]\n    }\n  ]\n};\n\nreturn {\n  json: {\n    projeto,\n    cliente,\n    tipo,\n    timestamp,\n    estruturaPastas\n  }\n};"
+      },
+      "id": "processar-estrutura",
+      "name": "Processar Estrutura",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [650, 200]
+    },
+    {
+      "parameters": {
+        "functionCode": "const estrutura = $input.item.json.estruturaPastas;\nconst baseDir = '/Users/marcosdaniels/Documents/Fluxos TRAE/Todos os Métodos';\nconst comandos = [];\n\ncomandos.push(`mkdir -p \"${baseDir}/${estrutura.raiz}\"`);\n\nestrutura.fases.forEach(fase => {\n  const faseDir = `${baseDir}/${estrutura.raiz}/${fase.nome}`;\n  comandos.push(`mkdir -p \"${faseDir}\"`);\n  \n  fase.subpastas.forEach(sub => {\n    comandos.push(`mkdir -p \"${faseDir}/${sub}\"`);\n  });\n});\n\nreturn comandos.map(cmd => ({ json: { comando: cmd } }));"
+      },
+      "id": "gerar-comandos-pastas",
+      "name": "Gerar Comandos Pastas",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [850, 200]
+    },
+    {
+      "parameters": {
+        "command": "={{$json.comando}}"
+      },
+      "id": "executar-mkdir",
+      "name": "Executar Mkdir",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [1050, 200]
+    },
+    {
+      "parameters": {
+        "functionCode": "const estrutura = $input.first().json.estruturaPastas;\nconst baseDir = '/Users/marcosdaniels/Documents/Fluxos TRAE/Todos os Métodos';\nconst arquivos = [];\n\nestrutura.fases.forEach(fase => {\n  const faseDir = `${baseDir}/${estrutura.raiz}/${fase.nome}`;\n  \n  fase.arquivos.forEach(arquivo => {\n    let conteudo = '';\n    \n    if (arquivo.endsWith('.md')) {\n      conteudo = `# ${fase.descricao}\\n\\n## Objetivo\\nDocumentação da ${fase.descricao}\\n\\n## Status\\n- [ ] Em Planejamento\\n- [ ] Em Execução\\n- [ ] Concluído\\n\\n## Responsáveis\\n- Responsável: [Nome]\\n- Equipe: [Lista]\\n\\n## Observações\\n[Adicionar observações relevantes]\\n`;\n    } else if (arquivo.endsWith('.csv')) {\n      if (arquivo.includes('Stakeholders')) {\n        conteudo = 'Nome,Funcao,Email,CanalPreferido,FerramentaSistema,DonoAcesso,Escopo,Status,DataSolicitacao,DataConcessao,Observacoes,ProximaAcao,SLA\\n';\n      } else if (arquivo.includes('Cronograma')) {\n        conteudo = 'Atividade,DataInicio,DataFim,Responsavel,Status,Dependencias,Observacoes\\n';\n      } else if (arquivo.includes('RACI')) {\n        conteudo = 'Atividade,Responsavel,Aprovador,Consultado,Informado\\n';\n      } else if (arquivo.includes('KPIs')) {\n        conteudo = 'KPI,Valor,Meta,Status,DataAtualizacao,Responsavel\\n';\n      }\n    }\n    \n    arquivos.push({\n      caminho: `${faseDir}/${arquivo}`,\n      conteudo: conteudo\n    });\n  });\n});\n\nreturn arquivos.map(arq => ({ json: arq }));"
+      },
+      "id": "gerar-arquivos",
+      "name": "Gerar Arquivos",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [1250, 200]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "={{$json.caminho}}",
+        "data": "={{$json.conteudo}}"
+      },
+      "id": "escrever-arquivos",
+      "name": "Escrever Arquivos",
+      "type": "n8n-nodes-base.writeFile",
+      "typeVersion": 1,
+      "position": [1450, 200]
+    },
+    {
+      "parameters": {
+        "functionCode": "const resultado = {\n  sucesso: true,\n  mensagem: 'Estrutura de Diagnóstico 360° criada com sucesso!',\n  projeto: $input.first().json.projeto,\n  cliente: $input.first().json.cliente,\n  timestamp: $input.first().json.timestamp,\n  estrutura: {\n    fases_criadas: 5,\n    pastas_totais: 20,\n    arquivos_criados: 15\n  },\n  proximos_passos: [\n    'Revisar documentação da Fase 1',\n    'Agendar entrevistas com stakeholders',\n    'Preencher checklist de diagnóstico',\n    'Configurar acessos aos sistemas'\n  ]\n};\n\nreturn { json: resultado };"
+      },
+      "id": "formatar-resposta",
+      "name": "Formatar Resposta",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [1650, 200]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{$json}}"
+      },
+      "id": "webhook-response",
+      "name": "Webhook Response",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [1850, 200]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "{\"erro\": \"Ação não reconhecida. Use 'action': 'criar_workflow'}\"}"
+      },
+      "id": "erro-acao",
+      "name": "Erro Ação",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [650, 400]
+    }
+  ],
+  "connections": {
+    "Webhook Trigger": {
+      "main": [
+        [
+          {
+            "node": "Verificar Ação",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Verificar Ação": {
+      "main": [
+        [
+          {
+            "node": "Processar Estrutura",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Erro Ação",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Processar Estrutura": {
+      "main": [
+        [
+          {
+            "node": "Gerar Comandos Pastas",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gerar Comandos Pastas": {
+      "main": [
+        [
+          {
+            "node": "Executar Mkdir",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Executar Mkdir": {
+      "main": [
+        [
+          {
+            "node": "Gerar Arquivos",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gerar Arquivos": {
+      "main": [
+        [
+          {
+            "node": "Escrever Arquivos",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Escrever Arquivos": {
+      "main": [
+        [
+          {
+            "node": "Formatar Resposta",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Formatar Resposta": {
+      "main": [
+        [
+          {
+            "node": "Webhook Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {},
+  "versionId": "1",
+  "id": "workflow-diagnostico-360",
+  "meta": {
+    "instanceId": "n8n"
+  },
+  "tags": []
+}

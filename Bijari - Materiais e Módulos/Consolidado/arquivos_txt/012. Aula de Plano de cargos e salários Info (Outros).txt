@@ -1,0 +1,33 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/JP Bijari/Módulo 5 - Times Comercial/Aula de Plano de cargos e salários Info.xlsx
+Categoria: Outros
+Data de Processamento: 2025-10-10T08:25:19.732824
+Nome: Aula de Plano de cargos e salários Info.xlsx
+Tamanho: 14679
+Data_Criacao: 2025-09-15T07:28:36.628472
+Data_Modificacao: 2025-06-22T06:21:18
+Checksum: 00182bb4a9e71164639e2ad84addd64d
+
+=== CONTEÚDO ===
+
+=== PLANILHA: Comercial ===
+
+COMERCIAL			EVOLUÇÃO 		BÔNUS TRIMESTRAL		META MENSAL		LISTA KORINGA CABA LEAD
+Closer JR	R$ 1.212,00 + 5% comissão		1 estrela = 2 vendas anuais na semana		Bateu meta 3 meses seguido = PIX adicional de R$ 10.000,00		R$ 420.000,00		1. Passou pela CG.
+Closer PL	R$ 1.500,00 + 6% comissão		4 estrelas = sobe de cargo				20 vendas R$ 21.000,00		2. No-show.
+Closer SR	R$ 1.800,00 + 7% comissão 				BÔNUS INDIVIDUAL		50 consultorias grátis/mês		3. Follow-up.
+Consultor JR	R$ 2.500,00 + 8% comissão 				Se o mesmo e vendedor ganhar a corridinha semanal durante 4 semanas consecutivas, ganha um pix de adicional R$ 1.000,00 		13 CG/semana		4. Leads totais
+Consultor PL	R$ 3.200,00 + 8% comissão						2-3 CG/dia		
+Consultor SR	R$ 3.500,00 + 8% comissão		SPRINT		CORRIDINHA SEMANAL				PDCA (rotina)
+Consultor Master	R$ 5.000,00 + 8% comissão 		Segunda à segunda (7 dias)		Vendedor que mais trouxer caixa na semana, ganha um PIX de R$ 500,00 na sexta-feira		META MENSAL POR CLOSER		Kickoff segunda-feira 
+Para permancer no cargo (com o salário fixo), tem que manter a perfomance (mínimo de 2 vendas anuais por semana ou 8 por mês)							R$ 210.000,00		Roleplay/análise de call quarta-feira 
+							10 vendas R$ 21.000,00		Roleplay/análise de call sexta-feira 
+					BÔNUS DE EVOLUÇÃO		25 consultorias grátis/mês		
+					Toda vez que alguém ganhar estrela, ganha iFood		6 CG/semana		
+							1 CG/dia		
+
+
+=== PLANILHA: Ranking ===
+
+RANKING
+

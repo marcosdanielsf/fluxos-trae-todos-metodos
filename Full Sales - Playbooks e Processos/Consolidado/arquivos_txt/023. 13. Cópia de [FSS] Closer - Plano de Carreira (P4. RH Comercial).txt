@@ -1,0 +1,66 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/5. FULL SALES 2/4. Processos de RH Comercial  /13. Cópia de [FSS] Closer - Plano de Carreira.xlsx
+Categoria: P4. RH Comercial
+Data de Processamento: 2025-10-02T03:59:12.903922
+Nome: 13. Cópia de [FSS] Closer - Plano de Carreira.xlsx
+Tamanho: 7919
+Data_Criacao: 2025-09-15T07:31:34.645305
+Data_Modificacao: 2025-06-02T16:54:47
+Checksum: a6a453987cf4a81695b0838678356117
+
+=== CONTEÚDO ===
+
+=== PLANILHA: Página1 ===
+
+		Base de Comissões  - Fechamento High Ticket B2B 							
+			Closer Base 	Closer  Intermediário 	Closer Avançado	Closer Especialista	Closer Especialista 2		
+		Comissão	0.04	0.045	0.05	0.055	0.06		
+		Fixo base	2400.0	=D5+100	=E5+200	=F5+300	=G5+300		
+		Fixo meta 1	2550.0	=D6+100	=E6+200	=F6+300	=G6+300		
+		Fixo meta 2	2700.0	=D7+100	=E7+200	=F7+300	=G7+300		
+		Fixo meta 3	2900.0	=D8+100	=E8+200	=F8+300	=G8+300		
+		Venda por indicação	=D4*1.5	0.065	0.07	0.075	0.08		
+		Venda direta	0.08						
+		Estimativa de ganhos meta 1	=25000*D4*66*0.2+D6	=25000*E4*66*0.2+E6	=25000*F4*66*0.2+F6	=25000*G4*66*0.2+G6	=25000*H4*66*0.25+H6		
+		3 atendimentos* - 20% de conv.							
+		Adicional Indicação			Etapa 1 	Etapa 2 			
+		% e coleta de indicacaoes / call	0.5		Coletar indicacao	Agendar indicacao			
+		Indicacoes coletadas por call	5.0	(pegue de 5 a 10 )					
+		Taxa de Agendamento 	0.25						
+		Conversão de indicacoes	0.3						
+		Valor total mes indicação	=66*D15*D16*D17*D18*25000*D9						
+		Total	=D11+D19						
+		Métricas de Passagem de Fase 							
+			Resultados 	Período  Mínimo	Habilidades e necessidades comportamentais 				
+		Closer 
+Intermediário 	Meta 2 por 3 meses consecutivos 	6 meses	Ter asciduidade 
+Pontualidade 
+Cumprir CRM 
+Cumprir agenda de atendimentos
+Gravar as suas ligações
+Gerar vendas através de indicações e embaixadores  
+				
+			realizar 15% das vendas por indicação						
+		Closer 
+Avançado	Meta 2 por 3 meses consecutivos 	6 meses	Ministrar treinamentos outros closers internos
+Fazer fechamento de novatos				
+			realizar 20% das vendas por indicação						
+		Closer 
+Especialista	Meta 3 por 3 meses consecutivos 	6 meses	Ministrar treinamentos outros closers internos
+Ministrar treinamentos externos
+Supervisão de Closers
+Fazer fechamento de Novatos				
+			realizar 25% das vendas por indicação						
+		Closer 
+Especialista2 	Meta 4 por 3 meses consecutivos						
+		Atendimentos Qualificados							
+		Vendas							
+		Eficiência 	=IFERROR(D36/D35, 0)						
+		Valor total vendido 							
+		Faturamento por lead atendido	=IFERROR(D38/D35, 0)						
+			Eficiência	Valor Med.	Fixo				
+		Não bateu meta			R$ 1.800,00				
+		Meta 1	0.25	R$ 4.500,00	R$ 2.200,00				
+		Meta 2	0.3	R$ 6.600,00	R$ 2.500,00				
+		Meta 3	0.35	R$ 8.400,00	R$ 2.700,00				
+

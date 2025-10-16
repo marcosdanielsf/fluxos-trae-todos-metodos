@@ -1,0 +1,65 @@
+{
+  "name": "Central TRAE - Teste Simples",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "teste-trae",
+        "options": {}
+      },
+      "id": "webhook-trigger",
+      "name": "Webhook Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [250, 300],
+      "webhookId": "teste-trae-webhook"
+    },
+    {
+      "parameters": {
+        "functionCode": "// Função simples para processar dados\nconst dados = $input.item.json;\n\nreturn {\n  json: {\n    status: 'success',\n    message: 'Workflow TRAE funcionando!',\n    dados_recebidos: dados,\n    timestamp: new Date().toISOString()\n  }\n};"
+      },
+      "id": "processar-dados",
+      "name": "Processar Dados",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [450, 300]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ $json }}"
+      },
+      "id": "webhook-response",
+      "name": "Webhook Response",
+      "type": "n8n-nodes-base.webhookResponse",
+      "typeVersion": 1,
+      "position": [650, 300]
+    }
+  ],
+  "connections": {
+    "Webhook Trigger": {
+      "main": [
+        [
+          {
+            "node": "Processar Dados",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Processar Dados": {
+      "main": [
+        [
+          {
+            "node": "Webhook Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {},
+  "versionId": "1"
+}

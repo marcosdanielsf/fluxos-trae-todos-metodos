@@ -1,0 +1,16 @@
+Assunto: Solicitação de acesso – Diagnóstico 360 (Fase 1)
+
+Olá {{Nome}},
+
+Estamos organizando os acessos para o Diagnóstico 360 (Fase 1). Poderia conceder acesso a {{FerramentaSistema}} com escopo {{Escopo}}?
+
+- Dono atual do acesso: {{DonoAcesso}}
+- Prazo (SLA): {{SLA}}
+
+Caso precise, podemos enviar detalhes técnicos ou limitar o acesso a leitura.
+
+Por favor, confirme ou compartilhe instruções de concessão.
+
+Obrigado,
+Equipe TRAE
+{{Assinatura}}

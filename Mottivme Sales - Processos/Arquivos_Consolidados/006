@@ -1,0 +1,37 @@
+AUTOMAÇÕES
+	Lead ganho
+		Eviar webhook com o ganho do cliente para o monday 
+			Atribuir e noificar responsável pelo CS para o start no processo do ONBOARDING alterar status para progresso e dar o play no tempo 
+				Atribuir e noificar responsável Gestor de Automações para o start no processo de configurações do CRM 
+					Alterar status para progresso e dar o play no tempo 
+		Tipo de produto
+			BPOSS - human + ia
+				1000 dolares
+			BPOSS
+				600 dolares mês - 3600 dolares semestre
+			BPOLG
+				450 dolares mês - 2700 o semestre
+			Implementação de CRM
+				3000 dólares implementação em até 90 dias
+				6000 mil dólares implementação em até 30 dias
+				100 dolares mês Recorrência da plataforma
+				500 dolares mês recorrência da plataforma + manutenção e suporte
+			IA SDR + CRM
+				500 dólares mês 
+			IA SDR + IA COLD CALL + CRM
+				1200 dólares mês 
+	Gestor de automações
+		Ao alterar status para Concluído:
+
+
+			- dar stop e notificar o gestor da conclusão
+				Criar conexão para ao concluir alterar status no quadro do cliente 
+					enviar webhook para mover o cliente para a próxima etapa no kommo 
+						Ao entrar na etapa do kommo
+							disparar uma mensagem dizendo que as informando que as configuraçoes foram concluídas
+	APÓS RECEBER FORMS PREENCHIDO
+		Atribuir, noificar responsável  para o start no processo da criação dos scripts
+			alterar status para progresso e dar o play no tempo 
+	COPY
+		AO CONCLUIR 
+			Ao alterar status para Aguardando aprovação notificar o CS E GESTOR da conclusão

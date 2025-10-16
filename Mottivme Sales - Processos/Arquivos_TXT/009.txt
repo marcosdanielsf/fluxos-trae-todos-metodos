@@ -1,0 +1,312 @@
+# Arquivo convertido - 009
+
+Funis de Marketing para Vendas  
+	Funis
+		7. Funil de Social Sellling
+			Etapas
+				Abordagem
+				Etapa 1
+					Base de seguidores
+						Perfil Aberto 
+							Estado
+							Sexo
+							Profissão
+							Status
+								Casado
+								Solteiro
+							Ponto de Conexão
+						Perfil Fechado
+			Funis
+				Funis de Oferta de Ajuda
+					Base de seguidores
+						Perfil Aberto 
+							Estado
+							Sexo
+							Profissão
+							Status
+								Casado
+								Solteiro
+							Tem foto de família nos stories?
+						Perfil Fechado
+					Novos Seguidores
+						Perfil Aberto 
+							ABORDAGEM - 
+								FOCO EM CARREIRA
+									ABORDAGEM MAIS DIRETA:
+									ABORDAGEM MAIS CONSULTIVA
+								FOCO EM CONSULTORIA
+						Perfil Fechado
+							Oi [Nome], que honra ter você por aqui! 👏
+
+Vi que você me seguiu e quis passar pra te agradecer.
+
+Não consegui ver teu perfil ainda (tá fechado, né?), mas só de estar por aqui já mostra que, de alguma forma, você tá buscando crescer, proteger seu futuro e avançar.
+
+Se eu te mandar um áudio bem rápido explicando como posso te ajudar nessa jornada, você toparia ouvir?
+					Tráfego com SS
+						Leads de curtidas
+						Leads de Comentários
+				Funis de Aquecimento
+					Seguidores dos Clientes
+					Outbound com SS
+					Novos Seguidores da Prospecção
+				Tarefa:
+					Criar atm para 
+						Base de seguidores
+							Condição: 
+								Se o perfil é aberto
+									Fluxo 1
+									Fluxo 2
+									Fluxo 3
+								Se o perfil é fechado
+									Fluxo 1
+									Fluxo 2
+									Fluxo 3
+						Novos Seguidores
+							Condição: 
+								Se o perfil é aberto
+								Se o perfil é fechado
+						Seguidores dos Clientes
+							Condição: 
+								Se o perfil é aberto
+								Se o perfil é fechado
+						Outbound com SS
+							Condição: 
+								Se o perfil é aberto
+								Se o perfil é fechado
+			Objetivos por Funis
+				
+				
+		Funis em Backlog
+			1. Funil de Mini treinamento
+				Mensagem para o Direct do Instagram -
+ Funil FGPT do Mini - Treinamento 
+					VideoView
+						25%
+							Anúncio 1
+						50%
+							Anúncio 2
+						75%
+							Anúncio 3
+					Whatsapp
+						Oferta 2497
+							Ganho 
+							Perdido
+								Funil de Aplicação para Sessão Estratégica
+									Aceitou 
+									Recusou 
+										 Funil Isca Gratuita -  Fórmula High Ticket 
+											CHekout 47 reais.
+												Não
+												Comprar
+													Funil de Aplicação para Sessão Estratégica
+			2. Funil Isca -> Convite p/ Aplicação -> Prova Social
+				ADS1 -> Saiba Mais  
+ADS2 -> Saiba Mais
+ADS3 -> Saiba Mais
+					LP1 - Isca Planilha de Gestão Estratégica
+						LP2 - Pag Acesso Desbloqueado + Isca
+							LP3 - Pág Obrigado + Prova Social
+			3. Funil de Sessão Estratégica
+			4. Funil de Comentário
+			5.  Funil de Storie 
+			6.  Funil de Novo Seguidor
+			8. Funil de Outbound + Social Selling para seguidores de algum concorrente
+				Dr. Bruno
+					Mensagem para os seguidores de Dr. Marcelo 
+						Assistiu 
+							Mensagem + vídeo 
+								Aguarda resposta
+									Mensagem + convite 
+										Perguntas qualificatorias 
+											Se for qualificado 
+												Chama pra call 
+											Se não for 
+												Chama pra aula ao vivo 
+													Se aceitar 
+														Envia o link da agendafy pra confirmação 
+													Se não puder assistir 
+													Se não aceitar 
+														perdido 
+						Não assistiu 
+							Mensagem + vídeo 
+								Aguarda resposta
+									Mensagem + convite 
+					Se for mentor 
+						Dar aula do tinder
+			9. Funil Iscador
+				abordagem pelos stories ou pelo direct com elogio sincero
+					pergunta de qualificação 
+						pergunta de dor
+							oferta de ajuda - ofertar isca gratuita de conteúdo que trabalhe a dor do lead dando conteúdo gravado na area de membros de forma gratuita
+
+                            Funis de Marketing para Vendas  
+	Funis
+		7. Funil de Social Sellling
+			Etapas
+				Abordagem
+				Etapa 1
+					Base de seguidores
+						Perfil Aberto 
+							Estado
+							Sexo
+							Profissão
+							Status
+								Casado
+								Solteiro
+							Ponto de Conexão
+						Perfil Fechado
+			Funis
+				Funis de Oferta de Ajuda
+					Base de seguidores
+						Perfil Aberto 
+							Estado
+							Sexo
+							Profissão
+							Status
+								Casado
+								Solteiro
+							Tem foto de família nos stories?
+						Perfil Fechado
+					Novos Seguidores
+						Perfil Aberto 
+							ABORDAGEM - 
+								FOCO EM CARREIRA
+									ABORDAGEM MAIS DIRETA:
+									ABORDAGEM MAIS CONSULTIVA
+								FOCO EM CONSULTORIA
+						Perfil Fechado
+							Oi [Nome], que honra ter você por aqui! 👏
+
+Vi que você me seguiu e quis passar pra te agradecer.
+
+Não consegui ver teu perfil ainda (tá fechado, né?), mas só de estar por aqui já mostra que, de alguma forma, você tá buscando crescer, proteger seu futuro e avançar.
+
+Se eu te mandar um áudio bem rápido explicando como posso te ajudar nessa jornada, você toparia ouvir?
+					Tráfego com SS
+						Leads de curtidas
+						Leads de Comentários
+				Funis de Aquecimento
+					Seguidores dos Clientes
+					Outbound com SS
+					Novos Seguidores da Prospecção
+				Tarefa:
+					Criar atm para 
+						Base de seguidores
+							Condição: 
+								Se o perfil é aberto
+									Fluxo 1
+									Fluxo 2
+									Fluxo 3
+								Se o perfil é fechado
+									Fluxo 1
+									Fluxo 2
+									Fluxo 3
+						Novos Seguidores
+							Condição: 
+								Se o perfil é aberto
+								Se o perfil é fechado
+						Seguidores dos Clientes
+							Condição: 
+								Se o perfil é aberto
+								Se o perfil é fechado
+						Outbound com SS
+							Condição: 
+								Se o perfil é aberto
+								Se o perfil é fechado
+			Objetivos por Funis
+				
+				
+		Funis em Backlog
+			1. Funil de Mini treinamento
+				Mensagem para o Direct do Instagram -
+ Funil FGPT do Mini - Treinamento 
+					VideoView
+						25%
+							Anúncio 1
+						50%
+							Anúncio 2
+						75%
+							Anúncio 3
+					Whatsapp
+						Oferta 2497
+							Ganho 
+							Perdido
+								Funil de Aplicação para Sessão Estratégica
+									Aceitou 
+									Recusou 
+										 Funil Isca Gratuita -  Fórmula High Ticket 
+											CHekout 47 reais.
+												Não
+												Comprar
+													Funil de Aplicação para Sessão Estratégica
+			2. Funil Isca -> Convite p/ Aplicação -> Prova Social
+				ADS1 -> Saiba Mais  
+ADS2 -> Saiba Mais
+ADS3 -> Saiba Mais
+					LP1 - Isca Planilha de Gestão Estratégica
+						LP2 - Pag Acesso Desbloqueado + Isca
+							LP3 - Pág Obrigado + Prova Social
+			3. Funil de Sessão Estratégica
+			4. Funil de Comentário
+			5.  Funil de Storie 
+			6.  Funil de Novo Seguidor
+			8. Funil de Outbound + Social Selling para seguidores de algum concorrente
+				Dr. Bruno
+					Mensagem para os seguidores de Dr. Marcelo 
+						Assistiu 
+							Mensagem + vídeo 
+								Aguarda resposta
+									Mensagem + convite 
+										Perguntas qualificatorias 
+											Se for qualificado 
+												Chama pra call 
+											Se não for 
+												Chama pra aula ao vivo 
+													Se aceitar 
+														Envia o link da agendafy pra confirmação 
+													Se não puder assistir 
+													Se não aceitar 
+														perdido 
+						Não assistiu 
+							Mensagem + vídeo 
+								Aguarda resposta
+									Mensagem + convite 
+					Se for mentor 
+						Dar aula do tinder
+			9. Funil Iscador
+				abordagem pelos stories ou pelo direct com elogio sincero
+					pergunta de qualificação 
+						pergunta de dor
+							oferta de ajuda - ofertar isca gratuita de conteúdo que trabalhe a dor do lead dando conteúdo gravado na area de membros de forma gratuita
+
+                            Funis de Vendas  
+	1. Funil de Mini treinamento
+		Mensagem para o Direct do Instagram -
+ Funil FGPT do Mini - Treinamento 
+			VideoView
+				25%
+					Anúncio 1
+				50%
+					Anúncio 2
+				75%
+					Anúncio 3
+			Whatsapp
+				Oferta 2497
+					Ganho 
+					Perdido
+						Funil de Aplicação para Sessão Estratégica
+							Aceitou 
+							Recusou 
+								 Funil Isca Gratuita -  Fórmula High Ticket 
+									CHekout 47 reais.
+										Não
+										Comprar
+											Funil de Aplicação para Sessão Estratégica
+	2. Funil Isca -> Convite p/ Aplicação -> Prova Social
+		ADS1 -> Saiba Mais  
+ADS2 -> Saiba Mais
+ADS3 -> Saiba Mais
+			LP1 - Isca Planilha de Gestão Estratégica
+				LP2 - Pag Acesso Desbloqueado + Isca
+					LP3 - Pág Obrigado + Prova Social

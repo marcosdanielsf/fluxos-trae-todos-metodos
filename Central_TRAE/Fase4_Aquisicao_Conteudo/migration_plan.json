@@ -1,0 +1,18 @@
+{
+  "department": "Marketing",
+  "context": "Fase 4 — Aquisição & Conteúdo",
+  "default_frequency": "mensal",
+  "ssot_link": "../METODO_TRAE_UNIFICADO.md",
+  "evidence_base_dir": "../Evidencias_Fase4",
+  "attachments_required": true,
+  "subtasks": [
+    { "id": "01", "name": "Estratégia de Conteúdo", "file": "01_Estrategia_Conteudo.md", "evidence_dir": "../Evidencias_Fase4/01" },
+    { "id": "02", "name": "SEO & Conteúdo Evergreen", "file": "02_SEO_Conteudo.md", "evidence_dir": "../Evidencias_Fase4/02" },
+    { "id": "03", "name": "Social & Comunidade", "file": "03_Social_Comunidade.md", "evidence_dir": "../Evidencias_Fase4/03" },
+    { "id": "04", "name": "Paid Media", "file": "04_Paid_Media.md", "evidence_dir": "../Evidencias_Fase4/04" },
+    { "id": "05", "name": "Email & Nutrição", "file": "05_Email_Nutricao.md", "evidence_dir": "../Evidencias_Fase4/05" },
+    { "id": "06", "name": "LPs & Materiais Ricos", "file": "06_LPs_Materiais.md", "evidence_dir": "../Evidencias_Fase4/06" },
+    { "id": "07", "name": "Eventos & Webinars", "file": "07_Eventos_Webinars.md", "evidence_dir": "../Evidencias_Fase4/07" },
+    { "id": "08", "name": "Analytics & Reporting", "file": "08_Analytics_Reporting.md", "evidence_dir": "../Evidencias_Fase4/08" }
+  ]
+}

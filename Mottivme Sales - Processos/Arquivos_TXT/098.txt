@@ -1,0 +1,5 @@
+# Arquivo Numbers - 098.numbers
+
+NOTA: Este é um arquivo Numbers (.numbers) que não pode ser convertido diretamente.
+Para acessar o conteúdo, abra o arquivo no Numbers (macOS) ou exporte para CSV/Excel.
+Localização original: Arquivos_Consolidados/098.numbers

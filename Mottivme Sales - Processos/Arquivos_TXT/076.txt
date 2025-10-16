@@ -1,0 +1,23 @@
+4.1. Sessão Estratégica - MEI;;;;;;
+Avaliação 360;;;;;;
+Name;Subelementos;Pessoas;Status Inicial;Data Inicial;Status Final;Data Final
+A empresa tem seu PCI definido ?;;ceo@hallennaiane.com;Não existe;;;
+Tem clareza do tipo de posicionamento de mercado e de suas vantagens competitivas?;;ceo@hallennaiane.com;Não existe;;;
+Tem clareza de quais são os produtos/serviços deve mais investir?;;ceo@hallennaiane.com;Não existe;;;
+Possui uma rotina sabendo exatamente quais ações executar no nível tático?;;ceo@hallennaiane.com;Existe mas nao é satisfatório;;;
+Dispõe de tempo semanal para pensar no estratégico da empresa?;;ceo@hallennaiane.com;Existe mas nao é satisfatório;;;
+Seu negócio possui ações estratégicas de atração, retenção e expansão de clientes?;;ceo@hallennaiane.com;Existe mas nao é satisfatório;;;
+Possui produtos que atendam a necessidade do consumidor dependendo do nível de maturidade ou estrutura financeira?;;ceo@hallennaiane.com;Existe e é satisfatório;;;
+Possui parceiros profissionais que o ajude a entregar a sua proposta de valor ?;;ceo@hallennaiane.com;Existe mas nao é satisfatório;;;
+Já consegue fazer separação de pessoa física e jurídica no seu negócio?;;ceo@hallennaiane.com;Não existe;;;
+Tem uma precificação feita de forma correta?;;ceo@hallennaiane.com;Não existe;;;
+Realiza pesquisa de NPS com os clientes ?;;ceo@hallennaiane.com;Não existe;;;
+Acontecem reuniões de alinhamento das tarefas (gerenciamento da rotina)?;;ceo@hallennaiane.com;Existe e é satisfatório;;;
+É realizado planejamento estratégico na empresa para estipular metas de curto, médio e longo prazo?;;ceo@hallennaiane.com;Não existe;;;
+Todos na empresa tem o perfil comportamental mapeado?;;ceo@hallennaiane.com;Não existe;;;
+Existe descrição de cada cargo ao menos das funções que já existem?;;ceo@hallennaiane.com;Não existe;;;
+O gestor consegue resolver todas as demandas dentro do prazo ou sempre precisa levar trabalho para casa ?;;ceo@hallennaiane.com;Existe e é satisfatório;;;
+O Gestor tem clareza de suas atividades como lider e possui uma rotina para realização de todas as demandas?;;ceo@hallennaiane.com;Não existe;;;
+A Liderança realiza treinamentos técnicos e comportamentais?;;ceo@hallennaiane.com;Não existe;;;
+O ambiente físico da empresa está adequado as necessidades das atividades e dos funcionários?;;ceo@hallennaiane.com;Existe e é satisfatório;;;
+Existe uma cultura bem estruturado com missão, visão e valores vivenciados na prática?;;ceo@hallennaiane.com;Não existe;;;

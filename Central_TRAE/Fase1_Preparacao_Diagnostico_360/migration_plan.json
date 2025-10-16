@@ -1,0 +1,24 @@
+{
+  "parent_task": "",
+  "listId": "",
+  "departamento": "Produto & Engenharia",
+  "contexto_categoria_multi": ["Documentação", "Processo"],
+  "contexto_categoria_single_mapping": "Documentação",
+  "frequencia_default": "Sob Demanda",
+  "frequencia_override": {
+    "": ""
+  },
+  "link_ssot": "../METODO_TRAE_UNIFICADO.md",
+  "evidence_base_dir": "../Evidencias_Fase1",
+  "attachments_required": true,
+  "subtasks": [
+    {"order": 1, "title": "Dados, Acessos & Stakeholders", "file": "01_Dados_Acessos_Stakeholders.md", "evidence_dir": "../Evidencias_Fase1/01/"},
+    {"order": 2, "title": "ICP, Personas & Segmentação", "file": "02_ICP_Personas_Segmentacao.md", "evidence_dir": "../Evidencias_Fase1/02/"},
+    {"order": 3, "title": "Análise Competitiva & Benchmark", "file": "03_Analise_Competitiva_Benchmark.md", "evidence_dir": "../Evidencias_Fase1/03/"},
+    {"order": 4, "title": "Auditoria de Oferta/Produto & UX", "file": "04_Auditoria_Oferta_Produto_UX.md", "evidence_dir": "../Evidencias_Fase1/04/"},
+    {"order": 5, "title": "Auditoria de Canais (Marketing & Vendas)", "file": "05_Auditoria_Canais_Marketing_Vendas.md", "evidence_dir": "../Evidencias_Fase1/05/"},
+    {"order": 6, "title": "Pesquisa Quali/Quanti & Insights", "file": "06_Pesquisa_Quali_Quanti_Insights.md", "evidence_dir": "../Evidencias_Fase1/06/"},
+    {"order": 7, "title": "Diagnóstico CS/NPS/Churn", "file": "07_Diagnostico_CS_NPS_Churn.md", "evidence_dir": "../Evidencias_Fase1/07/"},
+    {"order": 8, "title": "Hipóteses, Prioridades & Plano de Pesquisa", "file": "08_Hipoteses_Prioridades_Plano_Pesquisa.md", "evidence_dir": "../Evidencias_Fase1/08/"}
+  ]
+}

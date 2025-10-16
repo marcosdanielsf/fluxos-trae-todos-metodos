@@ -1,0 +1,21 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/JP Bijari/Módulo 4 - Atração de clientes (geração de lead)/Aula 13 - Imple rápida CG pra base clientes/Abrir consultoria grátis na base de leads do lançamento.docx
+Categoria: Outros
+Data de Processamento: 2025-10-10T08:25:31.332206
+Nome: Abrir consultoria grátis na base de leads do lançamento.docx
+Tamanho: 6973
+Data_Criacao: 2025-09-15T07:24:32.975348
+Data_Modificacao: 2025-06-22T06:21:59
+Checksum: 0af2e4f253da91a6290c208e6a3c5d6c
+
+=== CONTEÚDO ===
+
+Modelo de mensagem: 
+Fala NOME! Tudo bem? 
+_____________
+Estou abrindo 3 vagas para uma consultoria grátis para quem participou do [NOME DO EVENTO] – onde vou fazer um diagnóstico do seu momento e criar um plano de ação para [PROMESSA GERAL DO PRODUTO].
+_____________
+São mais de [NÚMERO DE PESSOAS CADASTRADOS NO EVENTO] e somente 3 vagas, quer tentar uma das vagas?
+CTA 1:
+Se você quiser tentar uma vaga para essa consultoria grátis preencha AGORA esse formulário, são pouquíssimas vagas e elas estão se esgotando.
+>>>link do formulário

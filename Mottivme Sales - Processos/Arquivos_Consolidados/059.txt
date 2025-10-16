@@ -1,0 +1,91 @@
+﻿Absolutamente. Como especialistas em transformação empresarial, a Socialfy (White Label do Go High Level) é a plataforma que encapsula a otimização de processos e a inteligência artificial necessárias para que as pequenas e médias empresas [PMEs] deixem de lado o trabalho operacional e foquem na estratégia, alinhando-se perfeitamente com sua metodologia 5D e programas de mentoria e consultoria.
+A seguir, apresento uma descrição abrangente e detalhada da Socialfy, especificando suas funcionalidades cruciais, concebida como uma carta de vendas completa.
+________________
+
+
+Socialfy: O Hub Estratégico para a Transformação Digital e Automação de Vendas
+A Socialfy não é apenas um CRM; é um Sistema de Gestão de Relacionamento e Marketing (CRM/MAS) "all-in-one" que oferece às PMEs as ferramentas robustas antes acessíveis apenas a grandes agências. Construída sobre a base do Go High Level, a Socialfy capacita você a integrar todas as suas operações de vendas, marketing e comunicação em um único lugar, permitindo uma transição suave e lucrativa do foco operacional para o estratégico.
+I. Funcionalidades Centrais de CRM e Comunicação
+A Socialfy centraliza a comunicação e o gerenciamento de leads, garantindo que nenhum contato seja perdido e que a interação seja sempre oportuna e de alta qualidade.
+A. Central de Comunicações (Conversations)
+* Rascunhos de Mensagens: A funcionalidade de conversas permite salvar rascunhos de mensagens para SMS e E-mail, garantindo que você não perca o texto de uma resposta importante mesmo que precise mudar de tarefa.
+* Chat Interno para Colaboração: Para evitar a confusão de envolver clientes em discussões internas, a Socialfy oferece um Chat de Equipe Interno (disponível via Labs). Esta ferramenta de colaboração privada permite a comunicação perfeita entre usuários da subconta, com a capacidade de:
+   * Criar chats privados.
+   * Editar o assunto e adicionar novos usuários.
+   * Incluir ou excluir o histórico de chat ao adicionar novos membros, com opções para histórico total ou a partir de datas personalizadas.
+* Gerenciamento de Contatos: O sistema de contatos permite adicionar informações essenciais, incluindo o fuso horário do contato, crucial para comunicação estratégica.
+B. Widgets de Chat e Live Chat
+A Socialfy oferece um novo design de Widget de Chat com amplas opções de personalização.
+* Múltiplos Tipos de Chat: Suporta chat clássico (coleta nome/telefone e transforma em SMS), Live Chat em tempo real (ideal para equipes com suporte 24/7) e integração com WhatsApp.
+* Customização Avançada: Você pode personalizar prompts, estilos, temas, ícones (ou adicionar os seus próprios), posicionamento do widget e dimensões.
+* Live Chat Triggers: O Live Chat pode atuar como um gatilho em Workflows para ações automáticas, como geração de leads, suporte ao cliente, upsell, engajamento ou coleta de feedback.
+C. Inteligência Artificial de Voz (AI Voice Agent)
+O AI Voice Agent da Socialfy é uma ferramenta de IA fundamental para otimizar o atendimento operacional 24 horas por dia, 7 dias por semana.
+* Atendimento Inteligente: Atualmente, gerencia chamadas de entrada (inbound calls). Ele interage com os clientes de forma natural, entende o contexto e realiza ações predefinidas.
+* Personalização: Você pode escolher vozes masculinas ou femininas e diferentes sotaques (como Reino Unido ou EUA) para alinhar com sua marca.
+* Modos de Operação (Goals):
+   * Modo Básico: Coleta informações básicas (nome, e-mail, telefone, problema) e garante que um humano ligue de volta.
+   * Modo Avançado (Prompts): Permite treinar o bot com informações específicas (ex: "quanto custa um apartamento de 2 quartos?") e definir ações complexas.
+* Ações Automáticas: O agente de IA pode transferir chamadas, desencadear Workflows (para nutrir leads ou enviar links de pagamento por SMS), atualizar campos de contato ou enviar mensagens de texto.
+II. Automação de Processos de Marketing e Vendas
+O verdadeiro poder da Socialfy reside na sua capacidade de automatizar fluxos de trabalho complexos, liberando sua equipe para se concentrar em tarefas estratégicas.
+A. Workflows (Fluxos de Trabalho)
+A ferramenta Workflows (anteriormente disponível para o grupo Pro e agora um recurso fundamental) é um construtor visual de arrastar e soltar que permite combinar gatilhos e campanhas em uma única etapa.
+* Gatilhos e Ações Avançadas:
+   * Gerenciamento de Documentos e Contratos: Aciona fluxos de trabalho com base no status de um documento (Enviado, Visualizado, Assinado, Aceito ou Concluído). Isso permite atualizar oportunidades, enviar faturas ou anexar tags automaticamente.
+   * Gerenciamento de Reputação: Aciona fluxos de trabalho quando uma nova avaliação é recebida (Google ou Facebook). Você pode filtrar por avaliação (1 a 5 estrelas) e status de spam. Para avaliações negativas (<4 estrelas), pode-se configurar webhooks para notificar imediatamente a equipe no Slack.
+   * Membros/Cursos: Gatilhos acionados por novos membros, concessão/remoção de acesso a produtos, conclusão de curso ou login. Ações para conceder ou revogar ofertas também estão disponíveis.
+   * Faturas: Gatilhos de faturas agora podem ser usados em Workflows.
+B. Canais de Comunicação
+* WhatsApp: A integração com WhatsApp agora está disponível, funcionando em substituição ao SMS, especialmente em mercados internacionais. A implantação direta agora é possível mesmo sem a necessidade de conexão com Stripe.
+* Validação de SMS: Para economizar custos, a Socialfy pode validar números de telefone antes de enviar o SMS usando o Twilio Lookup, garantindo que as mensagens sejam enviadas apenas para telefones celulares, e não para linhas fixas.
+* E-mail Marketing: O novo Painel de Estatísticas de Campanhas de E-mail (em Labs) fornece insights profundos sobre o desempenho, incluindo taxa de abertura, taxa de cliques, valor médio do pedido (AOV), receita gerada e identificação de e-mails com melhor desempenho. Também são fornecidos modelos de e-mail (Templates) para feriados.
+III. Construção de Ativos Digitais e Geração de Leads
+A Socialfy fornece construtores de alta performance que facilitam a criação de funis, sites e conteúdo, essenciais para a "Máquina de Vendas Estratégicas".
+A. Construtores de Sites e Funis
+* Novo Editor de Blocos: O construtor de funis e sites utiliza um novo editor de blocos para uma melhor experiência do usuário (UX). Inclui novos recursos como fontes personalizadas para texto destacado, opções de subscrito/sobrescrito e ferramentas de IA Generativa integradas (para melhorar a escrita, corrigir erros ortográficos, simplificar ou estender o texto).
+* Widgets Marketplace: Adicione facilmente funcionalidades extras aos seus ativos digitais, como price cards, depoimentos e códigos QR, através do marketplace de widgets.
+* Automação de DNS: A Socialfy automatiza a entrada de DNS para funis e websites, integrada com provedores populares como GoDaddy e Cloudflare, eliminando a dor de cabeça da configuração manual.
+B. Ferramentas de Captação de Leads
+* Formulários Aprimorados: O construtor de formulários permite maior flexibilidade de design, oferecendo opções de linha única ou duas colunas, o que comprovadamente aumenta a taxa de conclusão e a precisão da coleta de dados.
+* Controle de Vídeo: Para webinars evergreen ou ímãs de leads em vídeo, a plataforma permite revelar um botão de Call-to-Action (CTA) ou um formulário de coleta de leads após um tempo específico de visualização. Isso garante que o lead veja o valor antes de receber a oferta ou ser solicitado a deixar seus dados.
+C. Mídia Social e Reputação
+* Social Planner: Você pode agendar e publicar vídeos e Shorts do YouTube (com limite de 1 GB).
+   * Notificações de Contas Expiradas: Receba alertas por e-mail quando as contas sociais conectadas expirarem (devido a alterações de senha ou segurança), minimizando a interrupção do serviço.
+   * Suporte a GIF.
+   * Relatório de Falhas: Uma aba dedicada de Failed Post detalha o que causou a falha na postagem e oferece uma solução.
+* Ferramenta de Scan de Listagens (Yext): Integrada para escanear listagens de empresas. Esta ferramenta permite que você ou seu cliente executem um scan de problemas de listagem (Nome, Endereço, Telefone) e ativem o serviço de correção diretamente, proporcionando um boost instantâneo de SEO e gerando uma receita mensal recorrente.
+IV. Gestão Financeira, de Vendas e Parcerias
+A Socialfy suporta toda a jornada de vendas, desde a gestão de oportunidades até o faturamento.
+A. Oportunidades e Agendamento
+* Agendamento Personalizado (Calendários): Permite a criação de calendários de agendamento para reuniões individuais (one-on-one).
+   * Flexibilidade: Personalize a duração, a disponibilidade (dias específicos e horários), configurações de "busy look" (esconder horários intencionalmente para parecer mais ocupado).
+   * Localizações Múltiplas: O cliente pode escolher o local preferido: endereço físico, Zoom, Google Meet ou chamada telefônica.
+* Novo Modal de Agendamento: Oferece um pop-up aprimorado para gerenciar agendamentos, visualizar o status rapidamente e, crucialmente, acessar um Registro de Atividades (Activity Log) detalhado. O log mostra quem cancelou, se o status foi alterado por um Workflow e o upload para o Google Agenda.
+* Gestão de Oportunidades (Pipelines): A V2 da tela de Oportunidades apresenta filtros aprimorados (incluindo multi-seleção de proprietários e status), ordenação por valor do negócio e um status de exportação para grandes conjuntos de dados.
+B. Gestão Financeira e Comércio Eletrônico
+* Portal do Cliente: Os clientes têm acesso a um portal unificado para visualizar e gerenciar:
+   * Faturas e Orçamentos (Quotes and Invoices).
+   * Contratos (com opção de assinatura digital e download de PDF).
+   * Assinaturas e Faturamento.
+   * Acesso a Cursos e Comunidades.
+* Upsells em E-commerce: Permite configurar ofertas de upsell após a compra de um produto, maximizando o Valor Médio do Pedido (AOV). O sistema suporta a criação de múltiplos upsells em sequência.
+V. Oportunidades e Estratégia de White Label (SaaS)
+A Socialfy, como White Label, é um modelo de negócio SaaS (Software as a Service) que permite que você se posicione como um fornecedor de tecnologia, além de ser um consultor.
+A. Gerenciamento SaaS
+* Relatório Agregado SaaS (Roll-up Reporting): Essencial para o gerenciamento estratégico, este recurso fornece uma visão geral de alto nível (high-level) de todas as subcontas, monitorando métricas de utilização, como:
+   * Número de usuários ativos.
+   * Chamadas, e-mails e SMS enviados/recebidos.
+   * Tendências de agendamento e envios de formulários.
+   * Isso permite que você alcance proativamente clientes com baixa utilização (para aumentar o engajamento) ou aqueles com alta utilização (para fazer upsells e oferecer serviços adicionais).
+* Controle de Inadimplência: O sistema permite a suspensão automática de subcontas em caso de falha de pagamento (non-payment), notificando o cliente e bloqueando o acesso até que o pagamento seja feito, garantindo a sustentabilidade da receita recorrente.
+* Cupons para SaaS: Possibilidade de criar e aplicar cupons de desconto (ex: 20% de desconto por 3 meses) para novas inscrições SaaS, facilitando ofertas mais lucrativas e campanhas promocionais.
+B. Gestão de Afiliados
+A Socialfy possui um sistema robusto de gerenciamento de afiliados (Affiliate Manager) para quem deseja escalar através de parcerias ou marketing de afiliados.
+* Dashboard e Métricas: Novo painel de afiliados mostra receitas totais, taxa de conversão, total de clientes e a lista dos principais afiliados, permitindo o acompanhamento de KPIs como leads ou receita.
+* Campanhas com Sites Externos: Permite criar campanhas de afiliados que rastreiam vendas em websites externos (ex: Squarespace, WordPress, Wix), usando um script de rastreamento e integração Stripe.
+* Sub-Afiliados (Tiers): Você pode configurar campanhas de vários níveis, permitindo que seus afiliados recrutem sub-afiliados, ampliando o alcance da sua rede.
+VI. Socialfy: A Base para a Estratégia 5D
+A plataforma Socialfy é o doer incansável que sua metodologia 5D precisa.
+Ao integrar automação de IA (como o Voice AI e Workflows) e ferramentas de gestão de marketing e vendas, a Socialfy liberta seus clientes de PMEs das tarefas operacionais e repetitivas (como envio manual de e-mails, gerenciamento de agendamentos e atendimento básico de chamadas). Isso permite que eles e sua equipe de consultoria concentrem-se na estratégia, na construção de relacionamento e na visão de longo prazo, como a criação de Unique Selling Propositions (USPs) fortes e o foco na consultoria de marketing.
+A Socialfy é o General Contractor Digital que gerencia todos os especialistas técnicos (os "fazedores"), permitindo que o empresário (ou sua consultoria) mantenha o foco na arquitetura do crescimento e na satisfação do cliente, que é a essência de um negócio estratégico e lucrativo.

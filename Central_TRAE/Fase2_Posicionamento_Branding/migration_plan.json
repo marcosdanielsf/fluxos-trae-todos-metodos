@@ -1,0 +1,25 @@
+{
+  "parent_task": "",
+  "listId": "",
+  "departamento": "Marketing & Branding",
+  "contexto_categoria_multi": ["Documentação", "Processo"],
+  "contexto_categoria_single_mapping": "Documentação",
+  "frequencia_default": "Sob Demanda",
+  "frequencia_override": {
+    "Governança": "Contínuo",
+    "07_Governanca_Branding_Versionamento_Auditoria.md": "Contínuo"
+  },
+  "link_ssot": "../METODO_TRAE_UNIFICADO.md",
+  "evidence_base_dir": "../Evidencias_Fase2",
+  "attachments_required": true,
+  "subtasks": [
+    {"order": 1, "title": "Estratégia de Marca & Arquitetura", "file": "01_Estrategia_Marca_Arquitetura.md", "evidence_dir": "../Evidencias_Fase2/01/"},
+    {"order": 2, "title": "Proposta de Valor & Messaging Framework", "file": "02_Proposta_Valor_Messaging.md", "evidence_dir": "../Evidencias_Fase2/02/"},
+    {"order": 3, "title": "Manifesto, Tom de Voz & Guia de Mensagem", "file": "03_Manifesto_Tom_Voz_Guia_Mensagem.md", "evidence_dir": "../Evidencias_Fase2/03/"},
+    {"order": 4, "title": "Identidade Visual & Sistema de Design", "file": "04_Identidade_Visual_Sistema_Design.md", "evidence_dir": "../Evidencias_Fase2/04/"},
+    {"order": 5, "title": "Brand Assets & Kit de Marca", "file": "05_Brand_Assets_Kit_Marca.md", "evidence_dir": "../Evidencias_Fase2/05/"},
+    {"order": 6, "title": "Naming, Jurídico & Proteção de Marca", "file": "06_Naming_Juridico_Protecao_Marca.md", "evidence_dir": "../Evidencias_Fase2/06/"},
+    {"order": 7, "title": "Governança de Marca, Versionamento & Auditoria", "file": "07_Governanca_Branding_Versionamento_Auditoria.md", "evidence_dir": "../Evidencias_Fase2/07/"},
+    {"order": 8, "title": "Implementação Interna, Enablement & Training", "file": "08_Implementacao_Enablement_Training.md", "evidence_dir": "../Evidencias_Fase2/08/"}
+  ]
+}

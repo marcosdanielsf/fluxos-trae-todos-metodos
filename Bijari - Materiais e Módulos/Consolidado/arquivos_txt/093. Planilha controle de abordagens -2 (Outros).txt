@@ -1,0 +1,23 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/JP Bijari/Módulo 4 - Atração de clientes (geração de lead)/Aula 23 - Transformar Seguidores em Reunião/Planilha controle de abordagens -2.xlsx
+Categoria: Outros
+Data de Processamento: 2025-10-10T08:25:33.352910
+Nome: Planilha controle de abordagens -2.xlsx
+Tamanho: 9791
+Data_Criacao: 2025-09-15T07:24:32.976295
+Data_Modificacao: 2025-06-22T06:22:14
+Checksum: 4794c92f120f81316ea38b3538a2c729
+
+=== CONTEÚDO ===
+
+=== PLANILHA: Controle diário ===
+
+	Transformando seguidores em reunião								
+	Controle de abordagens 								
+	DIA	BOAS-VINDAS	CONVERSAS	CALLS AGENDADAS 					
+	2023-08-30 00:00:00	40.0	27.0	1.0					
+	2023-09-02 00:00:00	43.0	33.0	0.0					
+	2023-09-08 00:00:00	27.0	14.0	2.0					
+	2023-09-13 00:00:00	27.0	12.0	0.0					
+	2023-09-16 00:00:00	37.0	11.0	0.0					
+

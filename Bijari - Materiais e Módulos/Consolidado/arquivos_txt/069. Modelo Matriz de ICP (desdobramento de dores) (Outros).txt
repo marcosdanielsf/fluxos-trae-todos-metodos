@@ -1,0 +1,33 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/JP Bijari/Módulo 4 - Atração de clientes (geração de lead)/Aula 3/Modelo Matriz de ICP (desdobramento de dores).xlsx
+Categoria: Outros
+Data de Processamento: 2025-10-10T08:25:31.168953
+Nome: Modelo Matriz de ICP (desdobramento de dores).xlsx
+Tamanho: 19740
+Data_Criacao: 2025-09-15T07:24:32.975163
+Data_Modificacao: 2025-06-22T06:21:46
+Checksum: 8b5749ff6c3fb26fc9aea5dbbbb0d34e
+
+=== CONTEÚDO ===
+
+=== PLANILHA: Página1 ===
+
+ICP (perfil de cliente ideal):					Matriz de copy do ICP (desdobrametno das dores/pilares):	Tinha medo de morrer e deixar minha noiva sem nada							Tarefa:												
+Que pode te pagar e que você pode gerar resultado com menos esforço						Tinha medo de morrer e não deixar patrimonio 							1. LIGA PRA 10 CLIENTES (que sejam ICP)												
+Nicho e faturamento													2. ANOTA AS DORES QUE ELES SENTIAM DO JEITO QUE ELES FALAM												
+Esses dados são o pré-requisito do MQL													3. PREENCHE A PLANILHA												
+													Analise mensalmente os formulários de onboarding dos compradores												
+													Analise mensalmente os formulários de leads qualificados												
+													Enviar um formulário com uma isca para sua base responder/ligar entrevistar												
+													https://docs.google.com/document/d/1EzjbXwhH7cKs217fBSIsLQxC_s0bVUTNyVTerJddM7A/edit?usp=sharing												
+MQL (requisito para lead qualificado):													Olha pra dentro (seus melhores clientes): qual dor que o cliente chegou?												
+Nicho	Empresário												O que levou ele a fechar com a gente?												
+	Gestão familiar 												Quanto ele faturava quando entrou e qual nicho era?												
+	Faturamento acima de X 												É um cliente indicador, neutro ou detrator?												
+													OBS:												
+													Essas dores da Matriz, viram copies de anúncios e copies de página												
+													Toda semana você testa páginas e narrativas novas (alinhadas com seu ICP)												
+													A dor do iniciante é diferente da dor do avançado												
+													Mensalmente você deve atualizar a matriz de ICP fazendo um debriefing (origem da venda, nicho/faturamento, dores dos clientes, objetivos)												
+													Eu não crio anúncio, quem cria são meus clientes												
+

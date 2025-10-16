@@ -1,0 +1,82 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/JP Bijari/Módulo 4 - Atração de clientes (geração de lead)/Aula 24 - Planilha Debriefing Projeção Tráfego.xlsx
+Categoria: Outros
+Data de Processamento: 2025-10-10T08:25:23.654007
+Nome: Aula 24 - Planilha Debriefing Projeção Tráfego.xlsx
+Tamanho: 248641
+Data_Criacao: 2025-09-15T07:24:32.976140
+Data_Modificacao: 2025-06-22T06:21:08
+Checksum: 616cc9c8518d615ec3e7f011ffa174ea
+
+=== CONTEÚDO ===
+
+=== PLANILHA: Projeção mentorados Tráfego Pag ===
+
+	Preencher coluna B célula 3 - 12	OBS: Não mexer nos números da coluna C.																							
+JUNHO - SETEMBRO		Conversão realizada	Meta conversão																						
+INVESTIMENTOS																									
+IMPRESSÕES																									
+CLIQUES		=B5/B4	0.006	CTR																					
+PAGE VIEW		=B6/B5	0.8	Connect rate (clique > PV)																					
+LEADS QUALIFICADOS 		=B7/B6	0.06	Conversão LP > lead quali																					
+AGENDADOS		=SUM(B8/B7,0)	1.0	Lead quali = agendado (typeform + calendly)																					
+CALL REALIZADA		=SUM(B9/B8,0)	0.7	Máximo 30% no-show																					
+VENDAS		=SUM(B10/B9,0)	0.25	25% conversão mínima (4 calls pra 1 venda)																					
+TICKET MÉDIO																									
+FATURAMENTO																									
+CUSTOS PRINCIPAIS	Número	Limite																							
+Custo por lead quali	=B3/B7		Até 32,5% do CAC tráfego																						
+Custo por agendamento	=B3/B8		Igual ao CPL quali																						
+Custo por call	=B3/B9		25% do CAC tráfego																						
+CAC tráfego	=B3/B10		25% do T.M.																						
+	OBS: Não mexer nos números. Preenche automático																								
+GAPS (alavancas):																									
+1. Leads qualificados (447) pra agendamento (145). Estamos perdendo 68% dos leads. Ou seja, estamos encarecendo a nossa call em além de reduzir o número de vendas colareralmente.																									
+2. Agendamento (145) para call realizada (61). Estamos tendo 58% de no-show dos leads, ou seja, estamos encarecendo o custo da call e reduzindo absurdamente o número de vendas. O no-show deveria ser de no máximo 30%, tendo 101 calls realizadas. Nesse cenário, teríamos feito 7 vendas a mais com a mesma conversão 18%. O motivo principal de no-show é o agendamento 7 dias pra frente. O ideal é que seja no máximo 48h.																									
+3. A capacidade produtiva é de 3 calls/dia por closer. 15 calls/semana por closer. 45 calls no total. Meta de 180 calls no mês, com 18% de conversão = 32 vendas. Ps: essa conversão ainda não é o ideal.																									
+A verba de tráfego precisa ser planejada de acordo com a capacidade produtiva da agenda, caso contrário, vai gerar muito lead que não terá call, encarecendo o custo por call e por consequência o CAC.as																									
+Nossas principais alavancas são:																									
+1. Tornar o número de leads quali = o de agendamentos (typeform com calendly embedado);																									
+2. Reduzir o no-show a no máximo 30% (agenda 48h pra frente);																									
+3. Aumentar o volume de calls/semana por closer.																									
+Com essas ações, o faturamento vai aumentar e o CAC tende a diminuir em pelo menos 2x.																									
+
+
+=== PLANILHA: Como está x como era pra estar ===
+
+	Preencher coluna B célula 3 - 12	OBS: Não mexer nos números da coluna C.																							
+JUNHO - SETEMBRO		Conversão realizada	Meta conversão	Conversão ideal																					
+INVESTIMENTOS																									
+IMPRESSÕES																									
+CLIQUES		=B5/B4	0.006	0.006																					
+PAGE VIEW		=B6/B5	0.8	0.8																					
+LEADS QUALIFICADOS 		=B7/B6	0.06	0.06																					
+AGENDADOS		=SUM(B8/B7,0)	1.0	1.0																					
+CALL REALIZADA		=SUM(B9/B8,0)	0.7	0.7																					
+VENDAS		=SUM(B10/B9,0)	0.25	0.25																					
+TICKET MÉDIO																									
+FATURAMENTO																									
+CUSTOS PRINCIPAIS	Número	Limite																							
+Custo por lead quali	=B3/B7		Até 32,5% do CAC tráfego																						
+Custo por agendamento	=B3/B8		Igual ao CPL quali																						
+Custo por call	=B3/B9		25% do CAC tráfego																						
+CAC tráfego	=B3/B10		25% do T.M.																						
+	OBS: Não mexer nos números. Preenche automático																								
+GAPS (alavancas):																									
+1. Leads qualificados (447) pra agendamento (145). Estamos perdendo 68% dos leads. Ou seja, estamos encarecendo a nossa call em além de reduzir o número de vendas colareralmente.																									
+2. Agendamento (145) para call realizada (61). Estamos tendo 58% de no-show dos leads, ou seja, estamos encarecendo o custo da call e reduzindo absurdamente o número de vendas. O no-show deveria ser de no máximo 30%, tendo 101 calls realizadas. Nesse cenário, teríamos feito 7 vendas a mais com a mesma conversão 18%. O motivo principal de no-show é o agendamento 7 dias pra frente. O ideal é que seja no máximo 48h.																									
+3. A capacidade produtiva é de 3 calls/dia por closer. 15 calls/semana por closer. 45 calls no total. Meta de 180 calls no mês, com 18% de conversão = 32 vendas. Ps: essa conversão ainda não é o ideal.																									
+A verba de tráfego precisa ser planejada de acordo com a capacidade produtiva da agenda, caso contrário, vai gerar muito lead que não terá call, encarecendo o custo por call e por consequência o CAC.as																									
+Nossas principais alavancas são:																									
+1. Tornar o número de leads quali = o de agendamentos (typeform com calendly embedado);																									
+2. Reduzir o no-show a no máximo 30% (agenda 48h pra frente);																									
+3. Aumentar o volume de calls/semana por closer.																									
+Com essas ações, o faturamento vai aumentar e o CAC tende a diminuir em pelo menos 2x.																									
+
+
+=== PLANILHA: Farmácia ===
+
+GAP	MOTIVO	SOLUÇÃO
+Muito lead qualificado que não agenda	Não está usando corretamente o formulário com autoagendamento	Utilizar o typeform com o calendly EMBEDADO (dentro). Não tem como "enviar o formulário sem ter agendado"
+No-show >30% (muito agendamento pra pouca call)	Agenda aberta mais do que 48h pra frente e trabalho pré-call inadequado	Entender a capacidade produtiva da agenda do closer, deixar aberto 48h e "dar rosto ao no-show", implementando nossa estrutura anti no-show
+

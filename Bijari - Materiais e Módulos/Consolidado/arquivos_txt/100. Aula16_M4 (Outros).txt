@@ -1,0 +1,178 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/JP Bijari/Módulo 4 - Atração de clientes (geração de lead)/Aula 16 - Prospecção na CABA LEAD /Aula16_M4.pdf
+Categoria: Outros
+Data de Processamento: 2025-10-10T08:25:34.568544
+Nome: Aula16_M4.pdf
+Tamanho: 2879381
+Data_Criacao: 2025-09-15T07:24:32.976560
+Data_Modificacao: 2025-06-22T05:48:24
+Checksum: 5cfff98b12377eb8adb5a43968e6bde9
+
+=== CONTEÚDO ===
+
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116
+01Vamos para mais uma pílula comercial. 
+Hoje estarei falando sobre como utilizamos uma metodologia eficaz para agendar
+muitas reuniões, usando o que chamamos de "caba lead", além das listas coringa
+e de repescagem. 
+Com uma grande bagagem adquirida através da minha experiência com
+prospecção ativa, tenho um vasto repertório para compartilhar.
+Atualmente, pelo menos 15% a 20% do nosso faturamento vem de nossa base de
+leads de high ticket. É raro ficarmos sem leads. Mesmo que um lead específico
+não esteja na agenda, com tráfego constante, sempre temos leads disponíveis.
+Agora, mostrarei como trabalho com os "caba leads". 
+Normalmente, acesso à plataforma Monday, onde seleciono nossa lista de "caba
+leads". Temos uma quantidade substancial, mais de 1.216 leads, o que é bastante
+significativo. 
+Aprendi com meu colega Carlos que não devemos focar nos leads reprovados.
+Portanto, filtro apenas os leads agendados, pois, representam uma maior
+probabilidade de conversão.
+Uma abordagem que adoto é personalizar as mensagens para cada lead. A
+experiência me ensinou que não se pode enviar a mesma mensagem para todos.
+Isso seria muito automático e impessoal, o que, especialmente com a prevalência
+da inteligência artificial hoje, pode fazer com que as mensagens pareçam
+robóticas e genéricas. Por isso, eu gosto de enfatizar a importância da
+personalização.
+Além disso, quando vejo quais leads estão agendados, também considero
+quando eles foram agendados ou quando tiveram sua última reunião, preferindo
+os mais distantes no tempo. Isso porque, como o Jota já mencionou, a vida desses
+leads pode ter mudado significativamente, facilitando a comunicação desta vez. 
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116
+Quando um lead fecha a compra, normalmente não o retomo. No entanto, se
+descubro que um lead foi marcado como fechado, mas não efetuou o
+pagamento, esses se tornam potenciais clientes de alto valor para
+reengajamento. Isso porque eles demonstraram interesse suficiente para avançar
+no processo de vendas, mas por algum motivo não concluíram. Isso me faz
+selecionar, frequentemente, pelo menos 200 desses leads para reabordagem.
+Com relação à criação de cópias para esses leads, geralmente as desenvolvo no
+Word, garantindo que não haja erros de português, o que é crucial para manter a
+credibilidade. 
+Eu sempre começo com um: 
+“Fala, (nome do lead). Tudo bem?”
+Essa informalidade é algo que gosto bastante porque faz a mensagem parecer
+mais pessoal. Acho que isso faz uma grande diferença, pois no nosso nicho mais
+informal, isso cria uma conexão maior com o cliente. Claro que, se eu fosse
+prospectar uma grande empresa, jamais usaria "olá" ou algo do tipo. Seria
+totalmente formal, com um bom dia, boa tarde ou boa noite.
+Mas no nosso nicho, colocar essa informalidade funciona muito bem. Então, após
+colocar o "Olá", eu insiro o nome do destinatário entre aspas. Isso porque uso
+uma ferramenta no WhatsApp que é incrível, permitindo que eu envie mensagens
+enquanto também faço ligações para os clientes. Isso aumenta muito a conversão
+porque se mando uma mensagem e depois ligo, mesmo que o cliente não atenda
+de imediato, ele acaba respondendo depois de ver a mensagem.
+O nome da ferramenta é WA Web Utils, funciona só para o WhatsApp Business e
+você pode baixá-la rapidamente, jogando o nome no Google. 
+02
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116
+algumas limitações. Por exemplo, quando envio cerca de 200 mensagens, não
+consigo personalizar demais cada uma delas. Então personalizo, mas não ao
+ponto de verificar cada formulário detalhadamente. Normalmente, faço isso
+quando o lead é quente, quando ele acabou de agendar uma call comigo, e aí,
+sim, pego detalhes específicos que ele mencionou no formulário, como suas
+principais dores.
+Se o cliente não responde à primeira mensagem, às vezes uso uma abordagem
+um pouco diferente, usando também um script do Gui que dá mais autoridade.
+ Ele fala algo como "Se você não confirmar sua presença na reunião, vou
+desmarcar". Isso geralmente funciona porque transmite mais seriedade.
+E se há muitos no-shows, eu ligo várias vezes para o cliente, tentando entender o
+motivo da ausência. É algo que faço constantemente, ligar três, quatro vezes, em
+horários diferentes. Sempre peço feedback também, para entender se estou no
+caminho certo.
+Quando me reapresento, sempre digo algo como "Aqui quem fala é [meu nome],
+consultora High Ticket da mentoria do JP Bijari.” É importante me identificar, já
+que a pessoa provavelmente lembrará do meu nome, e se sentir familiarizada. “Vi
+que você se cadastrou no nosso formulário há seis meses. Muita coisa pode
+mudar em seis meses, então estou entrando em contato para perguntar o que
+aconteceu nesse período e se você conseguiu atingir seu objetivo de faturar
+mais".
+Embora eu coloque isso de maneira um pouco genérica, como faturar mais,
+alguns leads têm objetivos como ajudar mais pessoas ou atingir um maior
+número de pessoas. Mas, no fundo, mesmo que o lead queira ajudar muitos, ele
+também quer faturar. Então, sempre pergunto se ele conseguiu alcançar seus
+objetivos de faturamento. Isso sempre gera uma boa conversa e mantém a porta
+aberta para futuras interações.
+Como eu disse, acima, a gente usa uma ferramenta que nos ajuda a personalizar
+as mensagens que enviamos para os potenciais leads pelo WhatsApp.
+Primeiramente, é crucial adicionar o código do país, que para nós é o 55. Também
+é essencial configurar o atraso entre cada mensagem. Coloco um intervalo de 20
+segundos, já que é recomendado que seja superior a 15 segundos para evitar que
+o chip seja bloqueado por parecer spam.
+03
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116
+É importante não incluir o nome do arquivo da mensagem diretamente. Apesar
+de ser possível enviar mídia, a qualidade muitas vezes não é das melhores.
+Quando preciso enviar mídia, como, por exemplo, as mensagens do Jota, eu
+geralmente peço para o Igor ajudar com isso. As cópias que usamos nas
+campanhas são essenciais para fazer com que o cliente se lembre de nós. Eu
+estava conversando com o Igor sobre isso, como às vezes o cliente pode esquecer
+completamente do que foi discutido anteriormente. Então, para garantir que ele
+realmente se lembre, eu envio as mensagens que usamos anteriormente para
+engajar o público.
+Quando volto à configuração, coloco o nome do cliente. 
+Aqui, posso usar um apelido ou qualquer outra identificação que eu prefira, como
+JP ou Lari, por exemplo. Adiciono o número do telefone do cliente, começando
+apenas com o DDD, como 11, porque já configurei o código 55 anteriormente.
+Continuando, você vai inserindo as demais informações necessárias. Na parte da
+mensagem, sempre que quero destacar algo, como colocar em negrito ou incluir
+o número de contato, eu uso aspas para especificar esses detalhes em inglês, o
+qual é o idioma da ferramenta. Por exemplo, posso copiar e colar diretamente do
+Google ou do Word. Quando tudo está pronto, eu seleciono 'send message' e a
+mensagem é enviada.
+É vital verificar se há algum erro nos números fornecidos antes de enviar e nunca
+pausar a campanha abruptamente. Se alguém responder, é melhor pegar o
+telefone e responder diretamente por ele, ao invés de usar a interface web do
+Google, pois isso pode causar repetições e criar uma fila de mensagens
+duplicadas.
+Portanto, continuo enviando essas mensagens e fazendo as ligações necessárias.
+Normalmente, prefiro fazer ligações utilizando o telefone convencional,
+especialmente quando o contato pode estar fora de área. O WhatsApp não é
+muito prático nessas situações porque se o contato está sem sinal, ele
+obviamente não conseguirá atender a chamada.
+04
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116
+Algo crucial na minha estratégia de comunicação é enviar várias mensagens.
+ Geralmente, envio no mínimo três para garantir que o contato lembre de mim e
+da mensagem principal. Se o contato já me conhece e já recebeu mensagens
+anteriores, evito repetir a mesma mensagem para não parecer um robô. A
+personalização é chave aqui.
+Por exemplo, eu uso materiais, como um copy de Jota ou um vídeo que baixei,
+que discute sobre os perfis de clientes. Um vídeo que já utilizei em vendas
+passadas foi crucial para mudar a perspectiva de vários dos meus mentorados
+sobre como eles veem seus clientes. O feedback foi muito positivo, e até mesmo
+aqueles que inicialmente hesitavam devido a condições financeiras mostraram
+interesse após discutirmos condições de pagamento flexíveis.
+Agora, uma dica sobre como gerenciar as respostas que os leads dão e como
+seguir uma conversa, na prática, especialmente em contextos de high ticket. 
+Quando recebo uma resposta inicial, tento sempre fazer uma ligação direta. Isso
+cria uma conexão mais pessoal. Sigo um script básico para manter a conversa
+alinhada e profissional. Por exemplo, começo com um 
+"Olá, você se cadastrou no nosso formulário, certo?" Se a pessoa não pode falar
+no momento, mando outra mensagem explicando que vi que ela não atendeu e
+pergunto quando seria um bom momento para ligar. É importante ser flexível, já
+que muitas vezes a pessoa pode estar ocupada ou simplesmente prefere não
+gostar de atender o telefone.
+Quando conseguimos conversar, tento ser o mais claro possível sobre o tempo
+que gastaremos na ligação, geralmente informo que serão no máximo 10
+minutos. Mas, na prática, essa conversa inicial pode estender-se por cerca de 30
+minutos. Nesse tempo, agito a dor do cliente e identifico suas principais
+preocupações, que me ajudam a construir um plano de ação eficaz. É um
+processo de descoberta mútua.
+Faço perguntas específicas para entender melhor o cenário atual da pessoa e
+seus objetivos. Baseado nessas respostas, tento agendar um encontro mais
+formal. Se a pessoa mostra interesse e disponibilidade, como mencionar um
+horário específico em sua agenda, eu já marco uma reunião. Tem sido um
+método eficiente, especialmente quando a interação é direta e o cliente já está
+predisposto a avançar.
+05
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116
+06Link para assistir a aula completaCuriosamente, alguns clientes preferem manter a comunicação apenas por
+mensagens. Recentemente, por exemplo, fechei um contrato com um cliente que
+conversei quase exclusivamente por mensagens. Ele não é fã de ligações, mas
+ainda assim fiz questão de ligar, apenas para reforçar minha presença e mostrar
+que estou disponível.
+Nesses contatos, quando percebo que a chamada foi perdida, falo com ele sobre
+a tentativa de contato e sugiro uma call rápida de 10 minutos apenas para alinhar
+as informações finais e fechar o contrato.
+Enfim, espero que essas dicas ajudem vocês a otimizar suas próprias estratégias
+de comunicação.
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116

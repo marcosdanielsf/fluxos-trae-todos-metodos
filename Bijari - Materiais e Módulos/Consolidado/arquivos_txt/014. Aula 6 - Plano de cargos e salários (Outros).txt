@@ -1,0 +1,85 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/JP Bijari/Módulo 5 - Times Comercial/Aula 6 - Plano de cargos e salários.pdf
+Categoria: Outros
+Data de Processamento: 2025-10-10T08:25:19.998390
+Nome: Aula 6 - Plano de cargos e salários.pdf
+Tamanho: 2299810
+Data_Criacao: 2025-09-15T07:28:36.625776
+Data_Modificacao: 2025-06-22T06:17:31
+Checksum: f68500d497346be0689abd349731e1ba
+
+=== CONTEÚDO ===
+
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116
+Plano de cargos e salários
+Seja muito bem-vindo, seja muito bem-vinda a mais uma aula. Esta aula é de extrema
+importância, pois vamos falar sobre o plano de cargos e salários. Aqui você vai
+entender como pagar, quanto pagar, como definir metas, realizar corridinhas
+semanais e desenvolver um plano de carreira para os colaboradores. Vou
+compartilhar a tela para você entender do que estamos falando.
+Primeiro, a tabela de salários e comissões. Sim, temos salário fixo. Nosso time
+comercial não trabalha com várias pessoas; sugerimos que você faça o mesmo e
+busque um vendedor especialista. Não é para implementar exatamente esses
+números, mas para fazer os cálculos de acordo com a sua realidade, o ticket do seu
+produto e a margem que você tem. Aqui está um exemplo:
+Closer Júnior: Salário de R$ 1.200 + 5% de comissão
+Closer Pleno: Salário de R$ 1.500 + 6% de comissão
+Closer Sênior: Salário de R$ 1.800 + 7% de comissão
+Consultor Júnior: Salário de R$ 2.500 + 8% de comissão
+Consultor Master: Salário de R$ 5.000 + 8% de comissão
+Para manter o cargo com o salário fixo, é necessário manter a performance, que no
+nosso caso é um mínimo de duas vendas semanais ou oito vendas mensais. No
+entanto, em caso de problemas pessoais do colaborador, óbvio que não faremos um
+downgrade; vamos ajudá-lo.
+Evolução de Cargo
+A evolução de cargo acontece da seguinte forma: se a pessoa faz duas vendas na
+semana, ganha uma estrela. Quando ganha quatro estrelas, sobe de cargo. Nosso
+sprint é de segunda a segunda, então as vendas não são acumulativas de semanas
+diferentes. Duas vendas dentro do mesmo sprint, e a pessoa ganha uma estrela.
+Quatro estrelas e ela sobe de cargo.
+Metas e Desafios
+O nome do meio do vendedor deve ser “desafio”. Metas são essenciais para manter a
+motivação. Queremos competição e cooperatividade no time de vendas, por isso
+temos metas individuais e de equipe.
+Bônus Trimestral
+Se o consultor bate a meta três meses seguidos, ganha um PIX adicional de R$10 mil,
+incentivando a performance constante.
+03
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116
+Bônus Individual
+Se o vendedor ganha a corridinha semanal durante quatro semanas consecutivas,
+ganha um PIX adicional de R$1 mil no final do mês.
+Corridinha Semanal
+O vendedor que mais trouxer caixa na semana ganha um PIX de R$500 na sexta-feira.
+O pagamento é D+1, para manter a motivação alta. A corridinha semanal pode ser
+moldada conforme a necessidade da empresa. Exemplos:
+Conta de anúncios travada: O vendedor que mais tirar vendas da lista de leads
+antigos ganha a corridinha.
+Necessidade de caixa para investimento: O vendedor que mais trouxer caixa na
+semana ganha a corridinha.
+Meta Mensal e Desdobramento
+Para uma meta mensal de R$420 mil, precisamos de 20 vendas de R$21 mil.
+Convertendo 40%, precisamos de 25 consultorias grátis por mês. Dividindo por
+semana e dia:
+Por semana: 13 calls
+Por dia: 2 a 3 calls
+Para dois vendedores, a meta por vendedor é de R$210 mil, ou 10 vendas de R$21 mil.
+Isso significa 25 calls no mês, 6 por semana ou 1 por dia.
+Ferramentas e Rotinas
+Lista Coringa:A lista de leads que não compraram, deram no show ou estão em
+follow-up. Consolidamos essa lista e entregamos ao time para garantir o número
+adequado de calls na semana. A repescagem de leads antigos pode aumentar o
+faturamento em até 30%.
+Rotina: É ideal ter uma call diária, mas se não for possível, faça segunda, quarta e
+sexta. As calls têm três pilares: técnica, motivação e números. Nas calls, dê instruções
+técnicas, gerencie a emoção dos vendedores e acompanhe metas e realizações.
+03
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116
+I m p l e m e n t a ç ã o
+Veja as calls dos consultores, compartilhe a tela e encontre gaps, erros e gargalos para
+corrigir. Isso trará maturidade para a empresa, transformando-a em um
+departamento comercial eficiente. Comece a implementar quanto antes e compartilhe
+os resultados.
+Nos vemos na próxima aula.
+03Link para assistir a aula completa
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116

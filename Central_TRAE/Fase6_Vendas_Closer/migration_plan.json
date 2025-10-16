@@ -1,0 +1,18 @@
+{
+  "department": "Sales",
+  "context": "Fase 6 — Vendas (Closer)",
+  "default_frequency": "semanal",
+  "ssot_link": "../METODO_TRAE_UNIFICADO.md",
+  "evidence_base_dir": "../Evidencias_Fase6",
+  "attachments_required": true,
+  "subtasks": [
+    { "id": "01", "name": "Discovery", "file": "01_Discovery.md", "evidence_dir": "../Evidencias_Fase6/01" },
+    { "id": "02", "name": "Demo & Storyline", "file": "02_Demo_Storyline.md", "evidence_dir": "../Evidencias_Fase6/02" },
+    { "id": "03", "name": "Propostas & Termos", "file": "03_Propostas_Termos.md", "evidence_dir": "../Evidencias_Fase6/03" },
+    { "id": "04", "name": "Negociação", "file": "04_Negociacao.md", "evidence_dir": "../Evidencias_Fase6/04" },
+    { "id": "05", "name": "Fechamento & Win/Loss", "file": "05_Fechamento_WinLoss.md", "evidence_dir": "../Evidencias_Fase6/05" },
+    { "id": "06", "name": "Processo & CRM Stages", "file": "06_Processo_CRM.md", "evidence_dir": "../Evidencias_Fase6/06" },
+    { "id": "07", "name": "Legal & Compliance", "file": "07_Legal_Compliance.md", "evidence_dir": "../Evidencias_Fase6/07" },
+    { "id": "08", "name": "Reporting de Vendas", "file": "08_Reporting_Vendas.md", "evidence_dir": "../Evidencias_Fase6/08" }
+  ]
+}

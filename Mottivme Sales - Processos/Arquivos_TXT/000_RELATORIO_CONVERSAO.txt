@@ -1,0 +1,19 @@
+RELATÓRIO DE CONVERSÃO PARA TXT
+==================================================
+
+Total de arquivos processados: 127
+Conversões bem-sucedidas: 126
+Conversões com erro: 1
+Taxa de sucesso: 99.2%
+
+TIPOS DE ARQUIVO CONVERTIDOS:
+- Markdown (.md) -> TXT
+- CSV (.csv) -> TXT (formatado como tabela)
+- Python (.py) -> TXT (com cabeçalho)
+- PDF (.pdf) -> TXT (texto extraído)
+- Word (.docx) -> TXT (texto extraído)
+- Visual Basic (.vb) -> TXT
+- Style (.sty) -> TXT
+- Numbers (.numbers) -> TXT (arquivo informativo)
+- Arquivos sem extensão -> TXT
+- Arquivos TXT -> TXT (cópia)

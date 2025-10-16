@@ -1,0 +1,32 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/JP Bijari/Módulo 4 - Atração de clientes (geração de lead)/Aula 3/Modelo Matriz de ICP (desdobramento de dores) (1).xlsx
+Categoria: Outros
+Data de Processamento: 2025-10-10T08:25:31.126971
+Nome: Modelo Matriz de ICP (desdobramento de dores) (1).xlsx
+Tamanho: 19591
+Data_Criacao: 2025-09-15T07:24:32.975147
+Data_Modificacao: 2025-06-22T06:21:46
+Checksum: ef0cd6051c6a5afd3b7b3fd62db6bd1a
+
+=== CONTEÚDO ===
+
+=== PLANILHA: Página1 ===
+
+ICP (perfil de cliente ideal):					Matriz de copy do ICP (desdobrametno das dores):								Tarefa:												
+						Não conseguir seguir dieta porque vive de plantão em plantão...							1. LIGA PRA 10 CLIENTES (que sejam ICP)												
+						Não consegue treinar todo dia							2. ANOTA AS DORES QUE ELES SENTEM DO JEITO QUE ELES FALAM												
+						Se sente sobrecarregado/culpado porque sabe que tá prejudicando a própria saúde							3. PREENCHE A PLANILHA												
+													Olha pra dentro (seus melhores clientes): qual dor que o cliente chegou?												
+	A) Ideal	Médico plantonista											O que levou ele a fechar com a gente?												
+													O que manteve ele tanto tempo?												
+													Leia comentários em vídeos do YouTube do seu nicho												
+	B) Intermediário	Concursado público											Leia comentários em livros do seu nicho na Amazon												
+	C) Problema	Estudantes em geral																							
+													OBS:												
+													Essas dores da Matriz, viram copies de anúncios e copies de página												
+													Toda semana você testa páginas e narrativas novas (alinhadas com seu ICP)												
+													A dor do iniciante é diferente da dor do avançado												
+MQL (requisito do lead qualificado)	Ser formado em medicina																								
+	Estar atuando em plantões ou em clínica 																								
+	Já ser concursado a mais de 1 ano...																								
+

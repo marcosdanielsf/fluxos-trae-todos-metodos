@@ -1,0 +1,209 @@
+#!/usr/bin/env python3
+"""
+Demonstração do sistema de busca do CRM Socialfy indexado no Pinecone.
+Este script mostra como realizar buscas semânticas nos dados do Socialfy.
+"""
+
+import requests
+import json
+from typing import List, Dict, Any
+
+# Configurações
+PINECONE_API_KEY = "***REMOVED***"
+OPENAI_API_KEY = "***REMOVED***"
+INDEX_NAME = "quickstart"
+NAMESPACE = "mottivme-docs"
+
+class SocialfySearch:
+    """Classe para busca semântica no CRM Socialfy."""
+    
+    def __init__(self):
+        self.pinecone_url = "https://quickstart-b11hvzz.svc.aped-4627-b74a.pinecone.io/query"
+        self.openai_url = "https://api.openai.com/v1/embeddings"
+        
+    def get_embedding(self, text: str) -> List[float]:
+        """Gera embedding usando OpenAI."""
+        headers = {
+            "Authorization": f"Bearer {OPENAI_API_KEY}",
+            "Content-Type": "application/json"
+        }
+        
+        data = {
+            "input": text,
+            "model": "text-embedding-ada-002"
+        }
+        
+        response = requests.post(self.openai_url, headers=headers, json=data)
+        
+        if response.status_code == 200:
+            return response.json()["data"][0]["embedding"]
+        else:
+            raise Exception(f"Erro ao gerar embedding: {response.status_code} - {response.text}")
+    
+    def search(self, query: str, top_k: int = 5) -> List[Dict[str, Any]]:
+        """Realiza busca semântica no Pinecone."""
+        # Gerar embedding da consulta
+        query_embedding = self.get_embedding(query)
+        
+        headers = {
+            "Api-Key": PINECONE_API_KEY,
+            "Content-Type": "application/json"
+        }
+        
+        data = {
+            "vector": query_embedding,
+            "topK": top_k,
+            "includeMetadata": True,
+            "namespace": NAMESPACE
+        }
+        
+        response = requests.post(self.pinecone_url, headers=headers, json=data)
+        
+        if response.status_code == 200:
+            results = response.json()
+            return results.get("matches", [])
+        else:
+            raise Exception(f"Erro na busca: {response.status_code} - {response.text}")
+    
+    def format_results(self, results: List[Dict[str, Any]]) -> str:
+        """Formata os resultados da busca."""
+        if not results:
+            return "❌ Nenhum resultado encontrado."
+        
+        formatted = f"✅ Encontrados {len(results)} resultados:\n\n"
+        
+        for i, match in enumerate(results, 1):
+            score = match.get("score", 0)
+            metadata = match.get("metadata", {})
+            source = metadata.get("source", "N/A")
+            text = metadata.get("text", "")
+            
+            formatted += f"📄 **Resultado {i}** (Relevância: {score:.1%})\n"
+            formatted += f"📁 Arquivo: {source}\n"
+            
+            if text:
+                # Mostrar um trecho relevante
+                preview = text[:300] + "..." if len(text) > 300 else text
+                formatted += f"📖 Conteúdo: {preview}\n"
+            
+            formatted += "\n" + "─" * 50 + "\n\n"
+        
+        return formatted
+
+def demo_interactive():
+    """Demonstração interativa do sistema de busca."""
+    search_engine = SocialfySearch()
+    
+    print("🚀 Sistema de Busca CRM Socialfy")
+    print("=" * 50)
+    print("Digite suas perguntas sobre o CRM Socialfy.")
+    print("Digite 'sair' para encerrar.\n")
+    
+    # Exemplos de consultas
+    examples = [
+        "O que é o CRM Socialfy?",
+        "Como funciona a automação de WhatsApp?",
+        "Quais são os recursos de IA disponíveis?",
+        "Como funciona o modelo white label?",
+        "Quais são os preços e planos?",
+        "Como integrar com a metodologia 5D?"
+    ]
+    
+    print("💡 Exemplos de perguntas que você pode fazer:")
+    for i, example in enumerate(examples, 1):
+        print(f"   {i}. {example}")
+    print()
+    
+    while True:
+        try:
+            query = input("🔍 Sua pergunta: ").strip()
+            
+            if query.lower() in ['sair', 'exit', 'quit']:
+                print("👋 Até logo!")
+                break
+            
+            if not query:
+                continue
+            
+            print(f"\n🔎 Buscando por: '{query}'")
+            print("⏳ Processando...")
+            
+            results = search_engine.search(query, top_k=3)
+            formatted_results = search_engine.format_results(results)
+            
+            print("\n" + formatted_results)
+            
+        except KeyboardInterrupt:
+            print("\n👋 Até logo!")
+            break
+        except Exception as e:
+            print(f"\n❌ Erro: {e}")
+
+def demo_predefined():
+    """Demonstração com consultas predefinidas."""
+    search_engine = SocialfySearch()
+    
+    print("🎯 Demonstração com Consultas Predefinidas")
+    print("=" * 50)
+    
+    queries = [
+        "Principais funcionalidades do CRM Socialfy",
+        "Como funciona a integração com WhatsApp",
+        "Recursos de inteligência artificial",
+        "Modelo de negócio white label SaaS",
+        "Automação de workflows e processos"
+    ]
+    
+    for i, query in enumerate(queries, 1):
+        print(f"\n🔍 Consulta {i}: {query}")
+        print("─" * 40)
+        
+        try:
+            results = search_engine.search(query, top_k=2)
+            
+            if results:
+                for j, match in enumerate(results, 1):
+                    score = match.get("score", 0)
+                    metadata = match.get("metadata", {})
+                    source = metadata.get("source", "N/A")
+                    text = metadata.get("text", "")
+                    
+                    print(f"📄 Resultado {j} (Relevância: {score:.1%})")
+                    print(f"📁 {source}")
+                    
+                    if text:
+                        preview = text[:200] + "..." if len(text) > 200 else text
+                        print(f"📖 {preview}")
+                    print()
+            else:
+                print("❌ Nenhum resultado encontrado")
+                
+        except Exception as e:
+            print(f"❌ Erro: {e}")
+
+def main():
+    """Função principal."""
+    print("🌟 Bem-vindo ao Sistema de Busca CRM Socialfy!")
+    print("Este sistema permite buscar informações sobre o CRM Socialfy")
+    print("usando busca semântica avançada com IA.\n")
+    
+    while True:
+        print("Escolha uma opção:")
+        print("1. Demonstração interativa")
+        print("2. Demonstração com consultas predefinidas")
+        print("3. Sair")
+        
+        choice = input("\nSua escolha (1-3): ").strip()
+        
+        if choice == "1":
+            demo_interactive()
+        elif choice == "2":
+            demo_predefined()
+        elif choice == "3":
+            print("👋 Até logo!")
+            break
+        else:
+            print("❌ Opção inválida. Tente novamente.")
+
+if __name__ == "__main__":
+    main()

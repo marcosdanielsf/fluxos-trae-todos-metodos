@@ -1,0 +1,36 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/JP Bijari/Módulo 4 - Atração de clientes (geração de lead)/Aula 13 - Imple rápida CG pra base clientes/Implementação rápida Cosultoria grátis no 1x1 ALUNOS.docx
+Categoria: Outros
+Data de Processamento: 2025-10-10T08:25:31.421575
+Nome: Implementação rápida Cosultoria grátis no 1x1 ALUNOS.docx
+Tamanho: 7481
+Data_Criacao: 2025-09-15T07:24:32.975380
+Data_Modificacao: 2025-06-22T06:22:01
+Checksum: 03a7b02f21d7f19fbd6452791fe217c6
+
+=== CONTEÚDO ===
+
+Chamar no 1x1 os alunos do produto que deseja ascender
+Modelo de mensagem 1: 
+Fala NOME! Tudo bem? 
+Estamos abrindo algumas vagas para Consultorias Grátis comigo para alunos do produto X que se destacaram.
+Temos 3 vagas para essa semana, para membros que querem ir para o nível extraordinário.
+Vou entender o que está te impedindo de alcançar o próximo nível e criar um plano de ação.
+CTA 1:
+Se você quiser tentar uma vaga para essa consultoria grátis preencha AGORA esse formulário, são pouquíssimas vagas e elas estão se esgotando.
+>>>link
+CTA 2 (sem forms):
+Temos 2 vagas ainda disponíveis pra essa semana, terça às X ou quarta às Y. Qual você prefere?
+Modelo de mensagem 2:
+Fala NOME! Tudo bem? 
+Tenho algo personalizado e exclusivo para você.
+Abrimos apenas 10 vagas de Consultoria Grátis para quem participou do último
+treinamento do XXXXXXX.
+É a oportunidade perfeita para você obter a ajuda de um especialista e escalar os seus
+resultados através de uma Consultoria Grátis, algo inédito na XXXXX.
+Não perca essa oportunidade e seja rápido pois as vagas são limitadas.
+CTA 1:
+Se você quiser tentar uma vaga para essa consultoria grátis preencha AGORA esse formulário, são pouquíssimas vagas e elas estão se esgotando.
+>>>link
+CTA 2 (sem forms):
+Temos 2 vagas ainda disponíveis pra essa semana, terça às X ou quarta às Y. Qual você prefere?

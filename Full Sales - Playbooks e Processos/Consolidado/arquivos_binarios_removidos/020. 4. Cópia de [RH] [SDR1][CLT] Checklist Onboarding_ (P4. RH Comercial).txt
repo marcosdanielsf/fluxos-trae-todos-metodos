@@ -1,0 +1,36 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/5. FULL SALES 2/4. Processos de RH Comercial  /4. Cópia de [RH] [SDR1][CLT] Checklist Onboarding_.docx
+Categoria: P4. RH Comercial
+Data de Processamento: 2025-10-02T03:59:12.859722
+Nome: 4. Cópia de [RH] [SDR1][CLT] Checklist Onboarding_.docx
+Tamanho: 7779
+Data_Criacao: 2025-09-15T07:31:34.645232
+Data_Modificacao: 2025-06-02T16:49:48
+Checksum: 538eb478d9de8bb39a324baee1383e16
+
+=== CONTEÚDO ===
+
+INSTRUÇÕES PASSO A PASSO
+Pré admissão
+- Exame Admissional
+- Contrato e Registro pela Wisecont
+Pós admissão
+ 
+- Marcado e realizado a reunião de Onboarding?
+- Recebeu os principais arquivos? 
+- Tem um Headphone?
+- Foto Profissional? 
+- Viu todo o EAD e mandou os áudios de revisão? 
+- Ativou o número de São Paulo para Whatsapp? 
+- Recebeu o Login do Ipbox? 
+- Foi ativado o Pfsense?
+- Recebeu Login Infusionsoft?
+- Foi criado o email comercial alias do comercial@propriedadescompartilhadas.com? 
+
+*PRINCIPAIS ARQUIVOS*
+
+PLAY BOOOK: https://docs.google.com/document/d/1XPWjY31SdUFx17mlBGbtDAqCZCTRTEEjFQ76YVBJ2Tc/edit#heading=h.9kw4t1ljc43h 
+SCRIPTS DE WHATSAPP: https://docs.google.com/document/d/14UXS_cRQzVeMvBmj0RWe_LOX4WhEzVpYxtgY9VnxldU/edit 
+SCRIPTS DE LIGAÇÃO: https://docs.google.com/document/d/1QOXV_Br7jbx5YAVw-nkjDw9lOzFVcj_052djkQk4NvY/edit
+MATRIZ DE FOLLOW UP E RDOS: https://docs.google.com/document/d/1Dfts7CnMqF6Fwl1fJmm4CVJgeMhGtG6eCFvicea6A6I/edit 
+EAD EM VÍDEOS: https://docs.google.com/document/d/1W2uN-mQXQsiPAfXoXE-ERDCqucmJldMyvu3rsGcFMtQ/edit 

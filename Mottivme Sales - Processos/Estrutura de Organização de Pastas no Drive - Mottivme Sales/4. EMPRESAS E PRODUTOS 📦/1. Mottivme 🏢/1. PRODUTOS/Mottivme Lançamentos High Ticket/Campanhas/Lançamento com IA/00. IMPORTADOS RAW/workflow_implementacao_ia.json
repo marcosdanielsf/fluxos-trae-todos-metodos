@@ -1,0 +1,313 @@
+{
+  "name": "Implementacao IA Lancamentos",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "1",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -520,
+        220
+      ]
+    },
+    {
+      "parameters": {
+        "triggerTimes": {
+          "item": [
+            {
+              "mode": "everyWeek",
+              "hour": 9,
+              "minute": 0,
+              "weekday": [
+                "1"
+              ]
+            }
+          ]
+        }
+      },
+      "id": "2",
+      "name": "Weekly Trigger",
+      "type": "n8n-nodes-base.cron",
+      "typeVersion": 1,
+      "position": [
+        -520,
+        20
+      ]
+    },
+    {
+      "parameters": {
+        "functionCode": "const checklist = [\n  {\n    area: 'Mindset AI First',\n    tasks: [\n      { task: 'Definir IA como valor da empresa', owner: 'Diretoria', status: 'pending' },\n      { task: 'Estabelecer regra: \"Provar que não é possível fazer com IA antes de contratar\"', owner: 'Diretoria', status: 'pending' },\n      { task: 'Treinar equipe para usar IA diariamente', owner: 'RH / Educação', status: 'pending' },\n      { task: 'Criar rotina de apresentação de novos agentes GPT pela equipe', owner: 'Equipe IA', status: 'pending' }\n    ]\n  },\n  {\n    area: 'Estrutura Organizacional',\n    tasks: [\n      { task: 'Líderes: Desenvolver visão generalista de IA', owner: 'Liderança', status: 'pending' },\n      { task: 'Equipe: Especializar em ferramentas específicas', owner: 'Equipe IA', status: 'pending' },\n      { task: 'Processos: Integrar IA em cada etapa do funil', owner: 'Operações', status: 'pending' },\n      { task: 'Métricas: Medir melhoria de 20% por etapa', owner: 'Inteligência de Negócios', status: 'pending' }\n    ]\n  }\n];\n\nconst toolkit = [\n  {\n    categoria: 'Criação de Conteúdo',\n    playbooks: [\n      {\n        nome: 'Clone de Expert',\n        objetivo: 'Replicar o tom e repertório do especialista',\n        acoes: [\n          'Criar GPT personalizado com personalidade do expert',\n          'Treinar com conteúdos anteriores',\n          'Usar para manter consistência de voz'\n        ]\n      },\n      {\n        nome: 'Copywriting Automatizado',\n        objetivo: 'Gerar cópias para emails, VSLs, anúncios e páginas',\n        acoes: [\n          'Aplicar prompts de sequência de email',\n          'Gerar roteiros de VSL',\n          'Produzir textos para anúncios e páginas'\n        ]\n      },\n      {\n        nome: 'Criação de Criativos',\n        objetivo: 'Explorar ideias e variações rápidas',\n        acoes: [\n          'Gerar ideias a cada 2 minutos',\n          'Produzir variações de conceitos',\n          'Configurar testes A/B automatizados'\n        ]\n      }\n    ]\n  },\n  {\n    categoria: 'Descoberta de Avatar',\n    playbooks: [\n      {\n        nome: 'Mapeamento Profundo',\n        objetivo: 'Identificar dores, objeções e desejos',\n        acoes: [\n          'Usar IA para mapear dores profundas',\n          'Analisar comentários e feedbacks',\n          'Identificar padrões de comportamento',\n          'Personalizar mensagens por segmento'\n        ]\n      }\n    ]\n  }\n];\n\nconst stageStrategy = [\n  {\n    nome: 'Etapa 1: Tráfego',\n    baseline: '100 visitas',\n    meta: '120 visitas',\n    aiPara: [\n      'Otimização de anúncios com base em dados em tempo real',\n      'Criação contínua de criativos com IA',\n      'Análise da audiência e segmentação automatizada'\n    ],\n    ferramentas: [\n      'ChatGPT para copies',\n      'Geradores de imagem IA',\n      'Ferramentas de analytics com IA'\n    ],\n    indicador: 'CTR, CPC e volume de visitas',\n    proximaAcao: 'Programar sprints semanais de criativos IA'\n  },\n  {\n    nome: 'Etapa 2: Conversão Landing Page',\n    baseline: '50%',\n    meta: '60%',\n    aiPara: [\n      'Otimização de headlines e argumentos com IA',\n      'Testes de copy automatizados',\n      'Análise de mapas de calor e gravações'\n    ],\n    ferramentas: [\n      'Construtores de página com IA',\n      'Ferramentas de teste A/B',\n      'Heatmaps e analytics'\n    ],\n    indicador: 'Taxa de conversão da landing page',\n    proximaAcao: 'Criar rotina de dupla validação IA + humano para headlines'\n  },\n  {\n    nome: 'Etapa 3: Engajamento WhatsApp',\n    baseline: '80%',\n    meta: '96%',\n    aiPara: [\n      'Mensagens personalizadas com base em segmentação',\n      'Resposta automática com contexto',\n      'Análise de sentimento e priorização'\n    ],\n    ferramentas: [\n      'Chatbots treinados com IA',\n      'Ferramentas de análise de sentimento',\n      'CRM integrado ao WhatsApp'\n    ],\n    indicador: 'Taxa de resposta e tempo médio de atendimento',\n    proximaAcao: 'Criar variações de scripts IA para follow-up imediato'\n  },\n  {\n    nome: 'Etapa 4: Presença ao Vivo',\n    baseline: '50%',\n    meta: '60%',\n    aiPara: [\n      'Lembretes personalizados por comportamento',\n      'Conteúdo de aquecimento automatizado',\n      'Definição de timing ideal com previsibilidade'\n    ],\n    ferramentas: [\n      'Automação de follow-up com IA',\n      'Modelos preditivos de engajamento',\n      'Ferramentas de email/SMS com IA'\n    ],\n    indicador: 'Comparecimento nas sessões ao vivo',\n    proximaAcao: 'Criar sequência pré-live personalizada com IA'\n  },\n  {\n    nome: 'Etapa 5: Conversão em Vendas',\n    baseline: '10%',\n    meta: '12%',\n    aiPara: [\n      'Tratativa de objeções automatizada',\n      'Follow-up personalizado por segmento',\n      'Análise de comportamento para priorização de oportunidades'\n    ],\n    ferramentas: [\n      'Agentes de vendas IA',\n      'CRM inteligente',\n      'Score de leads preditivo'\n    ],\n    indicador: 'Taxa de fechamento por cohort',\n    proximaAcao: 'Automatizar esteiras de follow-up com argumentos IA'\n  }\n];\n\nconst weeklyProcess = [\n  {\n    semana: 1,\n    foco: 'Fundação',\n    objetivos: [\n      'Definir valores AI First e ambições de melhoria',\n      'Escolher ferramentas principais para conteúdo e dados',\n      'Criar primeiros prompts e playbooks de uso',\n      'Treinar equipe no básico de IA'\n    ]\n  },\n  {\n    semana: 2,\n    foco: 'Automação',\n    objetivos: [\n      'Implementar automações iniciais em conteúdo e atendimento',\n      'Criar GPTs personalizados para o negócio',\n      'Automatizar criação de conteúdo recorrente',\n      'Coletar métricas iniciais de velocidade e qualidade'\n    ]\n  },\n  {\n    semana: 3,\n    foco: 'Otimização',\n    objetivos: [\n      'Analisar dados coletados das etapas do funil',\n      'Ajustar prompts e processos conforme feedback',\n      'Expandir automações para novas áreas',\n      'Treinar equipe em usos avançados identificados'\n    ]\n  },\n  {\n    semana: 4,\n    foco: 'Escala',\n    objetivos: [\n      'Implementar sistemas complexos (Make/n8n)',\n      'Integrar ferramentas e criar dashboards',\n      'Documentar aprendizados e padrões',\n      'Planejar próximos ciclos de melhoria'\n    ]\n  }\n];\n\nconst prompts = {\n  cloneExpert: {\n    titulo: 'Clone de Expert',\n    objetivo: 'Replicar a voz e decisões do especialista',\n    texto: [\n      'Você é [SEU NOME], expert em [SUA ÁREA].',\n      'Características:',\n      '- Tom de voz: [DESCREVER]',\n      '- Experiências: [LISTAR]',\n      '- Metodologia: [EXPLICAR]',\n      '- Valores: [DEFINIR]',\n      '',\n      'Responda como [SEU NOME] responderia, mantendo consistência com sua personalidade e expertise.'\n    ].join('\\n')\n  },\n  copywriting: {\n    titulo: 'Criação de Copy',\n    objetivo: 'Gerar copy direcionada para funil de lançamento',\n    texto: [\n      'Crie uma copy para [TIPO DE MATERIAL] sobre [TEMA].',\n      'Avatar: [DESCREVER AVATAR]',\n      'Dor principal: [DEFINIR DOR]',\n      'Solução oferecida: [EXPLICAR SOLUÇÃO]',\n      'Tom: [DEFINIR TOM]',\n      'CTA: [CALL TO ACTION]'\n    ].join('\\n')\n  },\n  analiseAvatar: {\n    titulo: 'Análise de Avatar',\n    objetivo: 'Mapear dores, objeções e desejos do avatar',\n    texto: [\n      'Analise este avatar e identifique:',\n      '1. Dores mais profundas',\n      '2. Objeções principais',\n      '3. Desejos ocultos',\n      '4. Linguagem que usa',\n      '5. Canais que frequenta',\n      '',\n      'Avatar: [DESCREVER DETALHADAMENTE]'\n    ].join('\\n')\n  }\n};\n\nconst metrics = {\n  produtividade: [\n    'Tempo economizado por tarefa',\n    'Quantidade de conteúdo produzido',\n    'Qualidade do output (testes A/B)'\n  ],\n  resultadosNegocio: [\n    'Melhoria por etapa do funil',\n    'ROI dos investimentos em IA',\n    'Satisfação da equipe',\n    'Velocidade de execução'\n  ],\n  competitividade: [\n    'Tempo de resposta vs. concorrentes',\n    'Qualidade de conteúdo vs. mercado',\n    'Inovação em processos'\n  ]\n};\n\nconst nextSteps = [\n  'Implementar imediatamente pelo menos 3 itens do checklist',\n  'Participar das próximas aulas da série',\n  'Documentar resultados obtidos com IA',\n  'Compartilhar aprendizados com a equipe',\n  'Iterar e melhorar continuamente o sistema'\n];\n\nreturn [\n  {\n    json: {\n      generatedAt: new Date().toISOString(),\n      checklist,\n      toolkit,\n      stageStrategy,\n      weeklyProcess,\n      prompts,\n      metrics,\n      nextSteps\n    }\n  }\n];"
+      },
+      "id": "3",
+      "name": "Implementation Blueprint",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        -240,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "functionCode": "const data = $json;\n\nconst weeklyAgenda = data.weeklyProcess\n  .map((week) => {\n    const headline = 'Semana ' + week.semana + ': ' + week.foco;\n    const objetivos = week.objetivos\n      .map((objetivo, index) => '  ' + (index + 1) + '. ' + objetivo)\n      .join('\\n');\n    return headline + '\\n' + objetivos;\n  })\n  .join('\\n\\n');\n\nreturn [\n  {\n    json: {\n      ...data,\n      weeklyAgenda,\n    },\n  },\n];"
+      },
+      "id": "4",
+      "name": "Weekly Agenda Builder",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        -20,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "functionCode": "const data = $json;\n\nconst stageBriefings = data.stageStrategy.map((stage, index) => ({\n  ordem: index + 1,\n  etapa: stage.nome,\n  alvo: stage.baseline + ' -> ' + stage.meta,\n  focoIA: stage.aiPara,\n  ferramentas: stage.ferramentas,\n  indicador: stage.indicador,\n  proximaAcao: stage.proximaAcao,\n}));\n\nreturn [\n  {\n    json: {\n      ...data,\n      stageBriefings,\n    },\n  },\n];"
+      },
+      "id": "5",
+      "name": "Stage Briefings",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        200,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "functionCode": "const data = $json;\n\nconst promptMessages = Object.entries(data.prompts).map(([key, prompt]) => ({\n  id: key,\n  titulo: prompt.titulo,\n  objetivo: prompt.objetivo,\n  prompt: prompt.texto,\n}));\n\nconst copyPromptLines = [\n  '# Brief para geração de copy com IA',\n  '',\n  'Contexto do lançamento:',\n  '- Público-alvo: [descrever]',\n  '- Oferta principal: [detalhar]',\n  '- Meta de melhoria: +20% na etapa selecionada',\n  '',\n  'Prompt base:',\n];\n\nconst copyPromptBase = promptMessages.find((p) => p.id === 'copywriting');\nif (copyPromptBase) {\n  copyPromptLines.push(copyPromptBase.prompt);\n}\n\nconst copyPrompt = copyPromptLines.join('\\n');\n\nreturn [\n  {\n    json: {\n      ...data,\n      promptMessages,\n      copyPrompt,\n    },\n  },\n];"
+      },
+      "id": "6",
+      "name": "Prompt Pack",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        420,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "functionCode": "const data = $json;\n\nconst checklistResumo = data.checklist\n  .map((section) => {\n    const tasks = section.tasks\n      .map((task) => '- [ ] ' + task.task + ' (' + task.owner + ')')\n      .join('\\n');\n    return '### ' + section.area + '\\n' + tasks;\n  })\n  .join('\\n\\n');\n\nconst stageResumo = data.stageBriefings\n  .map((stage) => {\n    const foco = stage.focoIA.map((item) => '- ' + item).join('\\n');\n    const ferramentas = stage.ferramentas.map((item) => '- ' + item).join('\\n');\n    return '### ' + stage.etapa + '\\n' +\n      'Meta: ' + stage.alvo + '\\n' +\n      'Indicador-chave: ' + stage.indicador + '\\n' +\n      'Top ações IA:\\n' + foco + '\\n' +\n      'Ferramentas sugeridas:\\n' + ferramentas;\n  })\n  .join('\\n\\n');\n\nconst promptsResumo = data.promptMessages\n  .map((p) => '### ' + p.titulo + '\\n' + 'Objetivo: ' + p.objetivo + '\\n\\n' + p.prompt)\n  .join('\\n\\n');\n\nconst metricas = [];\nif (data.metrics && data.metrics.produtividade) {\n  data.metrics.produtividade.forEach((m) => {\n    metricas.push('- Produtividade: ' + m);\n  });\n}\nif (data.metrics && data.metrics.resultadosNegocio) {\n  data.metrics.resultadosNegocio.forEach((m) => {\n    metricas.push('- Resultados: ' + m);\n  });\n}\nif (data.metrics && data.metrics.competitividade) {\n  data.metrics.competitividade.forEach((m) => {\n    metricas.push('- Competitividade: ' + m);\n  });\n}\n\nconst summaryLines = [\n  '# Plano Semanal IA First',\n  '',\n  '## Checklist imediato',\n  checklistResumo,\n  '',\n  '## Agenda semanal sugerida',\n  data.weeklyAgenda,\n  '',\n  '## Etapas do funil (ganho de 20%)',\n  stageResumo,\n  '',\n  '## Prompts essenciais',\n  promptsResumo,\n  '',\n  '## Métricas para acompanhar',\n  metricas.join('\\n'),\n  '',\n  '## Próximos passos',\n  data.nextSteps.map((step) => '- ' + step).join('\\n'),\n];\n\nconst summary = summaryLines.filter((line) => line !== undefined && line !== null).join('\\n');\n\nreturn [\n  {\n    json: {\n      ...data,\n      payload: {\n        markdown: summary,\n        prompts: data.promptMessages,\n        stageBriefings: data.stageBriefings,\n        checklist: data.checklist,\n        toolkit: data.toolkit,\n      },\n    },\n  },\n];"
+      },
+      "id": "7",
+      "name": "Report Payload",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        640,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "functionCode": "const data = $json;\n\nconst checklistHighlights = [];\n(data.checklist || []).forEach((section) => {\n  (section.tasks || []).forEach((task) => {\n    checklistHighlights.push('• ' + section.area + ': ' + task.task + ' (' + task.owner + ')');\n  });\n});\n\nconst stageHighlights = (data.stageBriefings || [])\n  .slice(0, 3)\n  .map((stage) => '• ' + stage.etapa + ' (' + stage.alvo + ') -> Próxima ação: ' + stage.proximaAcao);\n\nconst primaryPrompt = data.promptMessages && data.promptMessages.length > 0 ? data.promptMessages[0] : null;\n\nconst digestLines = [];\ndigestLines.push('*Resumo semanal IA First*');\ndigestLines.push('');\ndigestLines.push('_Prioridades imediatas:_');\nArray.prototype.push.apply(digestLines, checklistHighlights.slice(0, 5));\ndigestLines.push('');\ndigestLines.push('_Foco do funil:_');\nArray.prototype.push.apply(digestLines, stageHighlights);\ndigestLines.push('');\ndigestLines.push('_Prompt sugerido:_');\ndigestLines.push(primaryPrompt ? primaryPrompt.titulo + ':\\n' + primaryPrompt.prompt : 'Configure um prompt no nó Prompt Pack.');\ndigestLines.push('');\ndigestLines.push('Doc completo disponível em payload.markdown.');\n\nreturn [\n  {\n    json: {\n      agentId: 'curador_semanal',\n      description: 'Digest semanal para enviar ao time (Slack, WhatsApp, Email).',\n      text: digestLines.join('\\n'),\n      markdown: data.payload ? data.payload.markdown : null,\n      prompts: data.promptMessages || [],\n    },\n  },\n];"
+      },
+      "id": "8",
+      "name": "Agent 1 - Digest Builder",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        860,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "functionCode": "const data = $json;\n\nconst tasks = [];\n\n(data.checklist || []).forEach((section) => {\n  (section.tasks || []).forEach((task, index) => {\n    tasks.push({\n      area: section.area,\n      task: task.task,\n      owner: task.owner,\n      status: task.status || 'pending',\n      order: index + 1,\n    });\n  });\n});\n\nconst sprintPlan = (data.weeklyProcess || []).map((week) => ({\n  semana: week.semana,\n  foco: week.foco,\n  objetivos: week.objetivos,\n}));\n\nreturn [\n  {\n    json: {\n      agentId: 'planner_tarefas',\n      description: 'Gera tarefas e plano semanal para ferramentas de gestão (Notion, ClickUp, Trello).',\n      tasks,\n      sprintPlan,\n      nextSteps: data.nextSteps || [],\n    },\n  },\n];"
+      },
+      "id": "9",
+      "name": "Agent 2 - Task Planner",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        860,
+        80
+      ]
+    },
+    {
+      "parameters": {
+        "functionCode": "const data = $json;\n\nconst metricsResumo = [];\nif (data.metrics) {\n  if (data.metrics.produtividade) {\n    metricsResumo.push('Produtividade: ' + data.metrics.produtividade.join('; '));\n  }\n  if (data.metrics.resultadosNegocio) {\n    metricsResumo.push('Resultados: ' + data.metrics.resultadosNegocio.join('; '));\n  }\n  if (data.metrics.competitividade) {\n    metricsResumo.push('Competitividade: ' + data.metrics.competitividade.join('; '));\n  }\n}\n\nconst promptLines = [\n  'Você é um analista de crescimento focado em lançamentos digitais com IA.',\n  '',\n  'Contexto do funil (meta + próxima ação):',\n  ...(data.stageBriefings || []).map((stage, index) => `${index + 1}. ${stage.etapa} — meta ${stage.alvo}. Próxima ação: ${stage.proximaAcao}`),\n  '',\n  'Plano semanal atual:',\n  ...(data.weeklyProcess || []).map((week) => `Semana ${week.semana} - ${week.foco}: ${week.objetivos.join('; ')}`),\n  '',\n  'Métricas a monitorar:',\n  ...metricsResumo,\n  '',\n  'Checklist de execução pendente:',\n  ...(data.checklist || []).flatMap((section) => section.tasks.map((task) => `- ${section.area}: ${task.task}`)),\n  '',\n  'Tarefa:',\n  '1. Avalie os resultados mais prováveis ao aplicar as próximas ações.',\n  '2. Sinalize riscos e gargalos por etapa.',\n  '3. Sugira testes adicionais para garantir ganho de 20% em cada etapa.',\n];\n\nreturn [\n  {\n    json: {\n      agentId: 'analista_funil',\n      description: 'Gera prompt consolidado para analista virtual (OpenAI, Claude, etc.).',\n      prompt: promptLines.join('\\n'),\n      stageBriefings: data.stageBriefings || [],\n      metrics: data.metrics || {},\n    },\n  },\n];"
+      },
+      "id": "10",
+      "name": "Agent 3 - Insight Prompt",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        860,
+        -80
+      ]
+    },
+    {
+      "parameters": {
+        "functionCode": "const missingNodes = [];\n\nfunction resolveNodeJson(baseName) {\n  const candidates = [];\n  candidates.push(baseName);\n  for (let i = 1; i <= 5; i++) {\n    candidates.push(baseName + i);\n    candidates.push(baseName + ' (' + i + ')');\n    candidates.push(baseName + ' Copy ' + i);\n  }\n\n  for (let index = 0; index < candidates.length; index++) {\n    const candidate = candidates[index];\n    try {\n      const items = $items(candidate, 0, 0) || [];\n      if (items.length > 0 && items[0].json) {\n        return items[0].json;\n      }\n    } catch (error) {\n      continue;\n    }\n  }\n\n  missingNodes.push(baseName);\n  return {};\n}\n\nconst digest = resolveNodeJson('Agent 1 - Digest Builder');\nconst planner = resolveNodeJson('Agent 2 - Task Planner');\nconst base = resolveNodeJson('Report Payload');\nconst promptPack = resolveNodeJson('Prompt Pack');\nconst insight = $json || {};\n\nconst context = {\n  resumoSemanal: digest.text,\n  promptSugerido: insight.prompt,\n  planoSemanal: planner.sprintPlan,\n  checklist: planner.tasks,\n  etapasFunil: base.stageBriefings,\n  metricas: base.metrics,\n  toolkit: base.toolkit,\n  promptsDisponiveis: promptPack.promptMessages,\n  markdownCompleto: base.payload ? base.payload.markdown : null,\n};\n\nif (missingNodes.length > 0) {\n  context.__missingSources = missingNodes;\n}\n\nconst instructions = [\n  'Você é o Chief AI Operator responsável por gerar decisões acionáveis.',\n  '1. Leia o contexto JSON fornecido.',\n  '2. Gere um plano priorizado de 5 ações para a semana.',\n  '3. Identifique riscos por etapa do funil e proponha mitigação.',\n  '4. Sugira 3 experimentos de IA que podem gerar ganhos rápidos.',\n  '5. Resuma em bullets o que deve ser comunicado à diretoria.',\n  '6. Se notar dados faltando, solicite explicitamente no output.',\n];\n\nconst systemMessage = 'Você é o Chief AI Operator da vertical de lançamentos. Use tom consultivo, direto, com foco em performance e impactos mensuráveis.';\nconst userMessage = instructions.join('\\n') + '\\n\\nContexto base JSON:\\n' + JSON.stringify(context, null, 2);\n\nreturn [\n  {\n    json: {\n      systemMessage,\n      userMessage,\n      context,\n    },\n  },\n];\n"
+      },
+      "id": "11",
+      "name": "Agent Context Builder",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        1040,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "fieldsUi": {
+          "values": [
+            {
+              "name": "modelProvider",
+              "value": "openAi"
+            },
+            {
+              "name": "modelId",
+              "value": "gpt-4o-mini"
+            },
+            {
+              "name": "temperature",
+              "value": "0.2"
+            },
+            {
+              "name": "maxOutputTokens",
+              "value": "1500"
+            }
+          ]
+        }
+      },
+      "id": "12",
+      "name": "AI Agent Config",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [
+        1220,
+        120
+      ]
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Implementation Blueprint",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Weekly Trigger": {
+      "main": [
+        [
+          {
+            "node": "Implementation Blueprint",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Implementation Blueprint": {
+      "main": [
+        [
+          {
+            "node": "Weekly Agenda Builder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Weekly Agenda Builder": {
+      "main": [
+        [
+          {
+            "node": "Stage Briefings",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Stage Briefings": {
+      "main": [
+        [
+          {
+            "node": "Prompt Pack",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prompt Pack": {
+      "main": [
+        [
+          {
+            "node": "Report Payload",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Report Payload": {
+      "main": [
+        [
+          {
+            "node": "Agent 1 - Digest Builder",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Agent 2 - Task Planner",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Agent 3 - Insight Prompt",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Agent 3 - Insight Prompt": {
+      "main": [
+        [
+          {
+            "node": "Agent Context Builder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Agent Context Builder": {
+      "main": [
+        [
+          {
+            "node": "AI Agent Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent Config": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {}
+}

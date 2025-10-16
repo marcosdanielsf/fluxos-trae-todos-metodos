@@ -1,0 +1,94 @@
+1. Cronograma base: Liderança e Desenvolvimento de equipes;;;;;;;
+Boas Vindas;;;;;;;
+Name;Subelementos;Pessoa;Status;Data de entrega - Start;Data de entrega - End;Ferramentas;Item ID (auto generated)
+Kickoff com o CEO;;ceo@hallennaiane.com;Concluído;2023-05-31;2023-05-31;;4572479494
+Vídeo da Mentoria - AO VIVO;;ceo@hallennaiane.com;;;;;4572480388
+Anexo do contrato;;ceo@hallennaiane.com;;;;;4572480442
+;;;;2023-05-31;2023-05-31;0/3;
+;;;;;;;
+Cultura;;;;;;;
+Name;Subelementos;Pessoa;Status;Data de entrega - Start;Data de entrega - End;Ferramentas;Item ID (auto generated)
+Papéis do Líder;;;;;;;4572480699
+Importância da Cultura;;;;;;;4572479444
+Proposta Única de valor;;;;;;v;4572480500
+Visão;;;;;;v;4572479654
+Missão;;;;;;v;4572480047
+Valores;;;;;;v;4572479539
+Aplicação dos valores;;;;;;v;4572480994
+Posicionamento de Mercado;;;;;;v;4572481024
+Competências Essenciais;;;;;;v;4572481060
+Estruturação do Manual de Cultura;;;;;;;4572480153
+Sensibilização da equipe;;;;;;;4572480177
+Vídeo da Mentoria-  AO VIVO;;;;;;;4572480281
+;;;;;;7/12;
+;;;;;;;
+Liderança na Prática;;;;;;;
+Name;Subelementos;Pessoa;Status;Data de entrega - Start;Data de entrega - End;Ferramentas;Item ID (auto generated)
+Reconhecimento;Cheirinho,Registro Semanal de Reconhecimento,Ranking de Colaboraores;;;;;v;4572480735
+Subitems;Name;Owner;Status;Date;Sinal de confirmação;Item ID (auto generated);
+;Cheirinho;;;;;4572481551;
+;Registro Semanal de Reconhecimento;;;;;4572481674;
+;Ranking de Colaboraores;;;;;4572481731;
+Relacionamento;Ganhe o direito de Liderar,Conexão com o Colaborador,Feedback Sanduíche,Teste de Delegação,Estrutura de Delegação,Reunião 1x1,Plano de Desenvolvimento Individual;;;;;v;4572479855
+Subitems;Name;Owner;Status;Date;Sinal de confirmação;Item ID (auto generated);
+;Ganhe o direito de Liderar;;;;v;4572482323;
+;Conexão com o Colaborador;;;;v;4572482394;
+;Feedback Sanduíche;;;;;4572481824;
+;Teste de Delegação;;;;v;4572482464;
+;Estrutura de Delegação;;;;v;4572483424;
+;Reunião 1x1;;;;;4572481872;
+;Plano de Desenvolvimento Individual;;;;v;4572483606;
+Gestão;Mapa da Equipe,Gestão Baseada em Valores,Planiha de Melhoria Contínua,Matriz de Competências,Avaliação de Desempenho,Análise de Maturidade do Colaborador;;;;;v;4572480441
+Subitems;Name;Owner;Status;Date;Sinal de confirmação;Item ID (auto generated);
+;Mapa da Equipe;;;;v;4572483783;
+;Gestão Baseada em Valores;;;;v;4572483856;
+;Planiha de Melhoria Contínua;;;;v;4572483878;
+;Matriz de Competências;;;;v;4572484026;
+;Avaliação de Desempenho;;;;v;4572484086;
+;Análise de Maturidade do Colaborador;;;;v;4572484203;
+Conclusão;;;;;;;4572480875
+Vídeo da Mentoria- AO VIVO;;;;;;;4572480684
+;;;;;;3/5;
+;;;;;;;
+Perfis Comportamentais;;;;;;;
+Name;Subelementos;Pessoa;Status;Data de entrega - Start;Data de entrega - End;Ferramentas;Item ID (auto generated)
+Introdução;;ceo@hallennaiane.com;;;;;4572479458
+Perfil Executor;;;;;;;4572479500
+Perfil Comunicador;;;;;;;4572479553
+Perfil Planejador;;;;;;;4572479721
+Perfil Analista;;;;;;;4572479598
+Conclusão;;;;;;;4572480615
+Vídeo da Mentoria- AO VIVO;;;;;;;4572480587
+;;;;;;0/7;
+;;;;;;;
+Produtividade Empresarial;;;;;;;
+Name;Subelementos;Pessoa;Status;Data de entrega - Start;Data de entrega - End;Ferramentas;Item ID (auto generated)
+Introdução;;;Concluído;2023-04-01;2023-04-01;;4572480173
+Pirâmide da Produtividade;;;;;;v;4572479502
+Contrato de rotina com o colaborador;;;;;;v;4572479574
+Rituais;;;;;;;4572479520
+Mapa da Reunião;;;;;;v;4572479886
+Radar Semanal;;;;;;v;4572481085
+Rotina do Gestor;;;;;;;4572480652
+Vídeo da Mentoria- AO VIVO;;;;;;;4572480118
+;;;;2023-04-01;2023-04-01;4/8;
+;;;;;;;
+Jornada do Colaborador;;;;;;;
+Name;Subelementos;Pessoa;Status;Data de entrega - Start;Data de entrega - End;Ferramentas;Item ID (auto generated)
+Checklist de contratação;;;;;;v;4572480342
+Descrição de cargo;;;;;;v;4572479519
+Contratação;Ficha de Avaliação - Dinâmica de grupo,Entrevistas por competências,Perfil comportamental;;;;;v;4572479822
+Subitems;Name;Owner;Status;Date;Sinal de confirmação;Item ID (auto generated);
+;Ficha de Avaliação - Dinâmica de grupo;;;;;4572481260;
+;Entrevistas por competências;;;;;4572481320;
+;Perfil comportamental;;;;;4572481477;
+Onboarding;;;;;;;4572480051
+Demissão;;;;;;;4572480496
+Vídeo da Mentoria- AO VIVO;;;;;;;4572480545
+;;;;;;3/6;
+;;;;;;;
+Encerramento;;;;;;;
+Name;Subelementos;Pessoa;Status;Data de entrega - Start;Data de entrega - End;Ferramentas;Item ID (auto generated)
+Pesquisa de Satisfação- NPS;;;;;;;4572480413
+Depoimento;;;;;;;4572480375
+;;;;;;0/2;

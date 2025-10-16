@@ -1,0 +1,41 @@
+﻿Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5
+,GERENTE DE VENDAS E COORDENADOR DE VENDAS FSS,,,,
+,,Gerente Base,Gerente Intermediário ,Gerente Avançado,Gerente Especialista
+,Fixo base,1000,1500,2000,2500
+,Bônus por integrante da sua equipe batendo meta,250,300,300,350
+,"Bonus Extra por meta batida (75% da equipe a cima do KPI)
+- mínimo 3 de 4 integrantes",1000,1500,2000,2500
+,Mínimo Garantido FSS ,2000,2500,3000,4000
+,Venda sob a Equipe comercial ,0.005,0.006,0.007,0.0075
+,Ganhos mensais ,3750,8100,13000,17300
+,,,,,
+,,,,,
+,,,,,
+,Métricas de Passagem de Fase ,,,,
+,,Resultados ,Período  Mínimo,Habilidades e necessidades comportamentais ,
+,"Gerente
+Intermediário ",Meta 1 por 3 meses ,5 meses,"
+Ter asciduidade 
+Pontualidade 
+Cumprir CRM 
+Cumprir agenda de atendimentos
+Gerar vendas através de indicações e embaixadores  
+",
+,,GERENTE DE VENDAS e COORDENADOR: Equipe com meta 1 batida por 3 meses,,,
+,"Gerente
+Avançado",Meta 2 por 3 meses consecutivos ,5 meses,"
+Ter asciduidade 
+Pontualidade 
+Cumprir CRM 
+Cumprir agenda de atendimentos
+Gerar vendas através de indicações e embaixadores  ",
+,,GERENTE DE VENDAS: Equipe com meta 2 batida por 3 meses,,,
+,"Gerente
+Especialista",Meta 3 por 3 meses consecutivos ,6 meses,"
+Ter asciduidade 
+Pontualidade 
+Cumprir CRM 
+Cumprir agenda de atendimentos
+Gerar vendas através de indicações e embaixadores  
+",
+,,GERENTE DE VENDAS: Equipe com meta 3 batida por 3 meses,,,

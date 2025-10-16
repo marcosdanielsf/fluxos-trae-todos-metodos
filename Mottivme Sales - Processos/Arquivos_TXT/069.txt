@@ -1,0 +1,133 @@
+1. Cronograma - Mentoria Estrategista Empresarial [Base];;;;;;;;;;;;;;;
+Boas Vindas;;;;;;;;;;;;;;;
+Name;Subelementos;Pessoa;Status da Mentoria;Cronograma - Start;Cronograma - End;Status do Aluno;Números;Arquivos;Início o Projeto;Progresso;Conclusões Antecipadas;Cronograma 1 - Start;Cronograma 1 - End;monday Doc;Item ID (auto generated)
+Kickoff do Projeto;;Marcos Daniel;Aguardando;2022-12-16;2022-12-16;Aguardando;1;;;0%;;;;;4855449447
+;;;;2022-12-16;2022-12-16;;1;;00:00:00;0%;;;;;
+;;;;;;;;;;;;;;;
+Iniciando meu Projeto;;;;;;;;;;;;;;;
+Name;Subelementos;Pessoa;Status da Mentoria;Cronograma - Start;Cronograma - End;Status do Aluno;Números;Arquivos;Início o Projeto;Progresso;Conclusões Antecipadas;Cronograma 1 - Start;Cronograma 1 - End;monday Doc;Item ID (auto generated)
+Descompactando Arquivos;;Marcos Daniel;Concluído;2023-12-16;2023-12-22;Aguardando;7;;;100%;;;;;4855449512
+Quem será seu mentor?;;Marcos Daniel;Concluído;2023-12-16;2023-12-22;Concluído;7;;;100%;;;;;4855449454
+Definição da Equipe de Gestão;;Marcos Daniel;Aguardando;2023-12-16;2023-12-22;Aguardando;7;;;0%;;;;;4855449466
+Apresentação da Equipe de Gestão;;Marcos Daniel;Aguardando;2023-12-22;2023-12-28;Aguardando;7;;;0%;;;;;4855449484
+Comprometimento com o Processo;;Marcos Daniel;Aguardando;2023-12-22;2023-12-28;Aguardando;7;;;0%;;;;;4855449486
+Conexão com o Empresário;;Marcos Daniel;Aguardando;2023-12-22;2023-12-28;Aguardando;7;;;0%;;;;;4855449493
+Alinhamento de expectativa;;Marcos Daniel;Aguardando;2023-12-22;2023-12-28;Aguardando;7;;;0%;;;;;4855449477
+Concluindo a Fase - Checkpoint;;Marcos Daniel;Aguardando;2023-12-22;2023-12-28;Aguardando;7;;;0%;;;;;4855449490
+;;;;2023-12-16;2023-12-28;;8;;00:00:00;25%;;;;;
+;;;;;;;;;;;;;;;
+Kick Off do CEO - Introdução ao Processo;;;;;;;;;;;;;;;
+Name;Subelementos;Pessoa;Status da Mentoria;Cronograma - Start;Cronograma - End;Status do Aluno;Números;Arquivos;Início o Projeto;Progresso;Conclusões Antecipadas;Cronograma 1 - Start;Cronograma 1 - End;monday Doc;Item ID (auto generated)
+Introdução Sobre Processos;Ferramenta Siga o Fluxo,O que são Indicadores,Como medir resultados;Marcos Daniel;Aguardando;2022-12-19;2022-12-19;Aguardando;1;;;0%;;;;;4855449496
+Subitems;Name;Pessoa;Status;Cronograma - Start;Cronograma - End;Números;Status;Item ID (auto generated);;;;;;;
+;Ferramenta Siga o Fluxo;;Concluído;;;;;4855449564;;;;;;;
+;O que são Indicadores;;Concluído;;;;;4855449567;;;;;;;
+;Como medir resultados;;Concluído;;;;;4855449569;;;;;;;
+Introdução sobre Gestão e Liderança;Qual a diferença entre Gestão e Liderança,Em que momento ser Gestor,Em que momento ser Líder,O que é Meta SMART;Marcos Daniel;Aguardando;2022-12-19;2022-12-19;Aguardando;1;;;0%;;;;;4855449499
+Subitems;Name;Pessoa;Status;Cronograma - Start;Cronograma - End;Números;Status;Item ID (auto generated);;;;;;;
+;Qual a diferença entre Gestão e Liderança;;Concluído;2022-12-16;2022-12-16;1;;4855449570;;;;;;;
+;Em que momento ser Gestor;;Concluído;2022-12-16;2022-12-16;1;;4855449574;;;;;;;
+;Em que momento ser Líder;;Concluído;2022-12-16;2022-12-16;1;;4855449578;;;;;;;
+;O que é Meta SMART;;;2022-12-16;2022-12-16;1;;4855449588;;;;;;;
+A importância da Tecnologia no seu negócio;Orientação sobre ERP,Orientação sobre CRM,Google Agenda,Mapas Mentais,Softwares de Gestão de Tarefas;Marcos Daniel;Aguardando;2022-12-19;2022-12-19;Aguardando;1;;;0%;;;;;4855449501
+Subitems;Name;Pessoa;Status;Cronograma - Start;Cronograma - End;Números;Status;Item ID (auto generated);;;;;;;
+;Orientação sobre ERP;;;;;;;4855449549;;;;;;;
+;Orientação sobre CRM;;;;;;;4855449551;;;;;;;
+;Google Agenda;;;;;;;4855449554;;;;;;;
+;Mapas Mentais;;;;;;;4855449556;;;;;;;
+;Softwares de Gestão de Tarefas;;;;;;;4855449559;;;;;;;
+Introdução sobre Cultura;O que é cultura Empresarial,Qual a importância de construir a cultura Empresarial da sua empresa;Marcos Daniel;Aguardando;2022-12-19;2022-12-19;Aguardando;1;;;0%;;;;;4855449510
+Subitems;Name;Pessoa;Status;Cronograma - Start;Cronograma - End;Números;Status;Item ID (auto generated);;;;;;;
+;O que é cultura Empresarial;;Concluído;2022-12-16;2022-12-16;1;;4855449593;;;;;;;
+;Qual a importância de construir a cultura Empresarial da sua empresa;;Concluído;2022-12-16;2022-12-16;1;;4855449596;;;;;;;
+;;;;2022-12-19;2022-12-19;;4;;00:00:00;0%;;;;;
+;;;;;;;;;;;;;;;
+Mentalidade Empresarial;;;;;;;;;;;;;;;
+Name;Subelementos;Pessoa;Status da Mentoria;Cronograma - Start;Cronograma - End;Status do Aluno;Números;Arquivos;Início o Projeto;Progresso;Conclusões Antecipadas;Cronograma 1 - Start;Cronograma 1 - End;monday Doc;Item ID (auto generated)
+Mentalidade Empresarial;Palavras significativas;Marcos Daniel;Aguardando;2022-12-10;2022-12-16;Aguardando;7;;;0%;;;;;4855449489
+Subitems;Name;Pessoa;Status;Cronograma - Start;Cronograma - End;Números;Status;Item ID (auto generated);;;;;;;
+;Palavras significativas;;;;;;;4855449532;;;;;;;
+Alinhando vida Pessoal e Profissional;Roda da Vida,Abrindo espaço livre,Método DRD;Marcos Daniel;Aguardando;2022-12-10;2022-12-16;Aguardando;7;;;0%;;;;;4855449446
+Subitems;Name;Pessoa;Status;Cronograma - Start;Cronograma - End;Números;Status;Item ID (auto generated);;;;;;;
+;Roda da Vida;;;;;;;4855449534;;;;;;;
+;Abrindo espaço livre;;;;;;;4855449538;;;;;;;
+;Método DRD;;;;;;;4855449541;;;;;;;
+Perfil Comportamental;;Marcos Daniel;Aguardando;2022-12-17;2022-12-23;Aguardando;7;;;0%;;;;;4855449525
+Autorresponsabilidade;;Marcos Daniel;Aguardando;2022-12-17;2022-12-23;Aguardando;7;;;0%;;;;;4855449528
+Concluindo a Fase - Checkpoint;;Marcos Daniel;Aguardando;2022-12-24;2022-12-24;Aguardando;1;;;0%;;;;;4855449457
+;;;;2022-12-10;2022-12-24;;5;;00:00:00;0%;;;;;
+;;;;;;;;;;;;;;;
+Levantamentos e Diagnósticos Estratégicos;;;;;;;;;;;;;;;
+Name;Subelementos;Pessoa;Status da Mentoria;Cronograma - Start;Cronograma - End;Status do Aluno;Números;Arquivos;Início o Projeto;Progresso;Conclusões Antecipadas;Cronograma 1 - Start;Cronograma 1 - End;monday Doc;Item ID (auto generated)
+Diagnóstico Empresarial;;Marcos Daniel;Aguardando;2023-01-02;2023-01-08;Aguardando;7;;;0%;;;;;4855449505
+Diagnóstico da Maturidade Empresarial;;Marcos Daniel;Aguardando;2023-01-02;2023-01-08;Aguardando;7;;;0%;;;;;4855449452
+Levantamento de Dados Financeiros;;Marcos Daniel;Aguardando;2023-01-02;2023-01-08;Aguardando;7;;;0%;;;;;4855449458
+Software de CRM;O que faz o CRM?,Tipos de CRM;Marcos Daniel;Aguardando;2023-01-02;2023-01-08;Aguardando;7;;;0%;;;;;4855449509
+Subitems;Name;Pessoa;Status;Cronograma - Start;Cronograma - End;Números;Status;Item ID (auto generated);;;;;;;
+;O que faz o CRM?;;Concluído;2022-12-16;2022-12-16;1;;4855449598;;;;;;;
+;Tipos de CRM;;Concluído;2022-12-16;2022-12-16;1;;4855449603;;;;;;;
+Concluindo a Fase - Checkpoint;;Marcos Daniel;Aguardando;2023-01-02;2023-01-08;Aguardando;7;;;0%;;;;;4855449475
+;;;;2023-01-02;2023-01-08;;5;;00:00:00;0%;;;;;
+;;;;;;;;;;;;;;;
+Alinhamento Estratégico;;;;;;;;;;;;;;;
+Name;Subelementos;Pessoa;Status da Mentoria;Cronograma - Start;Cronograma - End;Status do Aluno;Números;Arquivos;Início o Projeto;Progresso;Conclusões Antecipadas;Cronograma 1 - Start;Cronograma 1 - End;monday Doc;Item ID (auto generated)
+Análise SWOT;;Marcos Daniel;Aguardando;2022-10-03;2022-10-16;Aguardando;14;;;0%;;;;;4855449461
+Objetivos Estratégicos;;Marcos Daniel;Aguardando;2022-12-16;2022-12-16;Aguardando;1;;;0%;;;;;4855449479
+Desdobramentos;;Marcos Daniel;Aguardando;2022-12-16;2022-12-16;Aguardando;1;;;0%;;;;;4855449483
+Painel de Indicadores;;Marcos Daniel;Aguardando;2022-12-16;2022-12-16;Aguardando;1;;;0%;;;;;4855449516
+Concluindo a Fase - Checkpoint;;Marcos Daniel;Aguardando;2022-12-16;2022-12-16;Aguardando;1;;;0%;;;;;4855449451
+;;;;2022-10-03;2022-12-16;;5;;00:00:00;0%;;;;;
+;;;;;;;;;;;;;;;
+Proposta de Valor;;;;;;;;;;;;;;;
+Name;Subelementos;Pessoa;Status da Mentoria;Cronograma - Start;Cronograma - End;Status do Aluno;Números;Arquivos;Início o Projeto;Progresso;Conclusões Antecipadas;Cronograma 1 - Start;Cronograma 1 - End;monday Doc;Item ID (auto generated)
+Missão;;Marcos Daniel;Aguardando;2023-01-07;2023-01-13;Aguardando;7;;;0%;;;;;4855449472
+Visão;;Marcos Daniel;Aguardando;2023-01-07;2023-01-13;Aguardando;7;;;0%;;;;;4855449480
+Valores;;Marcos Daniel;Aguardando;2023-01-14;2023-01-20;Aguardando;7;;;0%;;;;;4855449462
+Aplicação dos Valores;;Marcos Daniel;Aguardando;2023-01-14;2023-01-20;Aguardando;7;;;0%;;;;;4855449464
+Posicionamento de Mercado;;Marcos Daniel;Aguardando;2023-01-21;2023-01-27;Aguardando;7;;;0%;;;;;4855449470
+Competencias Essênciais;;Marcos Daniel;Aguardando;2023-01-21;2023-01-27;Aguardando;7;;;0%;;;;;4855449474
+Concluindo a Fase - Checkpoint;;Marcos Daniel;Aguardando;2023-01-28;2023-02-03;Aguardando;7;;;0%;;;;;4855449478
+;;;;2023-01-07;2023-02-03;;7;;00:00:00;0%;;;;;
+;;;;;;;;;;;;;;;
+Processos;;;;;;;;;;;;;;;
+Name;Subelementos;Pessoa;Status da Mentoria;Cronograma - Start;Cronograma - End;Status do Aluno;Números;Arquivos;Início o Projeto;Progresso;Conclusões Antecipadas;Cronograma 1 - Start;Cronograma 1 - End;monday Doc;Item ID (auto generated)
+O que são processos;O que são indicadores,Como medir indicadores;Marcos Daniel;Aguardando;2022-12-12;2022-12-12;Aguardando;1;;;0%;;;;;4855449498
+Subitems;Name;Pessoa;Status;Cronograma - Start;Cronograma - End;Números;Status;Item ID (auto generated);;;;;;;
+;O que são indicadores;;;;;;;4855449544;;;;;;;
+;Como medir indicadores;;;;;;;4855449547;;;;;;;
+Organograma da Área;;Marcos Daniel;Aguardando;2022-12-19;2022-12-25;Aguardando;7;;;0%;Conclusão Antecipada;;;;4855449517
+Mapeamento de Processos;;Marcos Daniel;Aguardando;2022-12-26;2023-01-08;Aguardando;14;;;0%;;2022-11-17;2022-11-24;;4855449453
+Remodelagem dos Processos;;Marcos Daniel;Aguardando;2023-01-09;2023-01-29;Aguardando;21;;;0%;;;;;4855449445
+Job Description;;Marcos Daniel;Aguardando;2023-01-16;2023-02-05;Aguardando;21;;;0%;;;;;4855449459
+Sensibilização da Equipe;;Marcos Daniel;Aguardando;2023-02-06;2023-02-06;Aguardando;1;;;0%;;;;;4855449450
+Concluindo a Fase - Checkpoint;;Marcos Daniel;Aguardando;2023-02-06;2023-02-06;Aguardando;1;;;0%;;;;;4855449507
+;;;;2022-12-12;2023-02-06;;7;;00:00:00;0%;;2022-11-17;2022-11-24;;
+;;;;;;;;;;;;;;;
+Ferramentas Aplicáveis do Nível Tático;;;;;;;;;;;;;;;
+Name;Subelementos;Pessoa;Status da Mentoria;Cronograma - Start;Cronograma - End;Status do Aluno;Números;Arquivos;Início o Projeto;Progresso;Conclusões Antecipadas;Cronograma 1 - Start;Cronograma 1 - End;monday Doc;Item ID (auto generated)
+Check list de Contratação;;Marcos Daniel;Aguardando;2023-02-06;2023-02-06;Aguardando;1;;;0%;;;;;4855449456
+Liderança;Analise de Maturidade do Colaborador,Estilo de Liderança,Perfil Comportamental,Conexão com Colaborador,Modelo de avaliação de desempenho,Teste de Delegação;Marcos Daniel;Aguardando;2023-02-13;2023-03-14;Aguardando;30;;;0%;;;;;4855449455
+Subitems;Name;Pessoa;Status;Cronograma - Start;Cronograma - End;Números;Status;Item ID (auto generated);;;;;;;
+;Analise de Maturidade do Colaborador;;Em Progresso;2023-02-13;2023-02-26;14;;4855449628;;;;;;;
+;Estilo de Liderança;;Em Progresso;2023-02-13;2023-02-26;14;;4855449618;;;;;;;
+;Perfil Comportamental;;Em Progresso;2023-02-20;2023-03-05;14;Conclusão Antecipada;4855449614;;;;;;;
+;Conexão com Colaborador;;Concluído;2023-02-20;2023-03-05;14;Em Progresso;4855449608;;;;;;;
+;Modelo de avaliação de desempenho;;Em Progresso;2023-02-20;2023-03-05;14;;4855449620;;;;;;;
+;Teste de Delegação;;Em Progresso;2023-03-07;2023-03-13;7;;4855449624;;;;;;;
+Gestão;Mapa da Equipe,Gestão Baseada em Valores,Planilha de Melhoria continua,Contrato de Resultados,Ranking de Colaboradores,Plano de Desenvolvimento Individual,Matriz de competências;Marcos Daniel;Aguardando;2023-02-20;2023-03-21;Aguardando;30;;;0%;;;;;4855449463
+Subitems;Name;Pessoa;Status;Cronograma - Start;Cronograma - End;Números;Status;Item ID (auto generated);;;;;;;
+;Mapa da Equipe;;Em Progresso;;;;;4855449632;;;;;;;
+;Gestão Baseada em Valores;;Em Progresso;;;;;4855449636;;;;;;;
+;Planilha de Melhoria continua;;Em Progresso;;;;;4855449640;;;;;;;
+;Contrato de Resultados;;Em Progresso;;;;;4855449644;;;;;;;
+;Ranking de Colaboradores;;Em Progresso;;;;;4855449646;;;;;;;
+;Plano de Desenvolvimento Individual;;Em Progresso;;;;;4855449648;;;;;;;
+;Matriz de competências;;Em Progresso;;;;;4855449650;;;;;;;
+Reunião Semanal;;Marcos Daniel;Aguardando;2023-03-27;2023-03-27;Aguardando;1;;;0%;;;;;4855449465
+;;;;2023-02-06;2023-03-27;;4;;00:00:00;0%;;;;;
+;;;;;;;;;;;;;;;
+Encerramento;;;;;;;;;;;;;;;
+Name;Subelementos;Pessoa;Status da Mentoria;Cronograma - Start;Cronograma - End;Status do Aluno;Números;Arquivos;Início o Projeto;Progresso;Conclusões Antecipadas;Cronograma 1 - Start;Cronograma 1 - End;monday Doc;Item ID (auto generated)
+Divulgue seu projeto;;Marcos Daniel;Aguardando;2023-03-30;2023-03-30;Aguardando;1;;;0%;;;;;4855449500
+Pesquisa de Satisfação;;Marcos Daniel;Aguardando;2023-03-30;2023-03-30;Aguardando;1;;;0%;;;;;4855449521
+;;;;2023-03-30;2023-03-30;;2;;00:00:00;0%;;;;;

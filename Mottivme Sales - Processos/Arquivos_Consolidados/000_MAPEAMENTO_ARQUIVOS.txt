@@ -1,0 +1,131 @@
+MAPEAMENTO DE ARQUIVOS REORGANIZADOS
+==================================================
+
+Formato: [Número] -> [Caminho Original]
+
+001.md -> 01_Mottivme_Educacao/Produtos_Educacionais/Analise_Completa_Mottivme_Educacao.md
+002.md -> 01_Mottivme_Educacao/Produtos_Educacionais/Analise_Cronograma_Lancamentos_High_Ticket.md
+003.md -> 01_Mottivme_Educacao/Produtos_Educacionais/Analise_Cronogramas_Produtos_Mottivme.md
+004.md -> 01_Mottivme_Educacao/Produtos_Educacionais/Fluxogramas_Processualizados_Mottivme_Educacao.md
+005.sty -> 01_Mottivme_Educacao/Produtos_Educacionais/Mottivme Educação/Mapa Mental Mottivme Mentoring.sty
+006 -> 02_Mottivme_Sales/Automacoes_CRM/AUTOMAÇÕES
+007.md -> 02_Mottivme_Sales/Automacoes_CRM/Analise_Funis_Marketing_Automacao.md
+008.md -> 02_Mottivme_Sales/Automacoes_CRM/Automacoes_Especificas_Implementacao.md
+009 -> 02_Mottivme_Sales/Automacoes_CRM/Funis de Marketing para Vendas
+010.md -> 02_Mottivme_Sales/Estrutura_Organizacional/Analise_Clinica_Organograma_Real.md
+011.md -> 02_Mottivme_Sales/Estrutura_Organizacional/Estrutura_Verticais_Mottivme_Organizadas.md
+012.md -> 02_Mottivme_Sales/Estrutura_Organizacional/Mapa_Estrutura_Organizacional_Mottivme.md
+013.vb -> 02_Mottivme_Sales/Estrutura_Organizacional/Organograma Holding.vb
+014.pdf -> 02_Mottivme_Sales/Estrutura_Organizacional/Organograma_Fluxograma_Mottivme_Sales.pdf
+015.md -> 02_Mottivme_Sales/Estrutura_Organizacional/README_Estrutura_Organizacional.md
+016.md -> 02_Mottivme_Sales/Processos_Comerciais/Analise_BDR_SDR_Melhores_Praticas.md
+017.md -> 02_Mottivme_Sales/Processos_Comerciais/Analise_Mapa_Mental_Mottivme_Sales.md
+018.docx -> 02_Mottivme_Sales/Processos_Comerciais/Disparo_pelo_WhatsApp.docx
+019.md -> 02_Mottivme_Sales/Processos_Comerciais/Fluxo_de_Leads_Trafego_Qualificados_Carreira.md
+020.md -> 02_Mottivme_Sales/Processos_Comerciais/Fluxogramas_Completos_Marketing_Vendas.md
+021.md -> 02_Mottivme_Sales/Processos_Comerciais/Fluxogramas_Social_Selling_Automatizado.md
+022.md -> 02_Mottivme_Sales/Processos_Comerciais/Mapeamento_Processos_Mottivme_Sales.md
+023.csv -> 02_Mottivme_Sales/Processos_Comerciais/Scripts_para_BDR_s_1759309468/scripts para bdr's-Tabela 1-1.csv
+024.csv -> 02_Mottivme_Sales/Processos_Comerciais/Scripts_para_BDR_s_1759309468/scripts para bdr's-Tabela 1.csv
+025.csv -> 02_Mottivme_Sales/Processos_Comerciais/Scripts_para_BDR_s_1759309468/scripts para bdr's-updates-Tabela 1.csv
+026.txt -> 02_Mottivme_Sales/Processos_Comerciais/whatsapp_content.txt
+027.csv -> 03_BPO_Operations/1_scripts_por_etapas_dos_funis_de_venda_1759268568 - 1. scripts por etapas.csv
+028.md -> 03_BPO_Operations/Analise_Consolidada_Processos_BPO.md
+029.csv -> 03_BPO_Operations/Gestao_BPO/_Quadro_Gestor_-_BPOSS_-_GESTOR_1758711668 - ✅  quadro gestor - bp.csv
+030.md -> 03_BPO_Operations/Operacoes_Terceirizadas/Fluxogramas_Detalhados_Por_Departamento.md
+031.csv -> 03_BPO_Operations/Processo do Copy - 4_Copywrhiter_-_BPOSS_1759268653 - 4️⃣ copywrhiter - bpo.csv
+032.csv -> 03_BPO_Operations/Processo do Gestor de ATM - 2_Gestor_de_ATM_-_BPOSS_1759268642 - 2️⃣ gestor de atm - b.csv
+033.csv -> 03_BPO_Operations/Processo do Gestor de Tráfego - 2_Gestor_de_Tr_fego_-_BPOSS_1759268662 - 2️⃣ gestor de tráfego.csv
+034.csv -> 03_BPO_Operations/Processos do CS 1_CS_-_BPOSS_1759268624 - 1️⃣  cs - bposs.csv
+035.csv -> 03_BPO_Operations/Tutoriais_Processos/Tutoriais_Processos_-_Mottivados_Team_1758711533 - tutoriais_ processos .csv
+036.csv -> 03_BPO_Operations/Tutoriais_do_Processo_Gestor_de_ATM_-_BPOSS_-_GESTOR_1759268610 - tutoriais do processo (1).csv
+037.md -> 04_Integracao_Holdings/Estrategia_Unificada/Analise_Estrategica_Completa_Mottivme.md
+038.md -> 04_Integracao_Holdings/Estrategia_Unificada/Analise_Integrada_Automacoes_Reais.md
+039.md -> 04_Integracao_Holdings/Estrategia_Unificada/Analise_Processos_Organizacionais_Mottivme.md
+040.md -> 04_Integracao_Holdings/Estrategia_Unificada/Estrategia_Unificada_Automacao_Mottivme.md
+041.md -> 04_Integracao_Holdings/Estrategia_Unificada/Framework_Analise_Clinica_Processos.md
+042.md -> 04_Integracao_Holdings/Estrategia_Unificada/Integracao_Completa_Mottivme_Sales_Educacao.md
+043.md -> 04_Integracao_Holdings/Estrategia_Unificada/Lacunas_Automacao_Processos_vs_Funis.md
+044.md -> 04_Integracao_Holdings/Estrategia_Unificada/Mapa_Integrado_Processos_Funis_Automacoes.md
+045.md -> 04_Integracao_Holdings/Estrategia_Unificada/Matriz_Classificacao_Manual_Automacao_IA.md
+046.md -> 04_Integracao_Holdings/Estrategia_Unificada/Resumo_Executivo_Analise.md
+047.md -> 04_Integracao_Holdings/Estrategia_Unificada/Templates_Fluxogramas_POPs_Detalhados.md
+048.py -> 04_Integracao_Holdings/Estrategia_Unificada/analyze_pdf.py
+049.md -> 04_Integracao_Holdings/Roadmaps_Implementacao/Integracao_Funis_Roadmap_Unificado.md
+050.md -> 04_Integracao_Holdings/Roadmaps_Implementacao/Roadmap_Implementacao_Tecnologica.md
+051.md -> 04_Integracao_Holdings/Roadmaps_Implementacao/Roadmap_Unificado_Automacao_Mottivme_Holdings.md
+052.md -> 05_CRM_Socialfy/Documentacao_Tecnica/Descricao_Empresa_Atualizada.md
+053.md -> 05_CRM_Socialfy/Documentacao_Tecnica/Resumo_Executivo_Socialfy.md
+054.md -> 05_CRM_Socialfy/Documentacao_Tecnica/Socialfy_CRM_Descricao_Completa.md
+055.md -> 05_CRM_Socialfy/README.md
+056.csv -> 0_CRONOGRAMA_DE_LAN_AMENTOS_1759310194/0. cronograma de lanç-Tabela 1.csv
+057.csv -> 0_CRONOGRAMA_DE_LAN_AMENTOS_1759310194/0. cronograma de lanç-updates-Tabela 1.csv
+058.csv -> 0_CRONOGRAMA_DE_LAN_AMENTOS_1759310194/inicio-o-projeto-Tabela 1.csv
+059.txt -> CRM Socialfy.txt
+060.csv -> Cronograma/1_1_Cronograma_Lideran_a_e_Desenvolvimento_de_equipes_1759310970/1.1 cronograma_ lider-Tabela 1.csv
+061.csv -> Cronograma/1_1_Cronograma_Lideran_a_e_Desenvolvimento_de_equipes_1759310970/1.1 cronograma_ lider-updates-Tabela 1.csv
+062.csv -> Cronograma/1_1_Cronograma_Mentoria_Estrategista_Empresarial_Produto_Base_1759310875/1.1. cronograma mento-Tabela 1.csv
+063.csv -> Cronograma/1_1_Cronograma_Mentoria_Estrategista_Empresarial_Produto_Base_1759310875/1.1. cronograma mento-updates-Tabela 1.csv
+064.csv -> Cronograma/1_Cronograma-_Mapa_do_Neg_cio_1759310988/1. cronograma- mapa d-Tabela 1.csv
+065.csv -> Cronograma/1_Cronograma-_Mapa_do_Neg_cio_1759310988/1. cronograma- mapa d-updates-Tabela 1.csv
+066.csv -> Cronograma/1_Cronograma_-_Assessoria_Comercial_1759310725.csv
+067.csv -> Cronograma/1_Cronograma_-_Automa_o_do_P_s_Venda_1759310693/1. cronograma - autom-Tabela 1.csv
+068.csv -> Cronograma/1_Cronograma_-_Automa_o_do_P_s_Venda_1759310693/1. cronograma - autom-updates-Tabela 1.csv
+069.csv -> Cronograma/1_Cronograma_-_Mentoria_Estrategista_Empresarial_Base_1759310859/1. cronograma - mento-Tabela 1.csv
+070.csv -> Cronograma/1_Cronograma_-_Mentoria_Estrategista_Empresarial_Base_1759310859/1. cronograma - mento-updates-Tabela 1.csv
+071.csv -> Cronograma/1_Cronograma_-_Mentoria_Estrategista_Empresarial_Base_1759310859/inicio-o-projeto-Tabela 1.csv
+072.csv -> Cronograma/1_Cronograma_-_Sua_M_quina_de_Vendas_Estrat_gicas_1759310711/1. cronograma - sua m-Tabela 1.csv
+073.csv -> Cronograma/1_Cronograma_-_Sua_M_quina_de_Vendas_Estrat_gicas_1759310711/1. cronograma - sua m-updates-Tabela 1.csv
+074.csv -> Cronograma/1_Cronograma_base_Lideran_a_e_Desenvolvimento_de_equipes_1759310954/1. cronograma base_ l-Tabela 1.csv
+075.csv -> Cronograma/1_Cronograma_base_Lideran_a_e_Desenvolvimento_de_equipes_1759310954/1. cronograma base_ l-updates-Tabela 1.csv
+076.csv -> Cronograma/4_1_Sess_o_Estrat_gica_-_MEI_1759311034.csv
+077.csv -> Cronograma/4_Sess_o_Estrat_gica_Geral_-_Base_1759310912.csv
+078.csv -> Planilhas - Mottivme /1. VLD PLANEJAMENTO ESTRATÉGICO REALIZADO 2024 MOTTIVME/Ameaças-Tabela 1.csv
+079.csv -> Planilhas - Mottivme /1. VLD PLANEJAMENTO ESTRATÉGICO REALIZADO 2024 MOTTIVME/Desdobramentos-Tabela 1.csv
+080.csv -> Planilhas - Mottivme /1. VLD PLANEJAMENTO ESTRATÉGICO REALIZADO 2024 MOTTIVME/Dúvidas e Respostas-Tabela 1.csv
+081.csv -> Planilhas - Mottivme /1. VLD PLANEJAMENTO ESTRATÉGICO REALIZADO 2024 MOTTIVME/Forças-Tabela 1.csv
+082.csv -> Planilhas - Mottivme /1. VLD PLANEJAMENTO ESTRATÉGICO REALIZADO 2024 MOTTIVME/Fraquezas-Tabela 1.csv
+083.csv -> Planilhas - Mottivme /1. VLD PLANEJAMENTO ESTRATÉGICO REALIZADO 2024 MOTTIVME/GPA-Tabela 1.csv
+084.csv -> Planilhas - Mottivme /1. VLD PLANEJAMENTO ESTRATÉGICO REALIZADO 2024 MOTTIVME/Início-Tabela 1.csv
+085.csv -> Planilhas - Mottivme /1. VLD PLANEJAMENTO ESTRATÉGICO REALIZADO 2024 MOTTIVME/Matriz SWOT-Tabela 1.csv
+086.csv -> Planilhas - Mottivme /1. VLD PLANEJAMENTO ESTRATÉGICO REALIZADO 2024 MOTTIVME/Objetivos Estratégicos -Tabela 1.csv
+087.csv -> Planilhas - Mottivme /1. VLD PLANEJAMENTO ESTRATÉGICO REALIZADO 2024 MOTTIVME/Oportunidades-Tabela 1.csv
+088.csv -> Planilhas - Mottivme /1. VLD PLANEJAMENTO ESTRATÉGICO REALIZADO 2024 MOTTIVME/Painel Estratégico -Tabela 1.csv
+089.csv -> Planilhas - Mottivme /1. VLD PLANEJAMENTO ESTRATÉGICO REALIZADO 2024 MOTTIVME/Planos de Ação - FxO-Tabela 1.csv
+090.csv -> Planilhas - Mottivme /1. VLD PLANEJAMENTO ESTRATÉGICO REALIZADO 2024 MOTTIVME/Resultados SWOT Gráficos-Tabela 1.csv
+091.csv -> Planilhas - Mottivme /1. VLD PLANEJAMENTO ESTRATÉGICO REALIZADO 2024 MOTTIVME/SupermetricsQueries-Tabela 1.csv
+092.csv -> Planilhas - Mottivme /3. MOTTIVME SALES - Calculadora de Remuneração de SDRs_BDRs v2/Apoio-Tabela 1.csv
+093.csv -> Planilhas - Mottivme /3. MOTTIVME SALES - Calculadora de Remuneração de SDRs_BDRs v2/Calculadora de Salário Alvo (OT-Tabela 1.csv
+094.csv -> Planilhas - Mottivme /3. MOTTIVME SALES - Calculadora de Remuneração de SDRs_BDRs v2/Calculadora de Salário Variável-Tabela 1.csv
+095.csv -> Planilhas - Mottivme /3. MOTTIVME SALES - Calculadora de Remuneração de SDRs_BDRs v2/Início-Tabela 1.csv
+096.csv -> Planilhas - Mottivme /3. MOTTIVME SALES - Calculadora de Remuneração de SDRs_BDRs v2/Simulador de Comissão-Tabela 1.csv
+097.csv -> Planilhas - Mottivme /3. MOTTIVME SALES - Calculadora de Remuneração de SDRs_BDRs v2/Validação-Tabela 1.csv
+098.numbers -> Planilhas - Mottivme /Planilha de Produtividade - Social Seller - BPOSS4 (1).numbers
+099.csv -> Planilhas - Mottivme /Planilha de Produtividade - Social Seller - BPOSS4 (1)/ANALISE DE CONVERSÕES-Tabela 1.csv
+100.csv -> Planilhas - Mottivme /Planilha de Produtividade - Social Seller - BPOSS4 (1)/ANJOS MÍDIA-Tabela 1.csv
+101.csv -> Planilhas - Mottivme /Planilha de Produtividade - Social Seller - BPOSS4 (1)/Agendamentos-Tabela 1.csv
+102.csv -> Planilhas - Mottivme /Planilha de Produtividade - Social Seller - BPOSS4 (1)/BABI-Tabela 1.csv
+103.csv -> Planilhas - Mottivme /Planilha de Produtividade - Social Seller - BPOSS4 (1)/BDBR-Tabela 1.csv
+104.csv -> Planilhas - Mottivme /Planilha de Produtividade - Social Seller - BPOSS4 (1)/BDEUA-Tabela 1.csv
+105.csv -> Planilhas - Mottivme /Planilha de Produtividade - Social Seller - BPOSS4 (1)/DIAS-Tabela 1.csv
+106.csv -> Planilhas - Mottivme /Planilha de Produtividade - Social Seller - BPOSS4 (1)/GLADSON-Tabela 1.csv
+107.csv -> Planilhas - Mottivme /Planilha de Produtividade - Social Seller - BPOSS4 (1)/JOÃO QUEIJO-Tabela 1.csv
+108.csv -> Planilhas - Mottivme /Planilha de Produtividade - Social Seller - BPOSS4 (1)/Métricas - Tráfego - bpo + Pros-Tabela 1.csv
+109.csv -> Planilhas - Mottivme /Planilha de Produtividade - Social Seller - BPOSS4 (1)/Métricas Dashboard-Tabela 1.csv
+110.csv -> Planilhas - Mottivme /Planilha de Produtividade - Social Seller - BPOSS4 (1)/Novo seguidor-Tabela 1.csv
+111.csv -> Planilhas - Mottivme /Planilha de Produtividade - Social Seller - BPOSS4 (1)/Outbound-Tabela 1.csv
+112.csv -> Planilhas - Mottivme /Planilha de Produtividade - Social Seller - BPOSS4 (1)/PERCURSODAVIDA-Tabela 1.csv
+113.csv -> Planilhas - Mottivme /Planilha de Produtividade - Social Seller - BPOSS4 (1)/RONNY-Tabela 1.csv
+114.csv -> Planilhas - Mottivme /Planilha de Produtividade - Social Seller - BPOSS4 (1)/Seguidores dos Clientes-Tabela 1.csv
+115.csv -> Planilhas - Mottivme /Planilha de Produtividade - Social Seller - BPOSS4 (1)/Seguidores-Tabela 1.csv
+116.csv -> Planilhas - Mottivme /Planilha de Produtividade - Social Seller - BPOSS4 (1)/ZAMPIERI-Tabela 1.csv
+117.py -> demo_busca_socialfy.py
+118.py -> indexar_arquivos_pinecone.py
+119.py -> indexar_socialfy_pinecone.py
+120.py -> investigar_indice.py
+121.py -> limpar_e_reindexar.py
+122.py -> testar_busca_socialfy.py
+123.py -> testar_pinecone.py
+124.py -> verificar_indice.py
+125.py -> verificar_metadados.py
+126.py -> verificar_namespaces.py

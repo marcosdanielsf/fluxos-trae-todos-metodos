@@ -1,0 +1,45 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/JP Bijari/Módulo 5 - Times Comercial/Aula 11 - Comissionamento closer e SS atualizado maio_24.xlsx
+Categoria: Outros
+Data de Processamento: 2025-10-10T08:25:19.048098
+Nome: Aula 11 - Comissionamento closer e SS atualizado maio_24.xlsx
+Tamanho: 9104
+Data_Criacao: 2025-09-15T07:24:32.973714
+Data_Modificacao: 2025-06-22T06:21:06
+Checksum: e64464f3143f63641f5f63323456956a
+
+=== CONTEÚDO ===
+
+=== PLANILHA: Página1 ===
+
+Closer			
+	COMERCIAL > R$ 5k		
+	Closer JR	R$ 1.320,00 + 2% comissão	
+	Closer PL	R$ 1.320,00 + 2,5% comissão	
+	Closer SR	R$ 1.320,00 + 3% comissão	
+	Consultor JR	R$ 1.890,00 + 3,5% comissão	
+	Consultor PL	R$ 1.890,00 + 4% comissão	
+	Consultor SR	R$ 2.520,00 + 4,5% comissão	
+	Consultor Master	R$ 3.500,00 + 5% comissão 	
+	Gerente (líder) comercial	R$ 4.500,00 + % sob os liderados *consultar manual	
+	Diretor comercial	R$ 7.000,00 + meta para % do faturamento total da empresa	
+	COMERCIAL ATÉ R$ 5k		
+	Closer JR	R$ 500,00 + 4% comissão	
+	Closer PL	R$ 1.320,00 + 5% comissão	
+	Closer SR	R$ 1.320,00 + 6% comissão	
+	Consultor JR	R$ 1.890,00 + 7% comissão	
+	Consultor PL	R$ 1.890,00 + 7,5% comissão	
+	Consultor SR	R$ 2.520,00 + 8% comissão	
+	1 estrela = 2 vendas anuais na semana		
+	4 estrelas sobe de cargo		
+Social Selling/SDR			
+	SS/SDR		
+	Social Seller experiência	R$ 1.420,00 + R$ 30,00 comissão por comparecimento + 0.5% comissão por venda	
+	Social Seller Jr	R$ 1.500,00 + R$ 40,00 comissão por comparecimento + 0.7% comissão por venda	
+	Social Seller Pl	R$ 1.800,00 + R$ 50,00 comissão por comparecimento + 0.85% comissão por venda	
+	Social Seller Sr	R$ 2.000,00 + R$ 60,00 comissão por comparecimento + 1% comissão por venda	
+	Gerente Social Seller	R$ 2.500,00 + 0.5% comissão por venda de todos liderados	
+	*Pode ascender pra gerente de SM/SS ou para closer		
+	1 estrela = 50 agendamentos na semana		
+	4 estrelas sobe de cargo		
+

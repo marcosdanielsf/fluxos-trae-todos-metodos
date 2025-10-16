@@ -1,0 +1,52 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/5. FULL SALES 2/4. Processos de RH Comercial  /11. Cópia de [FSS] Gerente - Plano de Carreira.xlsx
+Categoria: P4. RH Comercial
+Data de Processamento: 2025-10-02T03:59:12.809855
+Nome: 11. Cópia de [FSS] Gerente - Plano de Carreira.xlsx
+Tamanho: 6535
+Data_Criacao: 2025-09-15T07:31:34.645127
+Data_Modificacao: 2025-06-02T16:54:10
+Checksum: 243a47a681a89043d1a247c25277c833
+
+=== CONTEÚDO ===
+
+=== PLANILHA: Página1 ===
+
+	GERENTE DE VENDAS E COORDENADOR DE VENDAS FSS							
+		Gerente Base	Gerente Intermediário 	Gerente Avançado	Gerente Especialista			
+	Fixo base	1000.0	=C4+500	=D4+500	=E4+500			
+	Bônus por integrante da sua equipe batendo meta	250.0	300.0	300.0	350.0			
+	Bonus Extra por meta batida (75% da equipe a cima do KPI)
+- mínimo 3 de 4 integrantes	1000.0	=C6+500	=D6+500	=E6+500			
+	Mínimo Garantido FSS 	=C4+1000	=D4+1000	=E4+1000	=F4+1500			
+	Venda sob a Equipe comercial 	0.005	0.006	0.007	0.0075			
+	Ganhos mensais 	=C4+C5+C8*500000	=D4+D6+D5+D8*800000	=E4+E6+E5*2+E8*1200000	=F4+F6+F5*3+F8*1500000			
+	Métricas de Passagem de Fase 							
+		Resultados 	Período  Mínimo	Habilidades e necessidades comportamentais 				
+	Gerente
+Intermediário 	Meta 1 por 3 meses 	5 meses	
+Ter asciduidade 
+Pontualidade 
+Cumprir CRM 
+Cumprir agenda de atendimentos
+Gerar vendas através de indicações e embaixadores  
+				
+		GERENTE DE VENDAS e COORDENADOR: Equipe com meta 1 batida por 3 meses						
+	Gerente
+Avançado	Meta 2 por 3 meses consecutivos 	5 meses	
+Ter asciduidade 
+Pontualidade 
+Cumprir CRM 
+Cumprir agenda de atendimentos
+Gerar vendas através de indicações e embaixadores  				
+		GERENTE DE VENDAS: Equipe com meta 2 batida por 3 meses						
+	Gerente
+Especialista	Meta 3 por 3 meses consecutivos 	6 meses	
+Ter asciduidade 
+Pontualidade 
+Cumprir CRM 
+Cumprir agenda de atendimentos
+Gerar vendas através de indicações e embaixadores  
+				
+		GERENTE DE VENDAS: Equipe com meta 3 batida por 3 meses						
+

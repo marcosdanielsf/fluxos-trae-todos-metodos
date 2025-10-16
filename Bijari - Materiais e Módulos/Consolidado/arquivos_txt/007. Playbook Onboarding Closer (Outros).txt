@@ -1,0 +1,86 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/JP Bijari/Módulo 5 - Times Comercial/Playbook Onboarding Closer.docx
+Categoria: Outros
+Data de Processamento: 2025-10-10T08:25:19.079325
+Nome: Playbook Onboarding Closer.docx
+Tamanho: 156337
+Data_Criacao: 2025-09-15T07:28:28.211215
+Data_Modificacao: 2025-06-22T06:21:41
+Checksum: e8cdeb362a0acb41a8a85e4309465aff
+
+=== CONTEÚDO ===
+
+Playbook Onboarding Closer
+Infoprodutos
+Sumário
+Organograma e plano de cargos e salários
+Treinamento Interno
+Treinamento Externo
+Análise de performance
+Objetivos
+O objetivo do playbook de onboarding dos closers é trazer clareza tanto ao closer sênior que acompanhará a jornada de onboarding, quanto ao novo colaborador (closer junior) que passará pelo processo de treinamento. Aqui ficará claro:
+
+Organograma e plano de cargos e salários
+Treinamento interno
+Treinamento externo
+Análise de performance
+Organograma e Plano de cargos e Salários
+Organograma
+O time comercial de infoprodutos é organizado em formato de organograma onde fica claro as atribuições, atividades e metas de cada colaborador.
+Diretor comercial
+Gerente
+ Closer
+Closer - Atribuições e metas
+Plano de cargos e salários
+Os recém contratados como closers, começam como "closer junior" e tem a possibilidade de subir de cargo à medida que atingem a meta definida na gamificação. Além disso, na planilha comercial temos as metas mensais de vendas da empresa onde cada closer recebe uma bonificação por venda.
+Gamificação
+Obs: Se o closer não atualizar o CRM corretamente para as reuniões, ele tem um limite de duas chamadas de atenção e perde 1 estrela.
+Meta coletiva e Meta individual - O objetivo é gerar cooperação e competitividade. Lembrando que a forma de remuneração molda o comportamento, ou seja, as metas podem ser desenvolvidas de acordo com o objetivo da empresa (Caixa, vendas, ticket médio e venda a vista). Construir metas para direcionar comportamentos.
+Cultura de fechamento
+Gestão visível - E importante que diariamente tenhamos a visibilidade da meta x realizada
+Ranking - Gerando competitividade e mostrando a progressão é  onde podemos acompanhar em tempo real quem vem se destacando. 
+Rotina de celebração - O que vende é confiança. E como se cria confiança? Com rituais de celebração: 
+Sempre que sai uma venda, comemoramos no grupo.
+Sempre que um vendedor angaria uma estrela, ele recebe um vale jantar com a família. 
+Sempre que o time bater a meta, acontece a "Sexta da alegria"
+Material de apoio: 
+https://docs.google.com/spreadsheets/d/15WZO4hhhIKMmZl3BMmlX8pOKM9Z5S5uN/edit#gid=1414985581
+Assistir aula: 
+Plano de cargos e salários
+Treinamento Interno
+O treinamento interno na fase de onboarding tem duração de 15 dias e tem como objetivo capacitar o novo closer com a parte teórica de como funciona o setor comercial da empresa e a metodologia que será aplicada no dia a dia. Também tem como objetivo o aprendizado sobre as entregas que o mentor faz aos mentorados durante o programa de mentoria.
+Checklist:
+Assistir
+Treinamento comercial memberkit
+Assistir Kick Off Comercial 20/01 - Mentalidade de sucesso do vendedor
+Kick Off Comercial 13/02 - Fazendo negociações melhores
+Kick Off Comercial 05/12 - Macarrão se come quente e micro comprometimento 
+Módulo chave do expert JP:
+Funil de consultoria gratuita
+Funis High Ticket
+Trilha do mentor
+Módulo chave do expert NC:
+WorkShop Plano Agência 100k 4.0 e 5.0
+Reuniões gravadas
+Assistir 3 reuniões de consultoria gratuira que resultaram em venda com cada ICP
+Assistir 3 reuniões de consultoria individual entregues pelo mentor com cada ICP
+Materiais
+Estudar playbook comercial (JP ou Nicolas)
+Estudar playbook dor e solução (JP ou Nicolas) 
+Prova final
+Após concluída a fase de estudos, o novo closer deve comunicar ao executivo, que fará uma prova com 20 perguntas relacionadas ao manual de dor e solução.
+Se aprovado na prova com o  executivo vai participar por 7 dias de roleplay com o time. 
+Aprovado na etapa de role plays, começa o treinamento externo
+Treinamento Externo
+O treinamento externo na fase de onboarding tem duração de 10 dias e tem como objetivo capacitar o novo closer com a parte prática   de como a metodologia será aplicada no dia a dia. 
+Checklist:
+Closer contratado participará de todas calls possíveis com Closer PL/SR (ele com câmera fechada e mutado, como suporte)
+Closer PL/SR participa de 5 calls com o closer (você com câmera fechada, como se fosse suporte, analisando e pontuando melhorias pelo chat do Zoom).
+Prova de fogo (5 dias)
+Será entregue nossa lista chamada "Kaba Lead" onde se concentram todos os leads que por algum motivo não participaram da consultoria gratuita ou não fecharam. Com essa lista em mãos, o novo closer deve realizar agendamentos manuais e tem como meta fechar 2 vendas dentro de uma semana para ter acesso aos leads com agendamento automático vindo das campanhas de tráfego pago. 
+Agendamento automático 
+Com os agendamentos automáticos, o novo closer deve garantir que os leads compareçam nas consultorias gratuitas, entrando em contato por WhatsApp ou ligação.
+Nessa etapa a meta é atingir 25% de conversão de reuniões realizadas em vendas 
+Análise de Performance
+Toda semana o novo closer deve fazer uma análise do que fez de bom, o que errou e como pode fazer a semana que se inicia ser melhor.
+Ao final de 60 dias o novo closer recebe uma avaliação de performance.

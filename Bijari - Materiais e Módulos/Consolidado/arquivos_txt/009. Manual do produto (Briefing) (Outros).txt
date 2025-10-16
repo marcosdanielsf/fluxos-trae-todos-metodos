@@ -1,0 +1,40 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/JP Bijari/Módulo 5 - Times Comercial/Manual do produto (Briefing).docx
+Categoria: Outros
+Data de Processamento: 2025-10-10T08:25:19.337920
+Nome: Manual do produto (Briefing).docx
+Tamanho: 780748
+Data_Criacao: 2025-09-15T07:28:28.208708
+Data_Modificacao: 2025-06-22T06:21:45
+Checksum: 8d5db32982dcf1c7aea47c018ed00d8d
+
+=== CONTEÚDO ===
+
+MANUAL DO PRODUTO
+Funcionalidade
+➢ Qual é o nome do produto? 
+➢ O que é o produto? 
+➢ Qual é a transformação prometida? 
+➢ Qual é o público? 
+Suporte
+➢ Como funciona o acompanhamento com o aluno? 
+➢ Quais são os meios para suporte ao cliente ? (e-mail/Whatsapp) deixar contato.
+Técnico
+➢ Quanto tempo de acesso?
+➢ Onde é passado o conteúdo?
+➢ São quantas aulas?
+➢ A gravação ficará disponível em alguma área de membros?
+➢ Qual é o tempo de duração? 
+➢ Tem garantia? Se sim, quanto tempo?
+➢ Clique no LINK para anexar fotos ou video da área de membros (visão do aluno) 
+Financeiro
+➢ Qual o investimento para o curso? (com ancoragem e parcelamento com juros)
+
+➢ Existe algum desconto? Se sim, quais?
+➢ Quais são as formas de pagamento? COLOCAR LINKS
+Cartão de crédito, pix, boleto
+
+IMPORTANTE: PRECISAMOS QUE O ESPECIALISTA GRAVE UM VÍDEO VALIDANDO O NOSSO CONTATO. 
+(Ex: Olá, aqui é o NOME DO EXPERT e estou gravando esse vídeo para te deixar tranquilo, pois o NOME DO CLOSER faz parte da minha equipe de vendas e eles estão aqui para te ajudar a entrar no NOME DO PRODUTO)
+Processo de onboarding
+➢ Qual o próximo passo depois da compra do produto? (recebe um link, um e-mail, em quanto tempo, etc.)

@@ -1,0 +1,27 @@
+0. CRONOGRAMA DE LANÇAMENTOS;Updates;;;;;;;;;
+Item ID;Item Name;Content Type;Content Type;User;Created At;Update Content;Likes Count;Asset IDs;Post ID;Parent Post ID
+5121459600;1. COPY [PESQUISA];Update;;Membro excluído;06/September/2023  02:49:33 PM;"3. GOOGLE TRENDS.txt 1. ESTUDO DA PERSONA.pdf 2. PESQUISA STORIES
+
+";0;;2395671620;
+5121459600;1. COPY [PESQUISA];Update;;Marcos Daniel;14/July/2024  05:00:50 PM;Oi Marcos, estou com dúvida nisso e naquilo @Marcos Daniel ;0;;3297286050;
+5121459642;3. DESIGN;Update;;Marcos Daniel;06/September/2023  11:48:25 AM;"BrandBook_Christian_Barbosa.pdf
+
+";0;;2395671635;
+5121459729;5. DESIGN/ WEB;Update;;Marcos Daniel;07/September/2023  06:16:54 AM;"
+
+1. FEED
+
+2. PÁGINA DE CAPTURA - EXEMPLO
+
+3. Chirstian_CapaZap
+
+4. CRONOGRAMA";0;;2395671655;
+5121459741;Ativar página de espera;Update;;Membro excluído;06/September/2023  04:16:18 PM;"1. ATIVAR PÁGINA DE ESPERA.png
+
+";0;;2395671661;
+5121459759;Iteração;Update;;Membro excluído;06/September/2023  04:16:33 PM;"2. ITERAÇÃO.docx
+
+";0;;2395671665;
+5121459773;Coleta de depoimento - roteiro de perguntas;Update;;Membro excluído;06/September/2023  04:16:47 PM;"3. COLETA DE DEPOIMENTO - ROTEIRO DE PERGUNTAS.docx
+
+";0;;2395671673;

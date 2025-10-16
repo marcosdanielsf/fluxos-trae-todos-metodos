@@ -1,0 +1,194 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/JP Bijari/Módulo 4 - Atração de clientes (geração de lead)/Aula11_M4.pdf
+Categoria: Outros
+Data de Processamento: 2025-10-10T08:25:24.042206
+Nome: Aula11_M4.pdf
+Tamanho: 1880280
+Data_Criacao: 2025-09-15T07:24:32.976621
+Data_Modificacao: 2025-06-22T05:44:57
+Checksum: b09c8eb6791be4ac5e2f254470a359f9
+
+=== CONTEÚDO ===
+
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116
+01Pessoal, bem-vindos à aula de D-PAP, de ponta a ponta, transmitida ao vivo do
+Hotseat. 
+Aqui detalharei todo o meu processo atual, incluindo as mudanças e o que tem
+funcionado bem. 
+Vamos explorar as jornadas dos leads, começando pelo Criativo, que direciona
+para uma Landing Page, seguida pelo Typeform, Calendly e CRM. A partir daí, o
+lead pode agendar uma consultoria grátis, fazer uma compra ou entrar em
+follow-up. Após isso, há o onboarding no CS, mas deixaremos isso para outra
+oportunidade. 
+Na Consultoria Grátis, focamos na quebra de objeções e então no onboarding.
+É fundamental destacar a congruência em todas as etapas: criativo, legenda,
+Landing Page, script e PDF da oferta. 
+A analogia é simples: imagine comprar uma passagem para Paris e pousar na
+China - é desconfortável, não é? Da mesma forma, nossas estratégias precisam
+ser consistentes para evitar esse tipo de desconexão. 
+Por exemplo, se criamos um criativo sobre funil de vendas, a Landing Page
+também deve abordar esse tema, evitando misturar mensagens que poderiam
+confundir nossos leads.
+Atualmente, estamos executando vários anúncios que abrangem temas como
+esteira de ṕroduto, time, funil, oferta e entrega. 
+São pilares diferentes e congruentes e eu tenho que anúncios que jogam o lead
+para cada um desses. Apesar da consistência na estrutura da Landing Page,
+estamos sempre refinando as headlines e testando novos designs para melhorar
+a conversão. 
+Saindo da landing page, o próximo passo é o lead preencher o formulário para
+tentar uma vaga na consultoria.
+Lá o lead preenche os campos, como nome completo, telefone, Instagram, e-mail,
+qual a classificação que melhor define o negócio dele atualmente, etc. 
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116
+Essa pergunta, inclusive, é um pré-requisito.
+ 
+Por quê?
+Então, temos um grande desafio: precisamos qualificar todos os leads. Imagine se
+no seu funil de high ticket, os leads só deixassem nome, e-mail e telefone. Isso
+seria um problema sério de qualificação. Além disso, enfrentamos outro
+obstáculo: conseguir que o cliente responda. 
+Muitas vezes, os vendedores precisam ligar repetidamente. Em funis high ticket,
+às vezes até usam serviços de ligação. Portanto, lidamos com o desafio de
+qualificar e estabelecer contato. Aqui dentro, enfrentamos alguns gargalos que
+podem levar dias para resolver. 
+Imagine, se alguém deixa nome, e-mail e telefone. Eles respondem no final do
+dia, você responde no dia seguinte, agenda um horário, e só então vocês
+conseguem se falar. E só depois disso tudo você percebe que o LEAD não é
+qualificado para a sua oferta. 
+Então, como determino o que é um MQL para mim? Como identifico um lead
+qualificado? 
+Vamos considerar o caso da Najara, uma mentorada nossa que já tem uma base
+de clientes. Digamos que a Najara tem uma base lá com 10 clientes, com 100
+clientes, e ela quer colocar um funil a rodar. 
+02
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116
+O primeiro passo não é apenas um brainstorming ou anotações aleatórias. 
+Precisamos entender profundamente esses 100 clientes, como se estivéssemos
+analisando detalhes de suas vidas no estilo do Globo Rural: onde vivem, o que
+comem, seus hábitos. Com isso, descubro padrões e estabeleço meus pré-
+requisitos para um MQL, como, por exemplo, donos de pizzaria que faturam mais
+de R$135 mil por mês.
+Além disso, analiso as 'dores' desses clientes, que servem de insumo para as
+minhas cópias e campanhas. A matriz de ICP que desenvolvemos é a definição do
+MQL e serve diretamente para orientar nossas estratégias de marketing.
+Em relação ao processo de qualificação, dependendo das respostas dos leads no
+Typeform, eles podem ser automaticamente excluídos do fluxo ou direcionados
+para equipes específicas de closer, dependendo do seu faturamento. Por
+exemplo, respostas até 5K são descartadas, de 5K a 20K são encaminhadas para
+um time específico, e acima de 50K para outro.
+O processo não é sobre eu tentar alcançar o cliente, mas sim ele querendo
+conectar-se conosco, especialmente se acreditar que nossa consultoria é a ideal
+para seu negócio. A qualificação avança com perguntas sobre seus objetivos e
+desafios, utilizando uma abordagem que identifica não apenas o nível de
+investimento que já realizaram (como 20k, 30k ou 180k), mas também a precisão
+com que conseguem nomear suas próprias dores.
+Neste sistema, a clareza é crucial. Por exemplo, perguntas sobre disponibilidade
+de investir entre R$4.000 e R$6.000 por mês são críticas. Se respondido
+negativamente, o lead é desqualificado por falta de consciência sobre a
+necessidade desse investimento.
+Finalmente, a admissão no programa é marcada por micro compromissos, onde a
+resposta do cliente determina sua continuidade ou exclusão. Aqueles
+comprometidos são mantidos, enquanto outros são descartados. É essencial que
+todos os decisores estejam alinhados, garantindo que estamos na mesma página
+para maximizar a eficácia do nosso funil de vendas high ticket.
+03
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116
+Muita gente envia formulários que levam a uma página de agradecimento com
+opção de agendamento, mas enfrentamos um problema de perda de leads nesse
+processo. 
+Hoje, estou focando em desenhar essa parte porque percebemos que cerca de
+30% das pessoas caem nesse fosso. Antes, tentávamos recuperar esses leads
+com nosso time, mas agora integramos o Calendly diretamente no Typeform da
+landing page. Isso tornou o processo mais eficiente, reduzindo o tempo de três
+dias para apenas cinco minutos, garantindo que não saiam sem agendar.
+Antigamente, se o lead não se encaixava no faturamento que procurávamos ou
+não atendíamos suas opções, fechávamos o formulário imediatamente.
+Percebemos que isso era abrupto, então mudamos a abordagem: agora todos
+podem completar o formulário, mas a qualificação acontece no final. 
+Dependendo do faturamento, eles são direcionados para agendas específicas de
+nossa equipe de vendas. Se o faturamento for alto, consideramos um lead de
+high ticket, qualificado e pronto para entrar no CRM e na agenda de vendas.
+Meu time já tem todas as informações necessárias: objetivos e dores do lead. Isso
+significa que metade do caminho já está andado quando chegamos à call, onde
+nosso foco é nas dores do cliente, não no produto. Quero que vocês gravem isso,
+pois, é essencial entender a função de um lançamento digital, que é, em essência,
+vender."
+"Alguém sabe qual é a função de um lançamento digital, como nas lives 1, 2 e 3?
+Basicamente, é para vender, mas também para aumentar o nível de consciência
+do consumidor, levando-o de um nível quatro para um nível cinco, tornando-o um
+comprador. Isso é parte do trabalho de lançamento.
+Vamos mudar um pouco o assunto. Imaginem o Joãozinho, que começou com
+uma vida comum, enfrentou problemas que pensou serem insuperáveis, mas
+conseguiu superá-los. 
+No entanto, apareceu um vilão e piorou a vida de Joãozinho, fazendo ele chegar
+no fundo do poço.. A dor aumentou muito nesse ponto. Então, uma solução
+inesperada apareceu e o levou a um mundo ideal, como se fosse a Disney. Isso é
+storytelling clássico, como vemos em Hollywood e novelas. É uma jornada de
+altos e baixos.
+04
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116
+No script de uma call, esse é o momento de transmitir o pitch quando o nível de
+consciência do cliente está alto e a dor está agitada, no seu auge. 
+Nesse ponto, eu realizo o pitch durante a call, atingindo um cliente já qualificado.
+Isso explica por que essa técnica funciona tão bem. Estamos aumentando a
+consciência, agitando a dor e oferecendo uma solução clara e incisiva. Lembro
+sempre que 70% da call é ouvir e 30% é falar; não é apenas um bate-papo. Se for
+para conversar casualmente, melhor marcar outro tipo de encontro.
+Quando você entra no ponto nove, é como se seu pai ou um professor estivesse
+entrando para falar. É incisivo. 
+Você abre o slide da oferta, porque esse PDF, construído após mais de mil calls,
+segue uma lógica pensada para conduzir o cliente da atenção ao interesse. 
+Essa abordagem é a mesma que uso nos anúncios, que uso no meu ICP. Está
+tudo amarrado de ponta a ponta.
+Entenda o que diferencia uma venda simples de uma venda complexa. Uma
+venda simples é como pedir um hambúrguer ao fim do dia, fácil e rápido. Uma
+venda complexa exige mais reflexão, mas com plausibilidade e garantias, torna-se
+simples. 
+Por exemplo, investindo R$7,200 por cinco meses, nossa mentoria se paga com o
+lucro gerado. Imaginando um produto seu de R$8,000, com minha metodologia e
+sua autoridade, é possível fazer pelo menos uma venda adicional por mês. E se
+não obtiver resultados, temos uma cláusula que prevê a devolução do dobro do
+que você investiu.
+E sabe o que realmente me orgulha?
+É ter mais de 300 mentorados e nunca ter precisado ativar aquela cláusula. Isso
+mostra o valor real da nossa cláusula, não apenas a sua existência. 
+Agora, olha para o lead e fala “Olhando para as opções à nossa frente, você pode
+tentar fazer sozinho, o que é mais difícil e caro, ou podemos fazer juntos. Quero
+saber o que faz mais sentido para você.”
+99% dirá que prefere fazer juntos, mas às vezes isso leva apenas a um pedido,
+não, a uma venda real. 
+04
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116
+Se o lead já sai dessa etapa direto para fazer o pix, essa não foi uma venda que
+fiz, foi um pedido tirado. 
+Mas quando enfrentamos rejeições, especialmente com um público mais frio, o
+desafio começa. 
+Você deve estar preparado para objeções, assim como um lutador de MMA não
+teme os golpes que vai receber. Se você está bem preparado, aí o verdadeiro jogo
+de vendas começa. 
+Lembre-se: uma verdadeira venda não é apenas enviar um link; é garantir que o
+pix seja feito, é o contrato assinado na sua mão. Na call, a primeira coisa que faço
+é solicitar a venda. “Então, vamos decidir: vai ser em cartão? Já tô te mandando o
+link, quero muito fazer o seu onboard logo” Isso é essencial para entendermos e
+lidarmos efetivamente com as vendas de high ticket.
+Anotem isso: a call pode terminar das seguintes maneiras: ou o cliente compra,
+faz um pix compromisso, assina o contrato, agenda um follow-up para no
+máximo as próximas 48 horas, ou você perde a venda.
+ 
+Além disso, mapeamos todas as objeções porque as pessoas frequentemente as
+escondem. O desafio é isolá-las e superá-las uma a uma, e para isso temos um
+manual de follow-up detalhado.
+No follow-up, enfatizo os '3Cs': canal, cadência e cultura. Muitos vendedores
+vêem o follow-up como uma tarefa chata, mas é preciso mudar essa cultura.
+Dados mostram que 44% dos vendedores desistem no segundo follow-up,
+enquanto 80% das vendas complexas ocorrem após o oitavo. Isso significa que a
+maioria está deixando 80% do dinheiro na mesa. A verdadeira venda começa no
+follow-up, onde o dinheiro grande realmente está.
+Recentemente, um dos nossos vendedores fechou uma venda 59 dias após o
+primeiro contato, provando que desistir cedo é como jogar dinheiro fora. Todo o
+processo está interligado e cada detalhe é essencial para o sucesso das vendas de
+high ticket. 
+Se ficou alguma dúvida, pergunte no grupo e tanto meu time quanto eu
+responderemos. Até a próxima.
+04Link para assistir a aula completa
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116

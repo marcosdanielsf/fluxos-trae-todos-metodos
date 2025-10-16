@@ -1,0 +1,23 @@
+﻿Nome,Atribuir,Checklist,Dependências,Entregáveis,KPI,Macro Etapa,Ordem,Prazo,Sobre a etapa:,Status,Template,Tipo
+1️⃣ Etapa,,,,Checklist de configurações gerais,Setup inicial concluído,01. Direção,0,,,1.,,Execução
+1. Direção da Marca — Estrela Polar e Causa,,,,"Página Direção, frase de causa, princípios",Declaração de causa em 12 palavras aprovada,01. Direção,1,,"Visão, causa e princípios que orientam a marca.",1.,,Fundamento
+2️⃣ Etapa,,,,,,,,,,2,,
+3️⃣ Etapa,,,,,,,,,,3.,,
+3. Capitão — Mapa Autobiográfico,,,,Página preenchida e aprovada,Mapa autobiográfico 100% respondido e revisado,03. Capitão (Autobio),3,,"Mapa autobiográfico para alinhar valores, provas e estilo do líder.",1.,,Diagnóstico
+4️⃣ Etapa,,,,,,,,,,4.,,
+4. Persona — Cliente Ideal,,,,Página de Persona e matriz Dores x Desejos x Objeções,Persona validada com 3 entrevistas,04. Persona,4,,"Perfil, dores, desejos e critérios de decisão do cliente ideal.",2,,Diagnóstico
+5️⃣ Etapa,,,,,,,,,,5.,,
+5. Proposta de Valor — Ofertas e Garantias,,,,"Página PV, tabela de ofertas e garantia",PV em 1 parágrafo + 3 bullets de prova,05. Proposta de Valor,5,,"Diferenciais, promessas, ofertas e garantias da marca.",3.,,Fundamento
+6️⃣ Etapa,,,,,,,,,,6.,,
+6. Narrativa e Storytelling — Arquétipos e símbolos,,,,"Guia de narrativa, vocabulário e símbolos",Guia de linguagem + 10 expressões-chave,06. Narrativa,6,,"Arquétipos, símbolos e linguagem para a narrativa da marca.",1.,,Fundamento
+6.1 Branding Book — Fundamentos e símbolos,,,,Documento consolidado de identidade (página ou PDF),Branding Book 1.0 publicado,06. Narrativa,"6,1",,"Porquês, símbolos, história e comunicação visual da marca.",4.,,Ferramental
+6.2 Template da Metodologia — Entrega ao cliente,,,,Página-modelo com checklists e exemplos,Template replicável testado em 1 cliente,06. Narrativa,"6,2",,Estrutura padrão do método para ser duplicada por cliente.,3.,,Ferramental
+7️⃣ Caixa de Ferramentas,,,,,,,,,,7.,,
+7. Audiovisual — Diretrizes de conteúdo e formatos,,,,Biblioteca de roteiros e guia audiovisual,12 roteiros base + guia técnico,07. Audiovisual,7,,"Pilares, tom de voz, formatos e guias de produção.",4.,,Ferramental
+7. Linha Editorial e Ferramentas — O que falar e postar,,,,Calendário Notion + checklist de publicação,Calendário de 30 dias publicado,07. Audiovisual,"7,1",,"Pilares, pautas, ferramentas e calendário de conteúdo.",5.,,Execução
+8. Canais e Concorrência — Diagnóstico do Social,,,,Diagnóstico + quadro de referências,3 ajustes priorizados de posicionamento,08. Canais e Concorrência,8,,Informações para entender o momento nas redes e o mapa de concorrência/ref.,1.,,Diagnóstico
+Gravação das calls,,,,"Database com tags, highlights e insights",5 chamadas etiquetadas por tema,08. Canais e Concorrência,"8,3",,Gravação das calls realizadas,7.,,Ferramental
+Metodologia,,,,"Playbook da metodologia com fases, ritos e métricas",Metodologia v1.0 completa,06. Narrativa,"6,3",,Construção passo a passo do método para o aluno,3.,,Execução
+Plano Alquimia,,,,"Cronograma por marcos, responsáveis e critérios de aceite",% de marcos no prazo,08. Canais e Concorrência,"8,2",,Plano de implementação da Grande Jornada,7.,,Execução
+"Vendas ",,,,"Scripts DM, triagem, call e objeções",Taxa de conversão ≥ meta definida,08. Canais e Concorrência,"8,1",,,7.,,Execução
+,,,,,,,,,,4.,,

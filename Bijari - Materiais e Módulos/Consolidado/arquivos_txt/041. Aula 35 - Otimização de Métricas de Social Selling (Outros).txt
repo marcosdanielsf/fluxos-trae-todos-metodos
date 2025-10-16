@@ -1,0 +1,147 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/JP Bijari/Módulo 4 - Atração de clientes (geração de lead)/Aula 35 - Otimização de Métricas de Social Selling.pdf
+Categoria: Outros
+Data de Processamento: 2025-10-10T08:25:24.183261
+Nome: Aula 35 - Otimização de Métricas de Social Selling.pdf
+Tamanho: 102989
+Data_Criacao: 2025-09-15T07:24:32.976669
+Data_Modificacao: 2025-06-22T06:06:15
+Checksum: aab5dfc1de3bdebb7d7b338df858c0a8
+
+=== CONTEÚDO ===
+
+14/05/25 Otimização de Métricas de
+Social Selling
+Data e Hora: 2025-05-14 10:34:59
+Local: [Inserir Local]
+Participantes: [Inserir Participantes]
+Antecedentes
+Este documento, criado em 2025-05-14, resume uma reunião de consultoria sobre a
+otimização do processo de social selling de um cliente. A pauta incluiu a análise
+comparativa de métricas de social selling, a identificação de causas para baixas taxas
+de resposta e envio de links, além de estratégias para melhorar o agendamento e
+reduzir custos com tráfego pago. Também foi discutida a necessidade de ajustes no
+processo, como personalização das mensagens, agilidade nas respostas e uso de
+ferramentas de controle como CRM.
+PERGUNT AS E RESPOST AS
+1. Quais são as métricas padrões de social selling e como as métricas do cliente
+se comparam com as do consultor?
+Métricas do consultor (medianas/aceitáveis): Boas-vindas que respondem: 45% a
+50%. Dos que respondem, envio de link para: cerca de 30% (média de 32%). Dos
+que recebem link, aproximadamente metade agenda (média de 51%).
+Métricas do cliente: Boas-vindas que respondem: 25%. Links enviados para
+agendamento: 50% (similar ao consultor).
+Principal gargalo do cliente: a taxa de resposta às boas-vindas é metade da
+esperada, e a taxa de envio de links após o início da conversa também precisa
+melhorar para dobrar os resultados atuais, o que potencialmente levaria a cerca de
+15 agendamentos. O consultor destacou que, com o ajuste dessas métricas, o
+volume de agendamentos pode crescer consideravelmente.
+2. Quais são as causas de ter menos pessoas respondendo às mensagens de
+boas-vindas (25% do cliente vs. 45-50% do consultor)?
+i. Tom muito comercial no começo: mensagens em ‘blocão’  ou excessivamente
+vendedoras. A primeira abordagem deve ser conversacional, com o tom
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116
+comercial introduzido gradualmente.
+ii. Falta de personalização: mensagens genéricas. É crucial encontrar um
+‘gancho’  personalizado. Exemplos citados: ‘Cara, gostei do teu bigode’, ‘Puta
+que pariu. Genial o nome do projeto [Noiva Fit sem Neura]’, ou um simples ‘E
+aí, Gui, tudo bem?’, ou comentar um story relevante (‘Bah, não vai dizer que tu
+tá aqui’).
+iii. Horário errado de envio: enviar mensagens em horários inadequados pode
+impactar negativamente a taxa de resposta.
+iv. Falta de follow-up: não ser respondido na primeira tentativa e não tentar
+novamente (ex: reagir a um story , depois outro story). O consultor reforçou a
+importância de insistir com abordagens diferentes caso não haja resposta
+inicial.
+3. Quais são os principais defeitos que levam a uma baixa taxa de envio de links
+após o início da conversa? (O consultor envia para 30-32% dos que respondem).
+i. Demora na resposta (‘Social Selling Antibiótico’): responder a cada 8 ou 12
+horas. A resposta deve ser rápida; um agendamento pode ocorrer em 7
+minutos se a pessoa estiver engajada. O consultor exemplificou que processos
+com tempo médio de resposta de uma hora tiveram melhor taxa do que
+aqueles com 17 horas.
+ii. Não identificar uma dor ou um desejo do prospect: sem isso, não há gancho
+para enviar o link.
+iii. Falta de personalização no convite/oferta da call (oferta fraca): O social selling
+vende a ‘Call’. A oferta da call precisa ser boa e personalizada. Exemplo: ‘Léo,
+[…] eu posso te ajudar . Eu posso colocar um consultor meu especialista em
+social selling para fazer uma análise do teu processo e criar um plano de ação.
+PIT sob medida.’
+iv. Oferta pouco atrativa: Se a oferta não for relevante ou personalizada, a chance
+de conversão diminui. O consultor destacou que, diferente do tráfego pago, no
+social selling é possível adaptar o pitch conforme o perfil do prospect.
+4. Como melhorar a taxa de agendamento após o envio do link, mesmo que a taxa
+do cliente (50%) já seja considerada boa?
+i. Pedir a venda diretamente: ‘Léo, então eu estou te enviando o link, tu consegue
+preencher agora? Que aí eu já te direciono para o meu melhor consultor .’ Se
+não puder na hora, perguntar quando: ‘Bah, Léo, e que horas tu consegue mais
+ou menos? Ah, final da… Então, beleza. Então, seis da tarde tu preenche e me
+avisa, beleza?’
+ii. Fazer follow-up: Se o prospect não preencher no horário combinado, contatá-lo
+novamente. ‘Pô, deu seis da tarde, não preencheu, eu vou e chamo.’  ou ‘Ô Léo,
+não conseguiu agendar? Pô, só temos mais dois horários essa semana, e aí?’
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116
+iii. Utilizar um CRM (idealmente): Para controlar o funil, anotar nomes/arrobas. O
+consultor mencionou estar temporariamente sem CRM, mas que irão recolocá-
+lo. Mesmo sem CRM, o controle pode ser feito manualmente, anotando os
+arrobas dos leads.
+iv. Controle do funil: O consultor reforçou a importância de acompanhar cada
+etapa do processo para identificar onde estão as maiores perdas e agir
+pontualmente.
+5. Qual o potencial impacto no volume de agendamentos e custos com tráfego ao
+otimizar as métricas de social selling?
+Se a taxa de resposta às boas-vindas dobrasse (de 25% para ~50%) e a taxa de
+envio de links após conversa também dobrasse, o volume de agendamentos
+poderia aumentar significativamente (mencionado ‘sairia aí do volume de
+agendamento para uns… 15’).
+Isso reduziria a dependência do tráfego pago. O cliente atualmente gasta mil reais
+por dia em tráfego, com o objetivo de reduzir para 700 por dia. O consultor destacou
+que o tráfego pago é ocasional e pode não garantir agendamentos diários, tornando
+o social selling uma alternativa mais previsível.
+Com 30 boas-vindas por dia e as métricas aceitáveis (45% respondem, 32% dos
+que respondem recebem link, 51% dos que recebem link agendam), espera-se pelo
+menos uns 2 agendamentos por dia via social selling.
+O consultor planeja montar um benchmark com métricas ruins, medianas e boas
+para referência futura, facilitando o acompanhamento da evolução do processo.
+Item de ação
+ [ ] O consultor irá montar e apresentar um benchmark com métricas de social selling
+classificadas como: ruim, mediana e boa. A métrica aceitável de referência inclui: 45%
+das boas-vindas respondem, 32% das conversas resultam em envio de link, e 51% dos
+links enviados resultam em agendamento. – [Consultor (orador principal)]  Até 2025-06-
+14
+ [ ] Gabi deve enviar o conteúdo (mencionado como ‘isso que eu mandei ali no chat’)
+para o grupo. – [Gabi]  2025-05-14
+ [ ] O consultor irá pegar o material enviado por Gabi e encaminhá-lo ao cliente (‘você’)
+para que possa usar a gravação virtual. – [Consultor (orador principal)]  Após Gabi enviar
+ao grupo em 2025-05-14
+ [ ] O cliente deve implementar os ajustes recomendados no processo de social selling,
+conforme recapitulado: Boas-vindas para conversa: a mensagem deve ser
+personalizada e ter contexto, evitando ser genérica, automática, irrelevante ou um
+‘blocão de texto’. Conversa para link: identificar dor/desejo, responder rapidamente e
+evitar ser ‘quadradão’  ou robótico. Link para agendamento: ‘pedir a venda’  e fazer follow-
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116
+up. – [Cliente]
+ [ ] O consultor e sua equipe irão reativar o uso do CRM, que estava parado, para a
+gestão do funil de social selling. – [Consultor (orador principal)]  [Equipe do consultor]  Em
+breve (mencionado como ‘agora’)
+Sugestão de IA
+Com base na sua gravação, que contém informações profissionais sobre
+otimização de estratégias de social selling e tráfego pago, a IA  encontrou os
+seguintes recursos para ajudá-lo a aprender mais.:
+1. Melhores Práticas em Social Selling:
+https://resultadosdigitais.com.br/marketing/social-selling/
+2. Otimização de Campanhas de Tráfego Pago:
+https://rockcontent.com/br/blog/trafego-pago/
+3. Case/Practice: Uma prática comum na indústria para otimizar tanto o social
+selling quanto o tráfego pago é a implementação de testes A/B rigorosos e a
+personalização da comunicação. No social selling, isso envolve testar
+diferentes abordagens em mensagens de boas-vindas (assunto, corpo do
+texto, call-to-action) e segmentar o público para personalizar a mensagem de
+acordo com o perfil e interesse do lead, visando aumentar as taxas de
+resposta e conversão para agendamento. Para o tráfego pago, realizam-se
+testes A/B em criativos de anúncios, textos, segmentações de público e lances,
+além de um acompanhamento constante das métricas (CTR, CPC, CP A, taxa
+de conversão) para otimizar o orçamento, reduzir o custo por agendamento e
+garantir maior consistência nos resultados. A análise de dados de ambas as
+frentes é fundamental para refinar continuamente as estratégias.
+Léo Matos - leonardo.matos@wairua.com.br - IP: 177.198.78.116

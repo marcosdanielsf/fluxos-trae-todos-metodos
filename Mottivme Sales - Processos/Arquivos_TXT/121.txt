@@ -1,0 +1,96 @@
+# Código Python - 121.py
+
+#!/usr/bin/env python3
+"""
+Script para limpar o índice Pinecone e reindexar com as correções.
+"""
+
+try:
+    from pinecone import Pinecone  # type: ignore
+except ImportError as e:
+    print(f"Erro de importação: {e}")
+    print("Certifique-se de que a biblioteca está instalada:")
+    print("pip install pinecone")
+    exit(1)
+
+# Configurações
+PINECONE_API_KEY = "***REMOVED***"
+INDEX_NAME = "quickstart"
+NAMESPACE = "mottivme-docs"
+
+def main():
+    """Limpa o índice e executa reindexação."""
+    print("🧹 Iniciando limpeza e reindexação...")
+    
+    # Inicializar Pinecone
+    pc = Pinecone(api_key=PINECONE_API_KEY)
+    index = pc.Index(INDEX_NAME)
+    
+    # 1. Verificar estado atual
+    print("\n📊 Estado atual do índice:")
+    stats = index.describe_index_stats()
+    print(f"Total de vetores: {stats.total_vector_count}")
+    print(f"Namespaces: {list(stats.namespaces.keys()) if stats.namespaces else ['default (vazio)']}")
+    
+    # 2. Limpar namespace padrão (onde estão os dados incorretos)
+    print("\n🗑️ Limpando namespace padrão...")
+    try:
+        index.delete(delete_all=True, namespace="")  # namespace vazio = padrão
+        print("✅ Namespace padrão limpo!")
+    except Exception as e:
+        print(f"⚠️ Erro ao limpar namespace padrão: {e}")
+    
+    # 3. Limpar namespace mottivme-docs (caso tenha dados antigos)
+    print(f"\n🗑️ Limpando namespace '{NAMESPACE}'...")
+    try:
+        index.delete(delete_all=True, namespace=NAMESPACE)
+        print(f"✅ Namespace '{NAMESPACE}' limpo!")
+    except Exception as e:
+        print(f"⚠️ Erro ao limpar namespace '{NAMESPACE}': {e}")
+    
+    # 4. Aguardar propagação
+    print("\n⏳ Aguardando propagação da limpeza...")
+    import time
+    time.sleep(5)
+    
+    # 5. Verificar limpeza
+    print("\n📊 Estado após limpeza:")
+    stats = index.describe_index_stats()
+    print(f"Total de vetores: {stats.total_vector_count}")
+    print(f"Namespaces: {list(stats.namespaces.keys()) if stats.namespaces else ['Nenhum']}")
+    
+    # 6. Executar reindexação
+    print("\n🚀 Iniciando reindexação com script corrigido...")
+    import subprocess
+    import sys
+    
+    try:
+        result = subprocess.run([sys.executable, "indexar_arquivos_pinecone.py"], 
+                              capture_output=True, text=True)
+        print("📝 Saída da reindexação:")
+        print(result.stdout)
+        if result.stderr:
+            print("⚠️ Erros:")
+            print(result.stderr)
+        
+        if result.returncode == 0:
+            print("✅ Reindexação concluída com sucesso!")
+        else:
+            print(f"❌ Reindexação falhou com código: {result.returncode}")
+            
+    except Exception as e:
+        print(f"❌ Erro ao executar reindexação: {e}")
+    
+    # 7. Verificar resultado final
+    print("\n📊 Estado final do índice:")
+    stats = index.describe_index_stats()
+    print(f"Total de vetores: {stats.total_vector_count}")
+    if stats.namespaces:
+        for ns, info in stats.namespaces.items():
+            ns_name = ns if ns else "default (vazio)"
+            print(f"  - {ns_name}: {info.vector_count} vetores")
+    else:
+        print("  - Nenhum namespace encontrado")
+
+if __name__ == "__main__":
+    main()

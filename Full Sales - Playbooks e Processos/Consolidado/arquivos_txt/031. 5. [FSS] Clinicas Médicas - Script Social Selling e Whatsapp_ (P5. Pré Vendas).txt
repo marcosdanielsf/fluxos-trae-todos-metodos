@@ -1,0 +1,110 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/5. FULL SALES 2/5. Pré Vendas  - FSS/5. [FSS] Clinicas Médicas - Script Social Selling e Whatsapp_.docx
+Categoria: P5. Pré Vendas
+Data de Processamento: 2025-10-02T03:59:13.017930
+Nome: 5. [FSS] Clinicas Médicas - Script Social Selling e Whatsapp_.docx
+Tamanho: 361592
+Data_Criacao: 2025-09-15T07:31:34.643904
+Data_Modificacao: 2025-06-21T05:55:10
+Checksum: 66becf33346110d4401cb81764547878
+
+=== CONTEÚDO ===
+
+Scripts Script Social Selling e Whatsapp para Clínicas Médicas, Estéticas, etc - by Full Sales System
+FLUXOGRAMA
+ANÚNCIOS para Funil
+ADS →    Página de aplicação/ formulário  →  Contato de Whatsapp → ligação estratégica → Venda de consulta → ATENDIMENTO MÉDICO → CLOSER PARA FECHAMENTO 
+Exemplo : https://drive.google.com/drive/folders/12cs-97OAFLMhYcJZGxUh-2WohYgXE0HZ
+ INSTAGRAM:
+Post com CTA para direct / Seguidor  →  DIRECT → WHATSAPP  → LIGAÇÃO DE AGENDAMENTO OU VENDA DE CONSULTA → ATENDIMENTO MÉDICO —> CLOSER PARA FECHAMENTO 
+COPIES PARA LEADS VINDOS DOS FUNIL DE APLICAÇÃO 
+Exemplo Referência; https://drive.google.com/drive/u/0/folders/12cs-97OAFLMhYcJZGxUh-2WohYgXE0HZ 
+Oi {{contact.first_name}} tudo bem?
+
+Sou o {{user.first_name}}, faço parte da equipe da {instituto/nome do médico].
+Recebi seu interesse para (consulta/procedimento, saber informações sobre xyx).
+ 
+Vamos agendar uma conversa de 10 minutos para entender melhor seu momento e o que está buscando?  
+(ou prefere que sigamos por aqui mesmo?) (adicional opcional para teste)
+TRÉPLICA
+Legal, João, vamos seguir por aqui então
+
+Por se tratar de um atendimento bem diferenciado antes de falar contigo sobre o atendimento dela, eu quero primeiro escutar você...
+Me fale um pouco sobre o que você está buscando e me responda essas 3 perguntas? 
+Qual é (pergunta qualificatória 1) ?
+Quantas  (pergunta qualificatória 2)?
+Qual é seu (pergunta qualificatória 3)? 
+TRÉPLICA
+Elaine, para você entender melhor como funciona aqui, a gente faz uma primeiro consulta para ter uma conversa personalizada com o paciente, diagnosticá-lo e orientar o melhor caminho em relação aos seus desafios
+Nessa consulta de avaliação você vai ter acesso a:
+1. O que é indicado hoje de acordo com seu cenário
+2. Quais são os protocolos que podem te ajudar de forma personalizada
+3. Quais são os planos e opções que o instituto pode te oferecer para ter esse auxílio continuado 
+Então você  já sai dessa consulta com muita clareza dos próximos passos a seguir e o olhar clínico do seu momento. 
+Ficou alguma dúvida?
+—-
+TRÉPLICA
+Perfeito, João. 
+
+A consulta de avaliação tem o valor de investimento de R$ 650 pago na hora ou R$ 500 reais pagando antecipado no pix ou no cartão (em até x vezes). 
+Quinta eu tenho horário das 14hrs e as 15:30 e na sexta às 17h. Qual desses horários ficaria melhor para você? 
+
+Pedido de Pagamento 
+Perfeito João, já estou selecionando na agenda, para a gente finalizar, você prefere pagar o valor no pix ou no cartão através do link de pagamento?  
+
+
+Pedido de Pagamento 
+Perfeito João, já estou selecionando na agenda, para a gente finalizar
+Consegue fazer agora para eu deixar o horário bloqueado na agenda? 
+
+—---------
+Quando fizer, me manda já o comprovante para eu registrar aqui? 
+FOLLOW UP 
+Princípio do Follow Up NVL - 1  e Follow Up NVL - 2
+Follow up Nível 1 e 2 são follow ups iniciais.
+ A intenção é chamar a atenção do Prospect a fim de ele continuar interagindo. Aqui você pode ser extremamente curto como uma reação num comentário, o olho do julgamento: "👀", um "Oi, João?" ou a tática de desculpar a pessoa pela não resposta:  ex.: "segunda corrida aí João? me avisa, o que te parece?"
+Mensagens de Follow up 1: https://docs.google.com/document/d/1K_zCQxax4s2BGjsLIJaraXhQlRR-6K9YWkjOhedzX28/edit 
+Princípio do Follow Up NVL - 3 (também aplicado ao Fup 2 Avançado)
+
+Fundamento: Fazer follow up infinito abordando + propondo horários na agenda 
+
+Framework: Saudação + Desculpa pela pessoa não ter prosseguido - Fechamento de Horário
+“Fala e fecha, fala e fecha, fala e fecha”
+
+Exemplo: 
+
+Mensagem 1:  Oi leo tudo bem meu caro? fechando aqui a agenda da semana e lembrei de ti, como que você tá na terça 14:00 , 17h e quarta 16h? conseguiu fazer o link? me avisa
+Mensagem 2: fala Leo, correria aí meu irmão? me avisa
+qual desses fica melhor? estou fechando os horários da semana
+
+Mensagem 3:  👀
+Mensagem 4: boa tarde, tudo bom leo? correria aí no trabalho? vamos marcar a consulta aqui? amanhã 15h , ou quarta 15h e 16h, como que fica para você, algum desses encaixaria?
+Mensagem 5: boa tarde, tudo bom leo? espero que sim, ficamos de marcar a sua consulta, tô essa semana com 15h , 17h e amanhã às 15:30 , qual fica melhor? 
+
+
+ Tréplica
+
+Perfeito João, tô te mandando o pix aqui e o link de pagamento de x4 em parcela  
+—-----------------------------
+(mandar o pix separado)
+Finalização
+
+Legal João, tô garantindo o horário aqui e vou colocar o invite na sua agenda. 
+Ficou ajustada a sua consulta para (dia + hora)
+
+Te esperamos!
+(se for presencial, já deixa o endereço completo com o horário)
+
+SOCIAL SELLING PROSPECTIVO DE NOVOS SEGUIDORES
+1 - Oi NOMECLIENTE, tudo bem?
+Aqui é NOMEDAPESSOA, da equipe do NOMEDOMEDICO
+Passei aqui pra te dar as boas vindas. Espero de verdade que o conteúdo seja útil pra você.
+Cara, vi aqui que você está noivo! Meus parabéns viu! ❤️ (apreciação sincera com tom pessoal) 
+Ótima terça pra você, e aproveitando, qual foi o motivo principal de ter nos seguido :)? 
+
+Você já chegou a fazer algum procedimento (SEU PROCEDIMENTO) ou procura fazer? 
+2 - Passo 2 está descrito no Playbook de Social Selling 
+Playbook de Social Selling: 
+https://docs.google.com/document/d/1WDdH1eOLIOdMrMN3OYltgHm9hPB2DPHAlm_Dz0hfyGE/edit
+Treinamento de indicação: 
+https://drive.google.com/drive/u/0/folders/1xh4Wezejiyb7AAwFSGBl0StBTimahrTG

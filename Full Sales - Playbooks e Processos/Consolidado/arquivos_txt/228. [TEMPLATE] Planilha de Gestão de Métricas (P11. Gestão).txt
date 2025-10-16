@@ -1,0 +1,81 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/5. FULL SALES 2/11. Arquivos de Gestão/[TEMPLATE] Planilha de Gestão de Métricas.xlsx
+Categoria: P11. Gestão
+Data de Processamento: 2025-10-02T03:59:23.317428
+Nome: [TEMPLATE] Planilha de Gestão de Métricas.xlsx
+Tamanho: 18196
+Data_Criacao: 2025-09-15T07:31:34.643528
+Data_Modificacao: 2025-06-21T07:00:19
+Checksum: 9cc7250714f9fab755e36b38970a3c3a
+
+=== CONTEÚDO ===
+
+=== PLANILHA: TEMPLATE P DUPLICAR ===
+
+	 Funis de Marketing																																										
+			MARKETING PROJETADO			MARKETING REALIZADO			Comercial									MKT + COM																									
+	Data	Investimento Projetado 
+em Distribuiçao	Investimento Projetado 
+em Leads	CPL Projetado	Leads novos projetados	Investimento Realizado	CPL Realizado	Leads Novos dia	ligações Telfonicas únicas no dia
+(40 min/SDR) 	Agendamentos realizados no dia	taxa de Agendamento	Agendamentos para o dia	Comparecimentos para dia	Taxa de comaparecimento	Vendas no dia	Faturamento	Taxa de Conversão	Faturamento total
+Efetivo	Faturamento previsto	CAC Total/Dia																							
+	2023-01-01 00:00:00	130.0	700.0	22.0	=D5/E5			12.0	38.0	8.0	=IFERROR(K5/I5,"")	8.0	4.0	=IFERROR(N5/M5," ")	1.0	48000.0	=IFERROR(P5/N5,"")			=IFERROR(I5*#REF!/P5,"")																							
+	2023-01-02 00:00:00										=IFERROR(K6/I6,"")			=IFERROR(N6/M6," ")			=IFERROR(P6/N6,"")			=IFERROR(I6*#REF!/P6,"")																							
+	2023-01-03 00:00:00										=IFERROR(K7/I7,"")			=IFERROR(N7/M7," ")			=IFERROR(P7/N7,"")			=IFERROR(I7*#REF!/P7,"")																							
+	2023-01-04 00:00:00										=IFERROR(K8/I8,"")			=IFERROR(N8/M8," ")			=IFERROR(P8/N8,"")			=IFERROR(I8*#REF!/P8,"")																							
+	2023-01-05 00:00:00										=IFERROR(K9/I9,"")			=IFERROR(N9/M9," ")			=IFERROR(P9/N9,"")			=IFERROR(I9*#REF!/P9,"")																							
+	2023-01-06 00:00:00										=IFERROR(K10/I10,"")			=IFERROR(N10/M10," ")			=IFERROR(P10/N10,"")			=IFERROR(I10*#REF!/P10,"")																							
+	2023-01-07 00:00:00										=IFERROR(K11/I11,"")			=IFERROR(N11/M11," ")			=IFERROR(P11/N11,"")			=IFERROR(I11*#REF!/P11,"")																							
+	2023-01-08 00:00:00										=IFERROR(K12/I12,"")			=IFERROR(N12/M12," ")			=IFERROR(P12/N12,"")			=IFERROR(I12*#REF!/P12,"")																							
+	2023-01-09 00:00:00										=IFERROR(K13/I13,"")			=IFERROR(N13/M13," ")			=IFERROR(P13/N13,"")			=IFERROR(I13*#REF!/P13,"")																							
+	2023-01-10 00:00:00										=IFERROR(K14/I14,"")			=IFERROR(N14/M14," ")			=IFERROR(P14/N14,"")			=IFERROR(I14*#REF!/P14,"")																							
+	2023-01-11 00:00:00										=IFERROR(K15/I15,"")			=IFERROR(N15/M15," ")			=IFERROR(P15/N15,"")			=IFERROR(I15*#REF!/P15,"")																							
+	2023-01-12 00:00:00										=IFERROR(K16/I16,"")			=IFERROR(N16/M16," ")			=IFERROR(P16/N16,"")			=IFERROR(I16*#REF!/P16,"")																							
+	2023-01-13 00:00:00										=IFERROR(K17/I17,"")			=IFERROR(N17/M17," ")			=IFERROR(P17/N17,"")			=IFERROR(I17*#REF!/P17,"")																							
+	2023-01-14 00:00:00										=IFERROR(K18/I18,"")			=IFERROR(N18/M18," ")			=IFERROR(P18/N18,"")			=IFERROR(I18*#REF!/P18,"")																							
+	2023-01-15 00:00:00										=IFERROR(K19/I19,"")			=IFERROR(N19/M19," ")			=IFERROR(P19/N19,"")			=IFERROR(I19*#REF!/P19,"")																							
+	2023-01-16 00:00:00										=IFERROR(K20/I20,"")			=IFERROR(N20/M20," ")			=IFERROR(P20/N20,"")			=IFERROR(I20*#REF!/P20,"")																							
+	2023-01-17 00:00:00										=IFERROR(K21/I21,"")			=IFERROR(N21/M21," ")			=IFERROR(P21/N21,"")			=IFERROR(I21*#REF!/P21,"")																							
+	2023-01-18 00:00:00										=IFERROR(K22/I22,"")			=IFERROR(N22/M22," ")			=IFERROR(P22/N22,"")			=IFERROR(I22*#REF!/P22,"")																							
+	2023-01-19 00:00:00										=IFERROR(K23/I23,"")			=IFERROR(N23/M23," ")			=IFERROR(P23/N23,"")			=IFERROR(I23*#REF!/P23,"")																							
+	2023-01-20 00:00:00										=IFERROR(K24/I24,"")			=IFERROR(N24/M24," ")			=IFERROR(P24/N24,"")			=IFERROR(I24*#REF!/P24,"")																							
+	2023-01-21 00:00:00										=IFERROR(K25/I25,"")			=IFERROR(N25/M25," ")			=IFERROR(P25/N25,"")			=IFERROR(I25*#REF!/P25,"")																							
+	2023-01-22 00:00:00										=IFERROR(K26/I26,"")			=IFERROR(N26/M26," ")			=IFERROR(P26/N26,"")			=IFERROR(I26*#REF!/P26,"")																							
+	2023-01-23 00:00:00										=IFERROR(K27/I27,"")			=IFERROR(N27/M27," ")			=IFERROR(P27/N27,"")			=IFERROR(I27*#REF!/P27,"")																							
+	2023-01-24 00:00:00										=IFERROR(K28/I28,"")			=IFERROR(N28/M28," ")			=IFERROR(P28/N28,"")			=IFERROR(I28*#REF!/P28,"")																							
+	2023-01-25 00:00:00										=IFERROR(K29/I29,"")			=IFERROR(N29/M29," ")			=IFERROR(P29/N29,"")			=IFERROR(I29*#REF!/P29,"")																							
+	2023-01-26 00:00:00										=IFERROR(K30/I30,"")			=IFERROR(N30/M30," ")			=IFERROR(P30/N30,"")			=IFERROR(I30*#REF!/P30,"")																							
+	2023-01-27 00:00:00										=IFERROR(K31/I31,"")			=IFERROR(N31/M31," ")			=IFERROR(P31/N31,"")			=IFERROR(I31*#REF!/P31,"")																							
+	2023-01-28 00:00:00										=IFERROR(K32/I32,"")			=IFERROR(N32/M32," ")			=IFERROR(P32/N32,"")			=IFERROR(I32*#REF!/P32,"")																							
+	2023-01-29 00:00:00										=IFERROR(K33/I33,"")			=IFERROR(N33/M33," ")			=IFERROR(P33/N33,"")			=IFERROR(I33*#REF!/P33,"")																							
+	2023-01-30 00:00:00										=IFERROR(K34/I34,"")			=IFERROR(N34/M34," ")			=IFERROR(P34/N34,"")			=IFERROR(I34*#REF!/P34,"")																							
+	2023-01-31 00:00:00										=IFERROR(K35/I35,"")			=IFERROR(N35/M35," ")			=IFERROR(P35/N35,"")			=IFERROR(I35*#REF!/P35,"")																							
+	Soma					=SUM(G5:G35)		=SUM(I5:I35)	=SUM(J5:J35)	=SUM(K5:K35)	=K36/I36	=SUM(M5:M35)	=SUM(N5:N35)	=N36/M36	=SUM(P5:P35)	=SUM(Q5:Q35)	=SUM(R5:R35)	=SUM(S5:S35)		=IFERROR(I36*#REF!/P36,"")																							
+	Média Mensal										=IFERROR(MEDIAN(L5:L35),"")			=IFERROR(MEDIAN(O5:O35),"")			=IFERROR(MEDIAN(R5:R35),"")																										
+	Social Selling 																																										
+						Semana 1				Semana 2							Semana 3						Semana 4																				
+						Segunda		Sexta	Total	Segunda	Terça	Quarta 	Quinta	Sexta	Total		Segunda	Terça	Quarta 	Quinta	Sexta	Total	Segunda	Terça	Quarta 	Quinta	Sexta	Total															
+	Novos Seguidores					100.0			=SUM(G44:I44)						=SUM(K44:O44)							=SUM(R44:V44)						=SUM(X44:AB44)															
+	Mensagens enviadas					50.0			=SUM(G45:I45)						=SUM(K45:O45)							=SUM(R45:V45)						=SUM(X45:AB45)															
+	Respostas					30.0			=SUM(G46:I46)						=SUM(K46:O46)							=SUM(R46:V46)						=SUM(X46:AB46)															
+	Taxa de Resposta					=G46/G45			=SUM(G47:I47)						=SUM(K47:O47)							=SUM(R47:V47)						=SUM(X47:AB47)															
+	Agendamentos					10.0			=SUM(G48:I48)						=SUM(K48:O48)							=SUM(R48:V48)						=SUM(X48:AB48)															
+	Agendamentos para o dia					8.0																																					
+	Comparecimento					6.0			=SUM(G50:I50)						=SUM(K50:O50)							=SUM(R50:V50)						=SUM(X50:AB50)															
+	Vendas								=SUM(G51:I51)						=SUM(K51:O51)							=SUM(R51:V51)						=SUM(X51:AB51)															
+									=SUM(G52:I52)						=SUM(K52:O52)							=SUM(R52:V52)						=SUM(X52:AB52)															
+	Sales Farming																																										
+						Semana 1				Semana 2							Semana 3						Semana 4						Semana 5														
+						Segunda		Sexta	Total	Segunda	Terça	Quarta 	Quinta	Sexta	Total		Segunda	Terça	Quarta 	Quinta	Sexta	Total	Segunda	Terça	Quarta 	Quinta	Sexta	Total	Segunda	Terça	Quarta 	Quinta	Sexta	Total									
+	Leads Processados Total								=SUM(G59:I59)						=SUM(K59:O59)							=SUM(R59:V59)						=SUM(X59:AB59)						=SUM(AD59:AH59)									
+	SDRS								=SUM(G60:I60)						=SUM(K60:O60)							=SUM(R60:V60)						=SUM(X60:AB60)						=SUM(AD60:AH60)									
+	Leads por SDR								=SUM(G61:I61)						=SUM(K61:O61)							=SUM(R61:V61)						=SUM(X61:AB61)						=SUM(AD61:AH61)									
+Total Mês	Lista de Interessados								=SUM(G62:I62)						=SUM(K62:O62)							=SUM(R62:V62)						=SUM(X62:AB62)						=SUM(AD62:AH62)									
+=J63+R63+Y63+AF63+AM63	Agend. Fluxo Anterior					2.0			=SUM(G63:I63)						=SUM(K63:O63)				2.0	4.0	1.0	=SUM(R63:V63)	2.0	4.0	1.0			=SUM(X63:AB63)			2.0	4.0	1.0	=SUM(AD63:AH63)									
+	Comparecimentos								=SUM(G64:I64)						=SUM(K64:O64)							=SUM(R64:V64)						=SUM(X64:AB64)						=SUM(AD64:AH64)									
+	Vendas								=SUM(G65:I65)						=SUM(K65:O65)							=SUM(R65:V65)						=SUM(X65:AB65)						=SUM(AD65:AH65)									
+									=SUM(G66:I66)						=SUM(K66:O66)							=SUM(R66:V66)						=SUM(X66:AB66)						=SUM(AD66:AH66)									
+						Email 1 		Email 5	Total	Email 1 	Email 2 	Email 3	Email 4	Email 5	Total		Email 1 	Email 2 	Email 3	Email 4	Email 5	Total	Email 1 	Email 2 	Email 3	Email 4	Email 5	Total	Email 1 	Email 2 	Email 3	Email 4	Email 5	Total									
+	Taxa de Abertura Email																																										
+	Taxa de Resposta																																										
+

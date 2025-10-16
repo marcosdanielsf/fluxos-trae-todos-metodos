@@ -1,0 +1,25 @@
+1. Cronograma base: Liderança e Desenvolvimento de equipes;Updates;;;;;;;;;
+Item ID;Item Name;Content Type;Content Type;User;Created At;Update Content;Likes Count;Asset IDs;Post ID;Parent Post ID
+4572479494;Kickoff com o CEO;Update;;ceo@hallennaiane.com;03/March/2023  10:44:27 AM;"Ferramentas de Relacionamento
+
+Anexar a ferramenta de perfil comportamental;
+Anexar a conexão com o empresario.
+
+
+
+Importante :
+
+* Solicitar durante o kickoff que ele responda durante a semana essas duas ferramentas e suba os arquivos na plataforma.
+
+* Pedir para deixar o Feedback do kit Boas-Vindas em forma de mensagem na Plataforma😄";0;;2193447805;
+4572479494;Kickoff com o CEO;Update;;ceo@hallennaiane.com;03/March/2023  10:36:03 AM;"Boas- Vindas;
+Apresentação da Plataforma;
+Criar login com os canais de comunicação;
+
+Alinhamento de expectativas;
+
+Aplicação da ferramenta: Siga o Fluxo";0;;2193447806;
+4572479494;Kickoff com o CEO;Update;;Marcos Daniel;05/March/2023  05:08:57 PM;"3. DISC MOTTIVME.pdf
+
+";0;;2193447829;
+4572479494;Kickoff com o CEO;Update;;ceo@hallennaiane.com;05/March/2023  05:18:38 PM;Cópia de Siga o Fluxo.pdf;0;;2193447830;

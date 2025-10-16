@@ -1,0 +1,17 @@
+# Dependências para o Consolidador de Arquivos
+# Instale com: pip install -r requirements.txt
+
+# Conversão de documentos Word
+python-docx>=0.8.11
+
+# Conversão de arquivos PDF
+PyPDF2>=3.0.1
+
+# Conversão de planilhas Excel
+openpyxl>=3.1.2
+
+# Conversão de apresentações PowerPoint
+python-pptx>=0.6.21
+
+# Bibliotecas padrão (já incluídas no Python)
+# pathlib, hashlib, logging, json, datetime, os, shutil, traceback

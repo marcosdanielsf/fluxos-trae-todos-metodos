@@ -1,0 +1,45 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/JP Bijari/Módulo 4 - Atração de clientes (geração de lead)/Aula 23 - Transformar Seguidores em Reunião/RCF Social Selling-3.xlsx
+Categoria: Outros
+Data de Processamento: 2025-10-10T08:25:33.421180
+Nome: RCF Social Selling-3.xlsx
+Tamanho: 21762
+Data_Criacao: 2025-09-15T07:24:32.976311
+Data_Modificacao: 2025-06-22T06:22:14
+Checksum: 484be808fa20f4464ae9d9818859587e
+
+=== CONTEÚDO ===
+
+=== PLANILHA: Página1 ===
+
+BMA RCF																									
+Cargo:			Área:			Subordinação Direta:			Última Revisão:																
+Social Seller			Marketing			Gerente de marketing			43841.0																
+Missão do cargo:																									
+Gerar engajamento e conversões das redes sociais																									
+Indicadores do Cargo																									
+Leads agendados
+Interação com os seguidores
+Taxa de resposta dos leads 
+Aumentar base de seguidores
+Aumentar taxa de engajamento																									
+Atividades Desempenhadas:																									
+Análise do perfil dos novos seguidores e seleciona os que fazem parte do público-alvo																									
+Interação com seguidores: Novos seguidores, solicitações de mensagem, comentários, reações aos stories																									
+Assistir 1 hotseat atual por mês do expert, para aprofundamento no método, comunicação e soluções 																									
+Analisar e otimizar o script da conversa para cada seguidor abordado, com a intenção de não parecer um script quadrado																									
+Gerar rapport com os seguidores																									
+Fazer pitch de consultoria grátis para os seguidores																									
+Gerar relatório semanal contendo: Investimento em tráfego para a distribuição de conteúdo, número de novos seguidores, número de agendamentos realizados, número de vendas, valor gerado das
+vendas, número de vendas em follow up, CAC.																									
+Realizar análise do setor e propor melhorias																									
+Estar em constante desenvolvimento pessoal e profissional																									
+Preenchimento do CRM no KOMMO																									
+Analisar diariamente o menu "Chats" no CRM e classificar o lead de acordo com a etapa do funil																									
+Realizar follow up com os leads pós-call enviados pelos closers																									
+Sempre manter o CRM Kommo atualizado (etapas do funil, vendas e vendas perdidas)																									
+Outras exigências:																									
+	Data da ciência:		_______/_______/________																						
+	NOME DO FUNCIONÁRIO					NOME DO GESTOR DIRETO																			
+	Social Seller					Gerente de Marketing																			
+

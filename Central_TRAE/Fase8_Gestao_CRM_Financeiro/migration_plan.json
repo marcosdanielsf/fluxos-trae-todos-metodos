@@ -1,0 +1,18 @@
+{
+  "department": "Ops & Finance",
+  "context": "Fase 8 — Gestão, CRM & Financeiro",
+  "default_frequency": "mensal",
+  "ssot_link": "../METODO_TRAE_UNIFICADO.md",
+  "evidence_base_dir": "../Evidencias_Fase8",
+  "attachments_required": true,
+  "subtasks": [
+    { "id": "01", "name": "Arquitetura de CRM", "file": "01_Arquitetura_CRM.md", "evidence_dir": "../Evidencias_Fase8/01" },
+    { "id": "02", "name": "Dashboards & BI", "file": "02_Dashboards_BI.md", "evidence_dir": "../Evidencias_Fase8/02" },
+    { "id": "03", "name": "Automações & Integrações", "file": "03_Automacoes_Integracoes.md", "evidence_dir": "../Evidencias_Fase8/03" },
+    { "id": "04", "name": "Faturamento & Cobrança", "file": "04_Faturamento_Cobranca.md", "evidence_dir": "../Evidencias_Fase8/04" },
+    { "id": "05", "name": "Financeiro & Receita", "file": "05_Financeiro_Receita.md", "evidence_dir": "../Evidencias_Fase8/05" },
+    { "id": "06", "name": "Governança & Compliance", "file": "06_Governanca_Compliance.md", "evidence_dir": "../Evidencias_Fase8/06" },
+    { "id": "07", "name": "Segurança & Acesso", "file": "07_Seguranca_Acesso.md", "evidence_dir": "../Evidencias_Fase8/07" },
+    { "id": "08", "name": "Reporting Executivo", "file": "08_Reporting_Executivo.md", "evidence_dir": "../Evidencias_Fase8/08" }
+  ]
+}

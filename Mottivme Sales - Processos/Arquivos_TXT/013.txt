@@ -1,0 +1,126 @@
+# Arquivo convertido - 013.vb
+
+Organograma Holding
+	Mottivme
+		Presidente
+			Diretor de Crescimento e Receita (CRO
+				PESQUISA & CRIAÇÃO DE PRODUTOS
+					Benchmarking
+					Análise de Tendências de Mercado
+					Desenvolvimento de Prototótipos
+				MARKETING
+					Videmaker
+					Designer / Social Media
+					Copywhrigt
+					Trafego
+					Editor de vídeo
+					Estratégias de SEO
+					Análise de Performance de Campanhas
+				COMERCIAL
+					Sales Ops (Métricas, CRM e otimização dos processos comerciais)
+					Gerente de Vendas
+						BDR
+						SDR
+						CLOSER
+							Calls
+								Follow ups
+									Negociação
+										Perdido
+										Envia o link para captar os dados para o contrato
+											Após captar os dados
+												Avisar ao ADM para gerar o contrato e enviar para assintura
+													Acompanha o contrato até ser gerado e assinado
+														Após receber o comprovante do pagamento agendar a reunião de Onboarding do CS
+															Após agendar reunião mover para ganho
+																Ganho
+					Treinamento de Vendas
+					Feedback e Melhoria Contínua
+			Head de Implementação & Suporte - CHOS
+				IMPLEMENTAÇÃO E SUPORTE
+					Gerente de Implementação e Suporte
+						Gestor de Automação
+							ETAPA 1: INTEGRAÇÕES DO FB E INSTAGRAM
+								Integração como administrador da página do facebook
+									Conectar o Instagram no CRM
+										Realizar o login e senha do Instagram e gerar o código para o gerenciador de Autenticação 2 Fatores no 1password
+							ETAPA 2: CONFIGURAÇÕES NO CRM
+								Criação de conta como Usuário do CRM
+									Equipes e Grupos de Equipes --> [gestor]
+										Configurações de Direcionamentos e Redirecionamentos do direct e comentários --> [gestor]
+											Configurações de Tags para métrica de leads gerados através do direct e comentários
+												Configuração de Scripts por Etapas
+													Integrações do WhatsApp  --> [gestor]
+														Ao dar ganho
+							ETAPA 3: CONFIGURAÇÃO DE AGENDAS
+								Compra, Integração e Criação da Agendafy do Usuário --> [cliente] / [gestor]
+									Ciação de agendas
+										Criação de mensagens
+						Especialista em Customer Success (CS)
+							Criar grupo com o cliente e seus responsáveis.
+								Dar o Boas Vindas, se apresentar, apresentar os responsáveis presentes no grupo
+									Enviar link com o formulário com a solicitação dos dados da Persona
+										Agendar meeting
+											Realizar On Boarding
+						Copywriter (se necessário)
+							Cria os scipts
+								Ao concluir
+			Head de Operações do BPO - CPOP
+				OPERAÇÕES
+					Gerente de Operações do BPO
+						Supervisor de BDRs
+							BDR
+						Supervisor de SDRs
+							SDR
+						Supervisor de Social Sellers
+							Social Seller
+						Sales Ops / Analista de Dados
+						TIMES
+							BDR 1
+								Prospecta
+							SS1
+								Cuida da etapa 0, 1, FUP 1, 2
+									Etapa 0
+									Etapa 1
+									Etapa fup 1
+									Etapa 2
+							SS2
+								Cuida das etapas 3, 4 e 5
+									Etapa fup 2
+									Etapa 2
+									Etapa 3
+									Etapa fup 3
+									Etapa 4
+									Etapa fup 4
+									Etapa 5
+									Reagendamento
+							Closer de Agendamento
+			Diretor Administrativo/ Financeiro - CFO/ COO
+				ADM/ FINANCEIRO
+					Gerente Administrativo/ Financeiro
+						Analista Financeiro
+							Assistente Financeiro
+					Análise de Fluxo de Caixa
+					Planejamento Financeiro
+				RECURSOS HUMANOS  (RH)
+					Gerente de RH
+						Business Partner (BP) de RH
+						Analista de R&S
+							Assistente de R&S →
+								Após contratar um novo colaborador
+									Inserir ele no OnBoarding da empresa
+										Criar dados de acessos
+											
+						Analista de T&D
+						Analista de Cultura
+					Desenvolvimento de Programas de Treinamento
+				DEPARTAMENTO PESSOAL (DP)
+					Coordenador de DP (se necessário)
+						Analista de Folha de Pagamento
+						Assistente de DP
+						Analista de Benefícios
+					Gestão de Documentação de Funcionários
+				PRESTADORES DE SERVIÇOS
+					Advogado / Consultoria Jurídica
+					TI e Infraestrutura
+					Avaliação de Fornecedores
+					Gestão de Contratos

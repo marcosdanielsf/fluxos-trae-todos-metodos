@@ -1,0 +1,165 @@
+1. Cronograma - Automação do Pós Venda;;;;;;;;;;;;
+CRONOGRAMA;;;;;;;;;;;;
+Name;Subelementos;Pessoa;Status;Data;Cronograma - Start;Cronograma - End;Texto;Automação Realizada;Revisão do Cliente;Data;Pessoa;Item ID (auto generated)
+0. CONFIGURAÇÕES INICIAIS;Acesso ao CRM,Conectar conta do Instagram,Conectar Contas do WhatsApp,Conectar Conta do Google Ads,Conectar Contas do Face Ads,Treinamento Sobre o CRM,Criação das Perguntas para Preenchimento Automático no Card do Lead;;;;;;;;Em progresso;;;4340642847
+Subitems;Name;Owner;Status;Date;Cronograma - Start;Cronograma - End;Pessoa;Revisão do Cliente;Data;Automação Realizada;Item ID (auto generated);
+;Acesso ao CRM;;;;;;;;;;4340649169;
+;Conectar conta do Instagram;;;;2023-04-20;2023-04-20;;Concluído;;;4340642907;
+;Conectar Contas do WhatsApp;;;;2023-04-20;2023-04-20;;Concluído;;;4340642914;
+;Conectar Conta do Google Ads;;;;2023-04-20;2023-04-20;;;;;4340642920;
+;Conectar Contas do Face Ads;;;;2023-04-20;2023-04-20;;;;;4340642926;
+;Treinamento Sobre o CRM;;;;;;;;;;4340650190;
+;Criação das Perguntas para Preenchimento Automático no Card do Lead;;;;;;;;;;4340741730;
+1. DEFINIÇÃO DOS FUNIS DE VENDAS;;;;;;;;;Em progresso;;;4340642808
+2. DEFINIÇÃO DAS ETAPAS DOS FUNIS DE VENDAS;;;;;;;;;Em progresso;;;4340642816
+3. DEFINIÇÃO DO ICP;;;;;;;;;Em progresso;;;4340642821
+4. DEFINIÇÃO DOS PRODUTOS;;;;;;;;;Em progresso;;;4340642834
+5. DEFINIÇÃO DO FUNIL DE PRODUTOS;;;;;;;;;Em progresso;;;4340642828
+6. DEFINIÇÃO DOS SCRIPTS DOS FUNIS DE VENDA;;;;;;;;;Em progresso;;;4340642837
+7. DEFINIÇÃO DAS DATAS DE PÓS VENDA;;;;;;;;;Em progresso;;;4340642843
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Adoção;;;;;;;;;;;;
+Name;Subelementos;Pessoa;Status;Data;Cronograma - Start;Cronograma - End;Texto;Automação Realizada;Revisão do Cliente;Data;Pessoa;Item ID (auto generated)
+Mensagem de boas vindas;;;;;2023-04-01;2023-04-01;;;;;;4280987735
+Série: Melhor uso do Produto;Organizar no guarda roupa pra não estragar a peça,Como lavar o produto;;;;2023-04-07;2023-04-24;;;;;;4280987236
+Subitems;Name;Owner;Status;Date;Cronograma - Start;Cronograma - End;Pessoa;Revisão do Cliente;Data;Automação Realizada;Item ID (auto generated);
+;Organizar no guarda roupa pra não estragar a peça;;;;2023-04-07;2023-04-13;;;;;4280987355;
+;Como lavar o produto;;;;2023-04-17;2023-04-24;;;;;4280989008;
+Desafios;Brinde exclusivo para quem postar a melhor foto no instagram,Binde para quem criar a melhor Hastag,Brinde para quem tiver a melhor nota no quiz;;;;;;;;;;;4340684844
+Subitems;Name;Owner;Status;Date;Cronograma - Start;Cronograma - End;Pessoa;Revisão do Cliente;Data;Automação Realizada;Item ID (auto generated);
+;Brinde exclusivo para quem postar a melhor foto no instagram;;;;;;;;;;4340684875;
+;Binde para quem criar a melhor Hastag;;;;;;;;;;4340684924;
+;Brinde para quem tiver a melhor nota no quiz;;;;;;;;;;4340684954;
+Sugestões de Composições do Itém;Sugestões de looks para compor o item.,Manual sobre a Psicologia das cores;;;;2023-04-25;2023-05-16;;;;;;4281000591
+Subitems;Name;Owner;Status;Date;Cronograma - Start;Cronograma - End;Pessoa;Revisão do Cliente;Data;Automação Realizada;Item ID (auto generated);
+;Sugestões de looks para compor o item.;;Solicitar;;2023-04-25;2023-05-01;;;;;4281003275;
+;Manual sobre a Psicologia das cores;;Criarmos;;2023-05-09;2023-05-16;;;;;4281004905;
+Recomende um amigo;Cliente, você tem sido importante pra nós, tem interagido e... Se você pudesse ter 10% de desconto durante 1 ano em toda compra você ficaria feliz?;;;;;;;;;;;4340684859
+Subitems;Name;Owner;Status;Date;Cronograma - Start;Cronograma - End;Pessoa;Revisão do Cliente;Data;Automação Realizada;Item ID (auto generated);
+;Cliente, você tem sido importante pra nós, tem interagido e... Se você pudesse ter 10% de desconto durante 1 ano em toda compra você ficaria feliz?;;;;;;;;;;4340685098;
+Sugestões de itens para cada estação;Outono,Inverno,Primavera,Verão;;;;2023-01-01;2023-04-10;;;;;;4281009209
+Subitems;Name;Owner;Status;Date;Cronograma - Start;Cronograma - End;Pessoa;Revisão do Cliente;Data;Automação Realizada;Item ID (auto generated);
+;Outono;;;;2023-03-20;2023-06-21;;;;;4281029586;
+;Inverno;;;;2023-06-21;2023-09-23;;;;;4281031533;
+;Primavera;;;;2023-09-23;2023-12-22;;;;;4281030062;
+;Verão;;;;2023-12-22;2024-03-20;;;;;4281030804;
+;;;;;2023-01-01;2023-05-16;;;;;;
+;;;;;;;;;;;;
+Retenção;;;;;;;;;;;;
+Name;Subelementos;Pessoa;Status;Data;Cronograma - Start;Cronograma - End;Texto;Automação Realizada;Revisão do Cliente;Data;Pessoa;Item ID (auto generated)
+PESQUISAS:;NPS: De 0 a 10 qual a probabilidade de você recomendar para um familiar amigo ou colega?,O que você mais gosta na minha empresa?,O que você gostaria que eu oferecesse?,Voce encontrou aquilo que procurava?;;Prontos;;;;;;;;;4281041370
+Subitems;Name;Owner;Status;Date;Cronograma - Start;Cronograma - End;Pessoa;Revisão do Cliente;Data;Automação Realizada;Item ID (auto generated);
+;NPS: De 0 a 10 qual a probabilidade de você recomendar para um familiar amigo ou colega?;;Prontos;;2023-04-01;2023-04-01;;;;;4281040394;
+;O que você mais gosta na minha empresa?;;Prontos;;2023-04-12;2023-04-12;;;;;4281040098;
+;O que você gostaria que eu oferecesse?;;Prontos;;2023-04-17;2023-04-17;;;;;4281040202;
+;Voce encontrou aquilo que procurava?;;Prontos;;2023-05-01;2023-05-01;;;;;4281040286;
+Gameficação;Tarefas com ciclo curto para gerar vitória para os clientes,Checklists,Série de Vídeos;;;;;;;;;;;4281041843
+Subitems;Name;Owner;Status;Date;Cronograma - Start;Cronograma - End;Pessoa;Revisão do Cliente;Data;Automação Realizada;Item ID (auto generated);
+;Tarefas com ciclo curto para gerar vitória para os clientes;;Prontos;;;;;;;;4281042443;
+;Checklists;;;;;;;;;;4281042566;
+;Série de Vídeos;;Prontos;;;;;;;;4281042834;
+Mensagens de Início de Mês;12 meses do Ano;;;;;;;;;;;4281046708
+Subitems;Name;Owner;Status;Date;Cronograma - Start;Cronograma - End;Pessoa;Revisão do Cliente;Data;Automação Realizada;Item ID (auto generated);
+;12 meses do Ano;;;;;;;;;;4281046932;
+Escolha 4 causas que você combate para produzirmos conteúdos para seus clientes;Abril Azul - Autismo,Abril Verde - Segurança e Saúde no Trabalho,Maio Amarelo - Segurança no Trânsito,Maio Cinza - Câncer de Cérebro,Maio Laranja - Abuso de Crianças e Adolescentes,Maio Roxo - Doenças Inflamatórias Intestinais,Junho Vermelho - Doação de sangue,Junho Verde - Meio ambiente,Julho Amarelo - Hepatites virais,Julho Verde - Câncer de cabeça e pescoço,Agosto Dourado - Aleitamento materno,Agosto Verde-Claro - Linfoma,Agosto Verde-Claro - Linfoma,Setembro Verde - Doação de órgãos,Outubro Rosa - Câncer de mama,Novembro Azul - Câncer de próstata,Novembro Azul - Diabetes,Novembro Roxo - Prematuridade,Dezembro Vermelho - Aids;;;;;;;;;;;4318309186
+Subitems;Name;Owner;Status;Date;Cronograma - Start;Cronograma - End;Pessoa;Revisão do Cliente;Data;Automação Realizada;Item ID (auto generated);
+;Abril Azul - Autismo;;;;;;;;;;4318313552;
+;Abril Verde - Segurança e Saúde no Trabalho;;;;;;;;;;4318313657;
+;Maio Amarelo - Segurança no Trânsito;;;;;;;;;;4318313755;
+;Maio Cinza - Câncer de Cérebro;;;;;;;;;;4318313812;
+;Maio Laranja - Abuso de Crianças e Adolescentes;;;;;;;;;;4318313860;
+;Maio Roxo - Doenças Inflamatórias Intestinais;;;;;;;;;;4318313903;
+;Junho Vermelho - Doação de sangue;;;;;;;;;;4318313952;
+;Junho Verde - Meio ambiente;;;;;;;;;;4318313991;
+;Julho Amarelo - Hepatites virais;;;;;;;;;;4318314035;
+;Julho Verde - Câncer de cabeça e pescoço;;;;;;;;;;4318314106;
+;Agosto Dourado - Aleitamento materno;;;;;;;;;;4318314148;
+;Agosto Verde-Claro - Linfoma;;;;;;;;;;4318314199;
+;Agosto Verde-Claro - Linfoma;;;;;;;;;;4318314238;
+;Setembro Verde - Doação de órgãos;;;;;;;;;;4318314324;
+;Outubro Rosa - Câncer de mama;;;;;;;;;;4318314363;
+;Novembro Azul - Câncer de próstata;;;;;;;;;;4318314411;
+;Novembro Azul - Diabetes;;;;;;;;;;4318314452;
+;Novembro Roxo - Prematuridade;;;;;;;;;;4318314504;
+;Dezembro Vermelho - Aids;;;;;;;;;;4318314538;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Expansão;;;;;;;;;;;;
+Name;Subelementos;Pessoa;Status;Data;Cronograma - Start;Cronograma - End;Texto;Automação Realizada;Revisão do Cliente;Data;Pessoa;Item ID (auto generated)
+Cases de Sucesso;A empresa enxerga você,Brincadeira com item,Grave um depoimento e ganhe 20% de desconto na próxima compra;;;;;;;;;;;4281057969
+Subitems;Name;Owner;Status;Date;Cronograma - Start;Cronograma - End;Pessoa;Revisão do Cliente;Data;Automação Realizada;Item ID (auto generated);
+;A empresa enxerga você;;;;;;;;;;4281058928;
+;Brincadeira com item;;;;;;;;;;4281062101;
+;Grave um depoimento e ganhe 20% de desconto na próxima compra;;;;;;;;;;4281062978;
+Novidades do produto;Pesquisa sobre quem acerta qual o próximo lançamento da marca,Presente para você! A empresa enlouqueceu, item gratuito para você que é nosso cliente.;;;;;;;;;;;4281063458
+Subitems;Name;Owner;Status;Date;Cronograma - Start;Cronograma - End;Pessoa;Revisão do Cliente;Data;Automação Realizada;Item ID (auto generated);
+;Pesquisa sobre quem acerta qual o próximo lançamento da marca;;;;;;;;;;4281064865;
+;Presente para você! A empresa enlouqueceu, item gratuito para você que é nosso cliente.;;;;;;;;;;4281068746;
+Das opções citadas escolha 8 datas para que sua estratégia de vendas  seja montada;"""1 jan 	Ano Novo"",""20 fev	Carnaval (Segunda-Feira)"",""21 fev	Carnaval (Terça-Feira)"",""7 abr 	Sexta-Feira Santa"",""21 abr	 Tiradentes"",""1 mai 	Dia do Trabalho"",""8 jun 	Corpus Christi"",""7 set 	Independência do Brasil"",12 out dia das crianças,""28 out	 Dia do Servidor Público"",""2 nov	 Finados (Dia dos Mortos)"",""15 nov	 Proclamação da República"",""25 dez 	Natal"",13 de abril – Dia do Beijo,21 de abril – Tiradentes,28 de abril – Dia do Frete Grátis:,14 de maio – Dia das Mães,1 de maio – Dia do Trabalho:,22 de maio – Dia do Abraço:,12 de junho – Dia dos Namorados,21 de junho – Início do inverno,24 de junho – Dia de São João,6 de julho – Dia Internacional do Beijo,7 de julho – Dia do Chocolate,15 de julho – Dia do Homem,20 de julho – Dia do Amigo e Dia Internacional da Amizade,26 de julho – Dia dos Avós,13 de agosto – Dia dos Pais 👨";;;;;;;;;;;4318317883
+Subitems;Name;Owner;Status;Date;Cronograma - Start;Cronograma - End;Pessoa;Revisão do Cliente;Data;Automação Realizada;Item ID (auto generated);
+;"""1 jan 	Ano Novo""";;;;;;;;;;4318320518;
+;"""20 fev	Carnaval (Segunda-Feira)""";;;;;;;;;;4318320646;
+;"""21 fev	Carnaval (Terça-Feira)""";;;;;;;;;;4318320689;
+;"""7 abr 	Sexta-Feira Santa""";;;;;;;;;;4318320738;
+;"""21 abr	 Tiradentes""";;;;;;;;;;4318320772;
+;"""1 mai 	Dia do Trabalho""";;;;;;;;;;4318320816;
+;"""8 jun 	Corpus Christi""";;;;;;;;;;4318320862;
+;"""7 set 	Independência do Brasil""";;;;;;;;;;4318320902;
+;12 out dia das crianças;;;;;;;;;;4318320942;
+;"""28 out	 Dia do Servidor Público""";;;;;;;;;;4318320978;
+;"""2 nov	 Finados (Dia dos Mortos)""";;;;;;;;;;4318321038;
+;"""15 nov	 Proclamação da República""";;;;;;;;;;4318321087;
+;"""25 dez 	Natal""";;;;;;;;;;4318321144;
+;13 de abril – Dia do Beijo;;;;;;;;;;4318321173;
+;21 de abril – Tiradentes;;;;;;;;;;4318321228;
+;28 de abril – Dia do Frete Grátis:;;;;;;;;;;4318321266;
+;14 de maio – Dia das Mães;;;;;;;;;;4318321303;
+;1 de maio – Dia do Trabalho:;;;;;;;;;;4318321397;
+;22 de maio – Dia do Abraço:;;;;;;;;;;4318321521;
+;12 de junho – Dia dos Namorados;;;;;;;;;;4318321593;
+;21 de junho – Início do inverno;;;;;;;;;;4318320515;
+;24 de junho – Dia de São João;;;;;;;;;;4318320537;
+;6 de julho – Dia Internacional do Beijo;;;;;;;;;;4318320658;
+;7 de julho – Dia do Chocolate;;;;;;;;;;4318320712;
+;15 de julho – Dia do Homem;;;;;;;;;;4318320793;
+;20 de julho – Dia do Amigo e Dia Internacional da Amizade;;;;;;;;;;4318320888;
+;26 de julho – Dia dos Avós;;;;;;;;;;4318320929;
+;13 de agosto – Dia dos Pais 👨;;;;;;;;;;4318320964;
+;15 de agosto – Dia dos Solteiros;;;;;;;;;;4318321000;
+;19 de agosto – Dia Mundial da Fotografia;;;;;;;;;;4318321067;
+;15 de setembro – Dia do Cliente 💆;;;;;;;;;;4318321107;
+;5 de setembro – Dia do Irmão;;;;;;;;;;4318321174;
+;22 de setembro – Início da Primavera:;;;;;;;;;;4318321221;
+;12 de outubro – Dia das Crianças 👶;;;;;;;;;;4318321253;
+;15 de outubro – Dia do Professor:;;;;;;;;;;4318321284;
+;24 de novembro – Black Friday 🛒;;;;;;;;;;4318321340;
+;20 de Novembro – Dia da Consciência Negra:;;;;;;;;;;4318321411;
+;22 de Novembro – Dia do Músico:;;;;;;;;;;4318321507;
+;25 de dezembro – Natal 🎅🏻;;;;;;;;;;4318321563;
+;21 de Dezembro – Dia do Atleta:;;;;;;;;;;4318321606;
+;21 de Dezembro – Início do Verão:;;;;;;;;;;4318320516;
+;31 de dezembro – Réveillon:;;;;;;;;;;4318320754;
+Sugestões de Geração de Movimento;Criar um movimento de Arrecadação de Alimentos, dos clientes para os donos e dos donos para nós, para que juntos abençoarmos a vida de alguém,Criar movimento de Arrecadação de Agasalho;;;;;;;;;;;4318322349
+Subitems;Name;Owner;Status;Date;Cronograma - Start;Cronograma - End;Pessoa;Revisão do Cliente;Data;Automação Realizada;Item ID (auto generated);
+;Criar um movimento de Arrecadação de Alimentos, dos clientes para os donos e dos donos para nós, para que juntos abençoarmos a vida de alguém;;;;;;;;;;4318322818;
+;Criar movimento de Arrecadação de Agasalho;;;;;;;;;;4318323242;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Advocacy;;;;;;;;;;;;
+Name;Subelementos;Pessoa;Status;Data;Cronograma - Start;Cronograma - End;Texto;Automação Realizada;Revisão do Cliente;Data;Pessoa;Item ID (auto generated)
+Comunidades: Para clientes PROMOTORES;;;;;;;;;;;;4281070185
+Desafios;Brinde exclusivo para quem postar a melhor foto no instagram,Binde para quem criar a melhor Hastag,Brinde para quem tiver a melhor nota no quiz;;;;;;;;;;;4281071037
+Subitems;Name;Owner;Status;Date;Cronograma - Start;Cronograma - End;Pessoa;Revisão do Cliente;Data;Automação Realizada;Item ID (auto generated);
+;Brinde exclusivo para quem postar a melhor foto no instagram;;;;;;;;;;4281077752;
+;Binde para quem criar a melhor Hastag;;;;;;;;;;4281078995;
+;Brinde para quem tiver a melhor nota no quiz;;;;;;;;;;4281079518;
+Recomende um amigo;Cliente, você tem sido importante pra nós, tem interagido e... Se você pudesse ter 10% de desconto durante 1 ano em toda compra você ficaria feliz?;;;;;;;;;;;4281072040
+Subitems;Name;Owner;Status;Date;Cronograma - Start;Cronograma - End;Pessoa;Revisão do Cliente;Data;Automação Realizada;Item ID (auto generated);
+;Cliente, você tem sido importante pra nós, tem interagido e... Se você pudesse ter 10% de desconto durante 1 ano em toda compra você ficaria feliz?;;;;;;;;;;4281088118;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+Estratégias de alavancagem de vendas e clientes;;;;;;;;;;;;
+Name;Subelementos;Pessoa;Status;Data;Cronograma - Start;Cronograma - End;Texto;Automação Realizada;Revisão do Cliente;Data;Pessoa;Item ID (auto generated)
+Estratégia 100 x 5 + 3 x 500 + 3 x 100;;;;;;;;;;;;4281103359
+Estratégia 100 x 50 - 3 x 50;;;;;;;;;;;;4281170564

@@ -1,0 +1,36 @@
+{
+  "parent_task_name": "02 — ICP, Personas & Segmentação",
+  "list_name": "1️⃣ Preparação & Diagnóstico 360",
+  "departamento": "Produto & Engenharia",
+  "contexto_categoria": ["Documentação", "Processo"],
+  "frequencia": "Sob Demanda",
+  "ssot": "./02_ICP_Personas_Segmentacao.md",
+  "evidencias_dir": "../Evidencias_Fase1/02/",
+  "subtasks": [
+    {
+      "name": "📌 Definições de ICP — Documento de ICP consolidado",
+      "description": "Objetivo: Definir o ICP e critérios-chave.\n\nEntregáveis: Documento de ICP.\n\nSSoT: ./02_ICP_Personas_Segmentacao.md | Método: ../METODO_TRAE_UNIFICADO.md\nEvidências: ../Evidencias_Fase1/02/\n\nDoD & Checklist:\n- ICP validado\n\nMetadados de Migração:\n- Departamento: Produto & Engenharia\n- Contexto/Categoria: Documentação; Processo\n- Frequência: Sob Demanda",
+      "tags": ["Produto & Engenharia"]
+    },
+    {
+      "name": "👤 Personas (jobs/dores/ganhos) — Personas completas",
+      "description": "Objetivo: Construir personas com jobs, dores e ganhos.\n\nEntregáveis: Personas completas.\n\nSSoT: ./02_ICP_Personas_Segmentacao.md | Método: ../METODO_TRAE_UNIFICADO.md\nEvidências: ../Evidencias_Fase1/02/\n\nDoD & Checklist:\n- Personas completas\n\nMetadados de Migração:\n- Departamento: Produto & Engenharia\n- Contexto/Categoria: Documentação; Processo\n- Frequência: Sob Demanda",
+      "tags": ["Produto & Engenharia"]
+    },
+    {
+      "name": "🧭 Segmentação e priorização — Critérios e matriz de priorização",
+      "description": "Objetivo: Definir critérios de segmentação e matriz de priorização.\n\nEntregáveis: Critérios de segmentação e priorização.\n\nSSoT: ./02_ICP_Personas_Segmentacao.md | Método: ../METODO_TRAE_UNIFICADO.md\nEvidências: ../Evidencias_Fase1/02/\n\nDoD & Checklist:\n- Segmentação priorizada\n\nMetadados de Migração:\n- Departamento: Produto & Engenharia\n- Contexto/Categoria: Documentação; Processo\n- Frequência: Sob Demanda",
+      "tags": ["Produto & Engenharia"]
+    },
+    {
+      "name": "✅ DoD — ICP validado, personas completas, segmentação priorizada",
+      "description": "Objetivo: Validar a conclusão dos critérios de DoD.\n\nEntregáveis: Checklist de DoD concluído.\n\nSSoT: ./02_ICP_Personas_Segmentacao.md | Método: ../METODO_TRAE_UNIFICADO.md\nEvidências: ../Evidencias_Fase1/02/\n\nDoD & Checklist:\n- ICP validado\n- Personas completas\n- Segmentação priorizada\n\nMetadados de Migração:\n- Departamento: Produto & Engenharia\n- Contexto/Categoria: Documentação; Processo\n- Frequência: Sob Demanda",
+      "tags": ["Produto & Engenharia"]
+    },
+    {
+      "name": "📎 Evidências anexadas — links/arquivos em Evidencias_Fase1/02",
+      "description": "Objetivo: Consolidar anexos e links de evidências.\n\nEntregáveis: Evidências anexadas/organizadas.\n\nSSoT: ./02_ICP_Personas_Segmentacao.md | Método: ../METODO_TRAE_UNIFICADO.md\nEvidências: ../Evidencias_Fase1/02/\n\nDoD & Checklist:\n- Evidências anexadas e owners definidos\n\nMetadados de Migração:\n- Departamento: Produto & Engenharia\n- Contexto/Categoria: Documentação; Processo\n- Frequência: Sob Demanda",
+      "tags": ["Produto & Engenharia"]
+    }
+  ]
+}

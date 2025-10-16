@@ -1,0 +1,36 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/JP Bijari/Módulo 5 - Times Comercial/Aula 1 - Responsabilidade chave da função/1. [RCF VTX] Closer-6.xlsx
+Categoria: Outros
+Data de Processamento: 2025-10-10T08:25:34.646142
+Nome: 1. [RCF VTX] Closer-6.xlsx
+Tamanho: 20603
+Data_Criacao: 2025-09-15T07:24:32.974037
+Data_Modificacao: 2025-06-22T06:21:33
+Checksum: c59a3999c646f8ebf7d871b0159c429e
+
+=== CONTEÚDO ===
+
+=== PLANILHA: Gestor de Projetos ===
+
+VTX Agency - RCF																									
+Cargo:			Área:			Subordinação Direta:			Última Revisão:																
+Closer			Comercial			Gerente comercial			2023-05-18 00:00:00																
+Missão do cargo:																									
+Encantar os prospects e gerar valor desde o primeiro contato, qualificando-os e garantindo que as oportunidades sejam quentes e alinhadas para realizar vendas consultivas, construindo uma relação de confiança com o lead, apresentando nossa metodologia e resultados, de forma que entendam o nosso diferencial e vejam nosso produto de forma única, garantindo as receitas da empresa, por meio da seleção do cliente ideal para a participação dos nossos programas.																									
+Indicadores do Cargo:																									
+- Taxa de conversão em vendas (igual ou superior a 40%)
+- Quantidade de calls por semana (superior a 10) 
+- Taxa de no-show (inferior a 30%)																									
+Atividades Desempenhadas:																									
+Conduzir a consultoria grátis e ofertar o produto de forma impactante, ajudando a criar a melhor experiência de compra possível.																									
+Garantir que possua no mínimo 10 reuniões de MQL agendadas por semana																									
+Sinalizar gargalos no funil de vendas/qualidade/volume dos leads na agenda ao time de mkt																									
+Interagir com o time de Marketing com objetivo de melhorar a qualidade dos leads gerados, com base em dados levantados.																									
+Fornecer informações ao financeiro e ao Customer Success.																									
+Preencher diariamente o CRM 																									
+Entregar consolidado semanal (agendamentos, reuniões, vendas, aguardando pgto, follow-up, lost)																									
+Follow Up de no mínimo 35 dias (consultar manual de follow up)																									
+Prestar suporte aos prospects seja por telefone ou e-mail antes da venda ser realizada																									
+	Data da ciência:		_______/_______/________																						
+	=A5					Gerente comercial																			
+

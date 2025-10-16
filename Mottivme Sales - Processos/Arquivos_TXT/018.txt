@@ -1,0 +1,20 @@
+=== ERRO DE CONVERSÃO ===
+Arquivo original: 018.docx
+Localização: Arquivos_Consolidados/018.docx
+Data da tentativa: 01/10/2024 19:23
+
+ERRO ENCONTRADO:
+Bad offset for central directory
+
+DESCRIÇÃO:
+Este arquivo DOCX está corrompido e não pode ser convertido automaticamente.
+O erro "Bad offset for central directory" indica que a estrutura interna do arquivo está danificada.
+
+RECOMENDAÇÕES:
+1. Verificar se o arquivo original pode ser aberto no Microsoft Word ou LibreOffice
+2. Tentar reparar o arquivo usando ferramentas de recuperação de documentos
+3. Se possível, solicitar uma nova cópia do arquivo original
+4. Considerar conversão manual se o conteúdo for crítico
+
+STATUS: CONVERSÃO FALHADA
+ARQUIVO CRIADO MANUALMENTE PARA MANTER SEQUÊNCIA NUMÉRICA

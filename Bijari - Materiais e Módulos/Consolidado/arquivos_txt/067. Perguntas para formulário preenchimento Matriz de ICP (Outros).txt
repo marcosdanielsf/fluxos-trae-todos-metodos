@@ -1,0 +1,23 @@
+=== METADADOS ===
+Arquivo Original: /Users/marcosdaniels/Downloads/JP Bijari/Módulo 4 - Atração de clientes (geração de lead)/Aula 3/Perguntas para formulário preenchimento Matriz de ICP.docx
+Categoria: Outros
+Data de Processamento: 2025-10-10T08:25:31.072859
+Nome: Perguntas para formulário preenchimento Matriz de ICP.docx
+Tamanho: 8015
+Data_Criacao: 2025-09-15T07:24:32.975128
+Data_Modificacao: 2025-06-22T06:21:46
+Checksum: ef93ee30ff195749487227b23538faf8
+
+=== CONTEÚDO ===
+
+Perguntas para matriz de ICP
+Nome
+E-mail
+WhatsApp
+Qual sua ocupação profissional? 
+Qual era seu faturamento mensal médio antes de participar do produto X?
+O que te fez participar do produto X?
+Qual é seu faturamento mensal médio após participar do produto X e qual a sua previsão de crescimento de faturamento?
+Quais eram suas maiores dificuldades antes de participar do produto X?
+Qual foi seu maior ganho após participar do produto X?
+Adicionar bônus para quem responder até o final se for via forms. (pode ser concorrer a uma call com você.)
