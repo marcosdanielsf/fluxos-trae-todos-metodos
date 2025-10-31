@@ -19,7 +19,7 @@ export async function saveProject(projectData: ProjectData): Promise<string> {
   if (isSupabaseConfigured && supabase) {
     // Save to Supabase
     const { data, error } = await supabase
-      .from("projects")
+      .from("projects-assembly-epic")
       .insert({
         user_id: "demo-user", // TODO: Replace with actual auth user ID
         name: projectData.name,
@@ -61,7 +61,7 @@ export async function updateProject(
 ): Promise<void> {
   if (isSupabaseConfigured && supabase) {
     const { error } = await supabase
-      .from("projects")
+      .from("projects-assembly-epic")
       .update({
         name: updates.name,
         niche: updates.niche,
@@ -96,7 +96,7 @@ export async function updateProject(
 export async function getProjects(): Promise<ProjectData[]> {
   if (isSupabaseConfigured && supabase) {
     const { data, error } = await supabase
-      .from("projects")
+      .from("projects-assembly-epic")
       .select("*")
       .order("created_at", { ascending: false });
 
@@ -126,7 +126,7 @@ export async function getProjects(): Promise<ProjectData[]> {
 export async function getProject(projectId: string): Promise<ProjectData | null> {
   if (isSupabaseConfigured && supabase) {
     const { data, error } = await supabase
-      .from("projects")
+      .from("projects-assembly-epic")
       .select("*")
       .eq("id", projectId)
       .single();
@@ -158,7 +158,7 @@ export async function getProject(projectId: string): Promise<ProjectData | null>
 export async function deleteProject(projectId: string): Promise<void> {
   if (isSupabaseConfigured && supabase) {
     const { error } = await supabase
-      .from("projects")
+      .from("projects-assembly-epic")
       .delete()
       .eq("id", projectId);
 

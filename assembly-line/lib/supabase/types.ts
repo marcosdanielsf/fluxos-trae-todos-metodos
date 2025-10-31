@@ -1,7 +1,7 @@
 export interface Database {
   public: {
     Tables: {
-      projects: {
+      "projects-assembly-epic": {
         Row: {
           id: string;
           user_id: string;
@@ -41,7 +41,7 @@ export interface Database {
           updated_at?: string;
         };
       };
-      phases: {
+      "phases-assembly-epic": {
         Row: {
           id: string;
           project_id: string;
@@ -72,7 +72,7 @@ export interface Database {
           updated_at?: string;
         };
       };
-      agents: {
+      "agents-assembly-epic": {
         Row: {
           id: string;
           phase_id: string;
@@ -115,7 +115,7 @@ export interface Database {
           updated_at?: string;
         };
       };
-      assets: {
+      "assets-assembly-epic": {
         Row: {
           id: string;
           project_id: string;
