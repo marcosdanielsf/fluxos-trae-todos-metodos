@@ -147,13 +147,19 @@ export function ProjectProvider({ children }: { children: ReactNode }) {
   };
 
   const approveAgent = (agentId: string) => {
+    console.log("🔵 ProjectContext.approveAgent chamado:", agentId);
+    console.log("🔵 agentResults antes:", agentResults);
     updateAgentResult(agentId, { approved: true });
+    console.log("🔵 agentResults depois:", agentResults);
 
     // Update in Supabase
     if (currentProjectId) {
+      console.log("🔵 Salvando no Supabase, projectId:", currentProjectId);
       updateAgentApproval(currentProjectId, agentId, true).catch((error) => {
         console.error("Erro ao atualizar aprovação no Supabase:", error);
       });
+    } else {
+      console.warn("⚠️ Sem projectId, não salvou no Supabase");
     }
   };
 
@@ -181,8 +187,14 @@ export function ProjectProvider({ children }: { children: ReactNode }) {
   const isPhaseApproved = (phaseIndex: number): boolean => {
     const phaseAgents = getAgentsByPhase(phaseIndex);
 
+    console.log(`🔍 isPhaseApproved(${phaseIndex}):`, {
+      phaseAgents,
+      agentCount: phaseAgents.length,
+    });
+
     // Se não há agentes processados ainda, fase não está aprovada
     if (phaseAgents.length === 0) {
+      console.log(`❌ Fase ${phaseIndex}: Nenhum agente processado`);
       return false;
     }
 
@@ -191,13 +203,22 @@ export function ProjectProvider({ children }: { children: ReactNode }) {
       (phase) => phase === phaseIndex
     ).length;
 
+    console.log(`📊 Fase ${phaseIndex}: ${phaseAgents.length}/${expectedAgentCount} agentes processados`);
+
     // Verifica se todos os agentes foram processados e aprovados
     if (phaseAgents.length < expectedAgentCount) {
+      console.log(`❌ Fase ${phaseIndex}: Nem todos os agentes foram processados`);
       return false;
     }
 
     // Verifica se todos os agentes foram aprovados
-    return phaseAgents.every((agent) => agent.approved === true);
+    const allApproved = phaseAgents.every((agent) => agent.approved === true);
+    const approvedCount = phaseAgents.filter((agent) => agent.approved === true).length;
+
+    console.log(`📊 Fase ${phaseIndex}: ${approvedCount}/${expectedAgentCount} aprovados`);
+    console.log(`${allApproved ? "✅" : "❌"} Fase ${phaseIndex} ${allApproved ? "APROVADA" : "NÃO aprovada"}`);
+
+    return allApproved;
   };
 
   // Load from localStorage on mount

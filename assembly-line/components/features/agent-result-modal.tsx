@@ -21,6 +21,7 @@ import {
   Copy,
 } from "lucide-react";
 import { useProject } from "@/contexts/ProjectContext";
+import jsPDF from "jspdf";
 
 interface AgentResultModalProps {
   open: boolean;
@@ -45,12 +46,16 @@ export function AgentResultModal({
   const isApproved = agentResult?.approved === true;
 
   const handleApprove = () => {
+    console.log("🟢 APROVANDO AGENTE:", agentId);
+    console.log("🟢 Antes da aprovação:", agentResult);
     approveAgent(agentId);
+    console.log("🟢 Depois da aprovação - agentResults:", agentResults);
     onOpenChange(false);
   };
 
   const handleFeedback = () => {
     if (feedback.trim()) {
+      console.log("🔄 FEEDBACK ENVIADO:", agentId, feedback);
       requestRegeneration(agentId, feedback);
       setShowFeedbackForm(false);
       setFeedback("");
@@ -62,6 +67,7 @@ export function AgentResultModal({
 
   const handleRedo = () => {
     if (confirm("Tem certeza? O agente será executado novamente do zero.")) {
+      console.log("🔄 REFAZENDO AGENTE:", agentId);
       requestRegeneration(agentId, "Refazer do zero conforme solicitado");
       onOpenChange(false);
       window.location.reload();
@@ -70,6 +76,59 @@ export function AgentResultModal({
 
   const copyToClipboard = (text: string) => {
     navigator.clipboard.writeText(text);
+  };
+
+  const downloadPDF = () => {
+    if (!agentResult?.content) return;
+
+    const doc = new jsPDF();
+    const pageWidth = doc.internal.pageSize.getWidth();
+    const pageHeight = doc.internal.pageSize.getHeight();
+    const margin = 20;
+    const maxWidth = pageWidth - 2 * margin;
+    const lineHeight = 7;
+    let y = margin;
+
+    // Título
+    doc.setFontSize(16);
+    doc.setFont("helvetica", "bold");
+    doc.text(agentName, margin, y);
+    y += 10;
+
+    // Info
+    doc.setFontSize(10);
+    doc.setFont("helvetica", "normal");
+    if (agentResult.timestamp) {
+      doc.text(`Data: ${new Date(agentResult.timestamp).toLocaleString("pt-BR")}`, margin, y);
+      y += 7;
+    }
+    if (agentResult.tokensUsed) {
+      doc.text(`Tokens: ${agentResult.tokensUsed.toLocaleString("pt-BR")}`, margin, y);
+      y += 7;
+    }
+    if (agentResult.cost) {
+      doc.text(`Custo: $${agentResult.cost.toFixed(4)}`, margin, y);
+      y += 7;
+    }
+    y += 5;
+
+    // Conteúdo
+    doc.setFontSize(11);
+    const lines = doc.splitTextToSize(agentResult.content, maxWidth);
+
+    for (let i = 0; i < lines.length; i++) {
+      if (y + lineHeight > pageHeight - margin) {
+        doc.addPage();
+        y = margin;
+      }
+      doc.text(lines[i], margin, y);
+      y += lineHeight;
+    }
+
+    // Download
+    const fileName = `${agentId}-${new Date().toISOString().split("T")[0]}.pdf`;
+    doc.save(fileName);
+    console.log("📄 PDF baixado:", fileName);
   };
 
   return (
@@ -147,20 +206,18 @@ export function AgentResultModal({
 
             {/* Ações com o Conteúdo */}
             {hasRealContent && (
-              <div className="flex gap-2">
+              <div className="grid grid-cols-3 gap-2">
                 <Button
                   variant="outline"
                   size="sm"
-                  className="flex-1"
                   onClick={() => copyToClipboard(agentResult.content)}
                 >
                   <Copy className="h-4 w-4" />
-                  Copiar Conteúdo
+                  Copiar
                 </Button>
                 <Button
                   variant="outline"
                   size="sm"
-                  className="flex-1"
                   onClick={() => {
                     const blob = new Blob([agentResult.content], { type: "text/plain" });
                     const url = URL.createObjectURL(blob);
@@ -172,7 +229,15 @@ export function AgentResultModal({
                   }}
                 >
                   <Download className="h-4 w-4" />
-                  Baixar TXT
+                  TXT
+                </Button>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={downloadPDF}
+                >
+                  <Download className="h-4 w-4" />
+                  PDF
                 </Button>
               </div>
             )}
