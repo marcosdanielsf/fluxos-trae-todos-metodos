@@ -191,6 +191,43 @@ export default function DashboardPage() {
     }
   }, [agentResults]);
 
+  // Check when all agents are approved to unlock next phase
+  useEffect(() => {
+    setPhases((prevPhases) => {
+      const newPhases = [...prevPhases];
+
+      // Check each phase
+      for (let i = 0; i < newPhases.length; i++) {
+        const phase = newPhases[i];
+
+        // Only check active phases where all agents are completed
+        if (phase.status === "active") {
+          const completedAgents = phase.agents.filter((a) => a.status === "completed").length;
+
+          if (completedAgents === phase.agents.length) {
+            // All agents completed, check if approved
+            const phaseApproved = isPhaseApproved(i);
+
+            if (phaseApproved && i < newPhases.length - 1) {
+              // Phase approved! Mark as completed and unlock next
+              phase.status = "completed";
+              newPhases[i + 1].status = "active";
+              newPhases[i + 1].agents.forEach((agent) => {
+                agent.status = "pending";
+              });
+
+              // Update current phase index
+              setCurrentPhaseIndex(i + 1);
+              console.log(`✅ Fase ${i + 1} aprovada! Desbloqueando Fase ${i + 2}`);
+            }
+          }
+        }
+      }
+
+      return newPhases;
+    });
+  }, [agentResults, isPhaseApproved]);
+
   // Simulate automatic agent processing
   useEffect(() => {
     if (isPaused) return; // Stop processing when paused
@@ -301,25 +338,8 @@ export default function DashboardPage() {
             const completedAgents = currentPhase.agents.filter((a) => a.status === "completed").length;
             currentPhase.progress = Math.floor((completedAgents / currentPhase.agents.length) * 100);
 
-            // Check if phase is complete and approved
-            if (completedAgents === currentPhase.agents.length) {
-              // Verify if all agents in this phase were approved
-              const phaseApproved = isPhaseApproved(currentPhaseIndex);
-
-              if (phaseApproved) {
-                currentPhase.status = "completed";
-
-                // Unlock next phase only if current phase is approved
-                if (currentPhaseIndex < newPhases.length - 1) {
-                  newPhases[currentPhaseIndex + 1].status = "active";
-                  newPhases[currentPhaseIndex + 1].agents.forEach((agent) => {
-                    agent.status = "pending";
-                  });
-                  setCurrentPhaseIndex(currentPhaseIndex + 1);
-                }
-              }
-              // If not approved, phase stays active waiting for approval
-            }
+            // Não avança automaticamente - aguarda aprovação do cliente
+            // A lógica de avanço está no useEffect que observa aprovações
           }
         }
 
