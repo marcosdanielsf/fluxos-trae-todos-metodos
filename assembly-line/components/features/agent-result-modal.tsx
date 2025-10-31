@@ -9,7 +9,6 @@ import {
   DialogBody,
   DialogFooter,
 } from "@/components/ui/dialog";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Textarea } from "@/components/ui/textarea";
@@ -19,11 +18,9 @@ import {
   Edit3,
   RotateCcw,
   Download,
-  Share2,
   Copy,
-  ChevronDown,
-  ChevronUp,
 } from "lucide-react";
+import { useProject } from "@/contexts/ProjectContext";
 
 interface AgentResultModalProps {
   open: boolean;
@@ -38,9 +35,13 @@ export function AgentResultModal({
   agentName,
   agentId,
 }: AgentResultModalProps) {
+  const { agentResults } = useProject();
   const [feedback, setFeedback] = useState("");
-  const [showHistory, setShowHistory] = useState(false);
   const [showFeedbackForm, setShowFeedbackForm] = useState(false);
+
+  // Get the result for this specific agent
+  const agentResult = agentResults.find((r) => r.agentId === agentId);
+  const hasRealContent = !!agentResult?.content;
 
   const handleApprove = () => {
     console.log("Approved:", agentId);
@@ -86,133 +87,79 @@ export function AgentResultModal({
 
         <DialogBody>
           <div className="space-y-6">
-            {/* Resumo Executivo */}
+            {/* Status Badge */}
+            {hasRealContent ? (
+              <div className="flex items-center gap-2">
+                <Badge variant="success" size="sm">
+                  Gerado com IA
+                </Badge>
+                {agentResult.tokensUsed && (
+                  <Badge variant="default" size="sm">
+                    {agentResult.tokensUsed.toLocaleString("pt-BR")} tokens
+                  </Badge>
+                )}
+                {agentResult.cost && (
+                  <Badge variant="default" size="sm">
+                    ${agentResult.cost.toFixed(4)}
+                  </Badge>
+                )}
+              </div>
+            ) : (
+              <Badge variant="warning" size="sm">
+                Dados mockados (sem conexão com API)
+              </Badge>
+            )}
+
+            {/* Conteúdo Real do Agente */}
             <div className="p-4 bg-[rgb(var(--background-secondary))] rounded-lg border border-[rgb(var(--border))]">
               <div className="flex items-center gap-2 mb-3">
                 <FileText className="h-5 w-5 text-[rgb(var(--primary))]" />
-                <h3 className="font-bold text-lg">DNA do Especialista Extraído</h3>
+                <h3 className="font-bold text-lg">{agentName}</h3>
               </div>
-              <ul className="space-y-2 text-sm">
-                <li className="flex items-start gap-2">
-                  <span className="text-[rgb(var(--primary))]">•</span>
-                  <span>
-                    <strong>Tom:</strong> Inspirador + Direto
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[rgb(var(--primary))]">•</span>
-                  <span>
-                    <strong>Valores Core:</strong> Autenticidade, Resultado, Transparência
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[rgb(var(--primary))]">•</span>
-                  <span>
-                    <strong>História Central:</strong> De 0 a R$5M em 3 anos no nicho X
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[rgb(var(--primary))]">•</span>
-                  <span>
-                    <strong>Linguagem Característica:</strong> Brasileira, casual, usa gírias
-                    específicas
-                  </span>
-                </li>
-              </ul>
+              <div className="prose prose-sm max-w-none text-[rgb(var(--foreground-secondary))]">
+                {hasRealContent ? (
+                  <pre className="whitespace-pre-wrap font-sans text-sm">
+                    {agentResult.content}
+                  </pre>
+                ) : (
+                  <p className="text-[rgb(var(--foreground-secondary))] italic">
+                    Nenhum conteúdo gerado ainda. Execute o agente para ver os resultados reais da IA.
+                  </p>
+                )}
+              </div>
             </div>
 
-            {/* Detalhamento Completo */}
-            <div>
-              <h3 className="font-bold mb-3">Detalhamento Completo</h3>
-              <Tabs defaultValue="patterns">
-                <TabsList className="w-full">
-                  <TabsTrigger value="patterns" className="flex-1">
-                    Padrões Linguísticos
-                  </TabsTrigger>
-                  <TabsTrigger value="thinking" className="flex-1">
-                    Estrutura de Pensamento
-                  </TabsTrigger>
-                  <TabsTrigger value="raw" className="flex-1">
-                    Dados Brutos
-                  </TabsTrigger>
-                </TabsList>
-
-                <TabsContent value="patterns">
-                  <div className="space-y-4">
-                    <div>
-                      <h4 className="font-medium mb-2 text-sm">Palavras mais usadas</h4>
-                      <div className="flex flex-wrap gap-2">
-                        {["resultado", "transformar", "autêntico", "estratégia", "sucesso"].map(
-                          (word) => (
-                            <Badge key={word} variant="default" size="sm">
-                              {word}
-                            </Badge>
-                          )
-                        )}
-                      </div>
-                    </div>
-                    <div>
-                      <h4 className="font-medium mb-2 text-sm">Expressões recorrentes</h4>
-                      <ul className="space-y-1 text-sm text-[rgb(var(--foreground-secondary))]">
-                        <li>• "Vamos direto ao ponto"</li>
-                        <li>• "Eu sempre digo que..."</li>
-                        <li>• "A verdade é que..."</li>
-                      </ul>
-                    </div>
-                  </div>
-                </TabsContent>
-
-                <TabsContent value="thinking">
-                  <div className="space-y-2 text-sm text-[rgb(var(--foreground-secondary))]">
-                    <p>
-                      • Usa storytelling para ilustrar conceitos complexos
-                    </p>
-                    <p>
-                      • Sempre conecta teoria com exemplos práticos reais
-                    </p>
-                    <p>
-                      • Utiliza metáforas de esportes e construção
-                    </p>
-                    <p>
-                      • Estrutura em 3 pontos principais
-                    </p>
-                  </div>
-                </TabsContent>
-
-                <TabsContent value="raw">
-                  <div className="relative">
-                    <pre className="p-4 bg-[rgb(var(--background))] rounded-lg text-xs overflow-x-auto border border-[rgb(var(--border))]">
-                      <code>{`{
-  "tone": "inspirational_direct",
-  "core_values": ["authenticity", "results", "transparency"],
-  "central_story": "0_to_5M_in_3_years",
-  "language_style": "brazilian_casual_specific_slang",
-  "common_phrases": [
-    "Vamos direto ao ponto",
-    "Eu sempre digo que...",
-    "A verdade é que..."
-  ],
-  "metaphors": ["sports", "construction"],
-  "structure_pattern": "three_main_points"
-}`}</code>
-                    </pre>
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      className="absolute top-2 right-2"
-                      onClick={() =>
-                        copyToClipboard(
-                          '{"tone": "inspirational_direct", "core_values": ["authenticity", "results", "transparency"]}'
-                        )
-                      }
-                    >
-                      <Copy className="h-4 w-4" />
-                      Copiar
-                    </Button>
-                  </div>
-                </TabsContent>
-              </Tabs>
-            </div>
+            {/* Ações com o Conteúdo */}
+            {hasRealContent && (
+              <div className="flex gap-2">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="flex-1"
+                  onClick={() => copyToClipboard(agentResult.content)}
+                >
+                  <Copy className="h-4 w-4" />
+                  Copiar Conteúdo
+                </Button>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="flex-1"
+                  onClick={() => {
+                    const blob = new Blob([agentResult.content], { type: "text/plain" });
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement("a");
+                    a.href = url;
+                    a.download = `${agentId}-${new Date().toISOString().split("T")[0]}.txt`;
+                    a.click();
+                    URL.revokeObjectURL(url);
+                  }}
+                >
+                  <Download className="h-4 w-4" />
+                  Baixar TXT
+                </Button>
+              </div>
+            )}
 
             {/* Avaliação do Cliente */}
             <div className="p-4 bg-gradient-to-r from-[rgb(var(--primary))]/10 to-[rgb(var(--secondary))]/10 rounded-lg border border-[rgb(var(--primary))]/20">
@@ -273,49 +220,17 @@ export function AgentResultModal({
               )}
             </div>
 
-            {/* Histórico de Versões */}
-            <div>
-              <button
-                onClick={() => setShowHistory(!showHistory)}
-                className="flex items-center gap-2 text-sm text-[rgb(var(--foreground-secondary))] hover:text-[rgb(var(--foreground))] transition-colors"
-              >
-                {showHistory ? (
-                  <ChevronUp className="h-4 w-4" />
-                ) : (
-                  <ChevronDown className="h-4 w-4" />
-                )}
-                Ver versões anteriores (2)
-              </button>
-              {showHistory && (
-                <div className="mt-3 space-y-2 pl-6">
-                  <div className="p-3 bg-[rgb(var(--background))] rounded-lg text-sm">
-                    <p className="font-medium">Versão 2 - há 5 min</p>
-                    <p className="text-xs text-[rgb(var(--foreground-secondary))]">
-                      Ajustado após feedback sobre tom de voz
-                    </p>
-                  </div>
-                  <div className="p-3 bg-[rgb(var(--background))] rounded-lg text-sm">
-                    <p className="font-medium">Versão 1 - há 10 min</p>
-                    <p className="text-xs text-[rgb(var(--foreground-secondary))]">
-                      Versão inicial
-                    </p>
-                  </div>
-                </div>
-              )}
-            </div>
+            {/* Informações Adicionais */}
+            {hasRealContent && agentResult.timestamp && (
+              <div className="text-xs text-[rgb(var(--foreground-secondary))]">
+                Gerado em: {new Date(agentResult.timestamp).toLocaleString("pt-BR")}
+              </div>
+            )}
           </div>
         </DialogBody>
 
         <DialogFooter>
-          <Button variant="outline" size="md">
-            <Download className="h-4 w-4" />
-            Baixar PDF
-          </Button>
-          <Button variant="outline" size="md">
-            <Share2 className="h-4 w-4" />
-            Compartilhar
-          </Button>
-          <Button variant="ghost" size="md" onClick={() => onOpenChange(false)}>
+          <Button variant="default" size="md" onClick={() => onOpenChange(false)}>
             Fechar
           </Button>
         </DialogFooter>
