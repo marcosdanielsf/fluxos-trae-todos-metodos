@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { ToastProvider } from "@/components/ui/toast";
+import { ProjectProvider } from "@/contexts/ProjectContext";
 
 export const metadata: Metadata = {
   title: "Assembly Line - Marketing AI",
@@ -15,9 +16,11 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className="antialiased">
-        <ToastProvider>
-          {children}
-        </ToastProvider>
+        <ProjectProvider>
+          <ToastProvider>
+            {children}
+          </ToastProvider>
+        </ProjectProvider>
       </body>
     </html>
   );
