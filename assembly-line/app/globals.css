@@ -1,37 +1,48 @@
 @import "tailwindcss";
 
 :root {
-  /* Assembly Line Dark Theme */
+  /* Assembly Line Dark Theme - Blue Edition */
   --background: 10 10 15; /* #0a0a0f */
-  --background-secondary: 26 26 46; /* #1a1a2e */
-  --card: 22 33 62; /* #16213e */
-  --card-border: 31 64 104; /* #1f4068 */
+  --background-secondary: 15 23 42; /* #0f172a */
+  --card: 30 41 59; /* #1e293b */
+  --card-border: 51 65 85; /* #334155 */
   --foreground: 255 255 255; /* #ffffff */
   --foreground-secondary: 148 163 184; /* #94a3b8 */
 
-  /* Accents */
-  --primary: 74 125 255; /* #4a7dff */
+  /* Primary Blue Palette - Based on #2563EB */
+  --primary: 37 99 235; /* #2563eb - Primary Blue */
+  --primary-light: 59 130 246; /* #3b82f6 - Lighter Blue */
+  --primary-dark: 29 78 216; /* #1d4ed8 - Darker Blue */
   --primary-foreground: 255 255 255;
-  --secondary: 123 104 238; /* #7b68ee */
+
+  /* Secondary */
+  --secondary: 99 102 241; /* #6366f1 - Indigo */
   --secondary-foreground: 255 255 255;
+
+  /* Phase Colors */
+  --phase1: 37 99 235; /* #2563eb - Clone Blue */
+  --phase2: 16 185 129; /* #10b981 - Intelligence Green */
+  --phase3: 168 85 247; /* #a855f7 - Creative Purple */
+  --phase4: 249 115 22; /* #f97316 - Funnel Orange */
 
   /* Status */
   --success: 16 185 129; /* #10b981 */
   --warning: 245 158 11; /* #f59e0b */
   --error: 239 68 68; /* #ef4444 */
+  --info: 37 99 235; /* #2563eb */
 
   /* UI Elements */
-  --border: 31 64 104;
-  --input: 31 64 104;
-  --ring: 74 125 255;
+  --border: 51 65 85;
+  --input: 51 65 85;
+  --ring: 37 99 235;
   --radius: 0.75rem;
 
   /* Muted */
-  --muted: 26 26 46;
+  --muted: 15 23 42;
   --muted-foreground: 148 163 184;
 
   /* Accent */
-  --accent: 74 125 255;
+  --accent: 37 99 235;
   --accent-foreground: 255 255 255;
 
   /* Destructive */
@@ -48,13 +59,21 @@
   --color-foreground-secondary: rgb(var(--foreground-secondary));
 
   --color-primary: rgb(var(--primary));
+  --color-primary-light: rgb(var(--primary-light));
+  --color-primary-dark: rgb(var(--primary-dark));
   --color-primary-foreground: rgb(var(--primary-foreground));
   --color-secondary: rgb(var(--secondary));
   --color-secondary-foreground: rgb(var(--secondary-foreground));
 
+  --color-phase1: rgb(var(--phase1));
+  --color-phase2: rgb(var(--phase2));
+  --color-phase3: rgb(var(--phase3));
+  --color-phase4: rgb(var(--phase4));
+
   --color-success: rgb(var(--success));
   --color-warning: rgb(var(--warning));
   --color-error: rgb(var(--error));
+  --color-info: rgb(var(--info));
 
   --color-border: rgb(var(--border));
   --color-input: rgb(var(--input));
@@ -99,5 +118,69 @@ body {
 
   h2 {
     @apply text-2xl;
+  }
+}
+
+/* Gradients */
+@layer utilities {
+  .gradient-hero {
+    background: linear-gradient(135deg, rgb(var(--primary)) 0%, rgb(var(--secondary)) 100%);
+  }
+
+  .gradient-card {
+    background: linear-gradient(135deg, rgba(var(--primary), 0.1) 0%, rgba(var(--secondary), 0.05) 100%);
+  }
+
+  .gradient-button {
+    background: linear-gradient(135deg, rgb(var(--primary)) 0%, rgb(var(--primary-dark)) 100%);
+  }
+
+  .gradient-button:hover {
+    background: linear-gradient(135deg, rgb(var(--primary-light)) 0%, rgb(var(--primary)) 100%);
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, rgb(var(--primary)) 0%, rgb(var(--secondary)) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Glow Effects */
+  .glow-blue {
+    box-shadow: 0 0 20px rgba(var(--primary), 0.3), 0 0 40px rgba(var(--primary), 0.1);
+  }
+
+  .glow-blue-strong {
+    box-shadow: 0 0 30px rgba(var(--primary), 0.5), 0 0 60px rgba(var(--primary), 0.3), 0 0 90px rgba(var(--primary), 0.1);
+  }
+
+  .glow-blue:hover {
+    box-shadow: 0 0 25px rgba(var(--primary), 0.4), 0 0 50px rgba(var(--primary), 0.2);
+  }
+
+  /* Grid Background */
+  .bg-grid {
+    background-image:
+      linear-gradient(rgba(var(--primary), 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(var(--primary), 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+
+  /* Phase-specific glows */
+  .glow-phase1 {
+    box-shadow: 0 0 20px rgba(var(--phase1), 0.3);
+  }
+
+  .glow-phase2 {
+    box-shadow: 0 0 20px rgba(var(--phase2), 0.3);
+  }
+
+  .glow-phase3 {
+    box-shadow: 0 0 20px rgba(var(--phase3), 0.3);
+  }
+
+  .glow-phase4 {
+    box-shadow: 0 0 20px rgba(var(--phase4), 0.3);
   }
 }

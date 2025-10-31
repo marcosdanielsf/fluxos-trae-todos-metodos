@@ -8,8 +8,12 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        default:
+          "bg-[rgb(var(--primary))] text-[rgb(var(--primary-foreground))] shadow hover:bg-[rgb(var(--primary))]/90 hover:shadow-lg hover:scale-[1.02]",
         primary:
           "bg-[rgb(var(--primary))] text-[rgb(var(--primary-foreground))] shadow hover:bg-[rgb(var(--primary))]/90 hover:shadow-lg hover:scale-[1.02]",
+        gradient:
+          "gradient-button text-white shadow-lg hover:shadow-xl hover:scale-[1.02] glow-blue",
         secondary:
           "bg-[rgb(var(--secondary))] text-[rgb(var(--secondary-foreground))] shadow hover:bg-[rgb(var(--secondary))]/90 hover:shadow-lg hover:scale-[1.02]",
         outline:
@@ -27,7 +31,7 @@ const buttonVariants = cva(
       },
     },
     defaultVariants: {
-      variant: "primary",
+      variant: "default",
       size: "md",
     },
   }
