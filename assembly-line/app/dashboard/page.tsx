@@ -21,6 +21,8 @@ import {
   Pause,
   Settings as SettingsIcon,
 } from "lucide-react";
+import { useProject } from "@/contexts/ProjectContext";
+import { processAgent } from "@/lib/services/agent-processor";
 
 type AgentStatus = "completed" | "processing" | "pending" | "locked";
 
@@ -47,6 +49,7 @@ interface Phase {
 }
 
 export default function DashboardPage() {
+  const { onboardingData, addAgentResult } = useProject();
   const [showAgentModal, setShowAgentModal] = useState(false);
   const [selectedAgent, setSelectedAgent] = useState<Agent | null>(null);
   const [currentPhaseIndex, setCurrentPhaseIndex] = useState(0);
@@ -191,19 +194,71 @@ export default function DashboardPage() {
                 const remaining = Math.floor((100 - agent.progress) / 5) * 2;
                 agent.estimatedTime = remaining > 0 ? `~${remaining}s restantes` : "Finalizando...";
               } else {
-                // Complete agent
-                agent.status = "completed";
-                agent.timestamp = "Concluído agora";
-                agent.badge = Math.random() > 0.3 ? "Aprovado" : "Aprovado com ajustes";
-                agent.badgeVariant = agent.badge === "Aprovado" ? "success" : "warning";
+                // Progress reached 100% - call API to generate real content
+                if (onboardingData) {
+                  // Process agent with Gemini API
+                  processAgent(agent.id, onboardingData)
+                    .then((result) => {
+                      console.log(`✅ Agente ${agent.id} processado:`, result);
 
-                // Calculate tokens and cost (Gemini Pro: $0.001 per 1K tokens)
-                agent.tokensUsed = Math.floor(Math.random() * 5000 + 2000); // 2K-7K tokens
-                agent.cost = (agent.tokensUsed / 1000) * 0.001; // $0.001 per 1K tokens
-                setTotalCost((prev) => prev + agent.cost!);
+                      // Save result to context
+                      addAgentResult({
+                        agentId: agent.id,
+                        agentName: agent.name,
+                        content: result.content,
+                        timestamp: new Date().toISOString(),
+                        tokensUsed: result.tokensUsed,
+                        cost: result.cost,
+                      });
 
-                delete agent.progress;
-                delete agent.estimatedTime;
+                      // Update agent in state
+                      setPhases((prevPhases) => {
+                        const updated = [...prevPhases];
+                        const phase = updated[currentPhaseIndex];
+                        const agentToUpdate = phase.agents.find((a) => a.id === agent.id);
+
+                        if (agentToUpdate) {
+                          agentToUpdate.status = "completed";
+                          agentToUpdate.timestamp = "Concluído agora";
+                          agentToUpdate.badge = "Gerado com IA";
+                          agentToUpdate.badgeVariant = "success";
+                          agentToUpdate.tokensUsed = result.tokensUsed;
+                          agentToUpdate.cost = result.cost;
+                          delete agentToUpdate.progress;
+                          delete agentToUpdate.estimatedTime;
+
+                          setTotalCost((prev) => prev + result.cost);
+                        }
+
+                        return updated;
+                      });
+                    })
+                    .catch((error) => {
+                      console.error(`❌ Erro ao processar agente ${agent.id}:`, error);
+
+                      // Fallback: mark as completed with mock data
+                      agent.status = "completed";
+                      agent.timestamp = "Concluído agora";
+                      agent.badge = "Fallback (sem API)";
+                      agent.badgeVariant = "warning";
+                      agent.tokensUsed = Math.floor(Math.random() * 3000 + 2000);
+                      agent.cost = (agent.tokensUsed / 1000) * 0.001;
+                      setTotalCost((prev) => prev + agent.cost!);
+                      delete agent.progress;
+                      delete agent.estimatedTime;
+                    });
+                } else {
+                  // No onboarding data - use mock
+                  agent.status = "completed";
+                  agent.timestamp = "Concluído agora";
+                  agent.badge = "Dados mockados";
+                  agent.badgeVariant = "warning";
+                  agent.tokensUsed = Math.floor(Math.random() * 5000 + 2000);
+                  agent.cost = (agent.tokensUsed / 1000) * 0.001;
+                  setTotalCost((prev) => prev + agent.cost!);
+                  delete agent.progress;
+                  delete agent.estimatedTime;
+                }
               }
             }
 

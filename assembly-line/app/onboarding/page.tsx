@@ -23,11 +23,13 @@ import { Badge } from "@/components/ui/badge";
 import { FileUpload } from "@/components/ui/file-upload";
 import { MessageSquare, Magnet, TrendingUp, ChevronRight } from "lucide-react";
 import { useRouter } from "next/navigation";
+import { useProject } from "@/contexts/ProjectContext";
 
 type FormData = Step1FormData | Step2FormData | Step3FormData | Step4FormData;
 
 export default function OnboardingPage() {
   const router = useRouter();
+  const { setOnboardingData } = useProject();
   const [currentStep, setCurrentStep] = useState(1);
   const [formData, setFormData] = useState<any>({});
   const [isLoading, setIsLoading] = useState(false);
@@ -41,10 +43,46 @@ export default function OnboardingPage() {
     if (currentStep < totalSteps) {
       setCurrentStep(currentStep + 1);
     } else {
-      // Submit final form
+      // Submit final form - SAVE TO CONTEXT
       setIsLoading(true);
-      await new Promise((resolve) => setTimeout(resolve, 2000));
-      console.log("Complete form data:", { ...formData, [`step${currentStep}`]: data });
+
+      const completeData = { ...formData, [`step${currentStep}`]: data };
+      console.log("Complete form data:", completeData);
+
+      // Consolidate all data into OnboardingData format
+      const onboardingData = {
+        // Step 1
+        fullName: completeData.step1?.fullName || "",
+        niche: completeData.step1?.niche || "",
+        yearsOfExperience: completeData.step1?.yearsOfExperience || 0,
+        description: completeData.step1?.description || "",
+        files: completeData.step1?.files || [],
+
+        // Step 2
+        clientName: completeData.step2?.clientNiche || "",
+        clientAge: completeData.step2?.ageRange?.join(", ") || "",
+        clientGender: "",
+        clientPain: completeData.step2?.mainPain || "",
+        clientDesire: completeData.step2?.mainDesire || "",
+
+        // Step 3
+        offerName: completeData.step3?.offerName || "",
+        offerPrice: completeData.step3?.price?.toString() || "0",
+        offerDescription: completeData.step3?.mainPromise || "",
+        guaranteeType: completeData.step3?.hasGuarantee
+          ? completeData.step3?.guaranteeDetails || "Sim"
+          : "Não",
+
+        // Step 4
+        funnelType: completeData.step4?.campaignType || "social_selling",
+      };
+
+      // Save to context (which saves to localStorage)
+      setOnboardingData(onboardingData);
+
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+
+      console.log("✅ Dados salvos no contexto:", onboardingData);
       router.push("/dashboard");
     }
   };
