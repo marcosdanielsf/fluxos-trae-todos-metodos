@@ -33,6 +33,8 @@ interface Agent {
   badgeVariant?: "success" | "warning" | "info";
   progress?: number;
   estimatedTime?: string;
+  tokensUsed?: number;
+  cost?: number;
 }
 
 interface Phase {
@@ -48,6 +50,8 @@ export default function DashboardPage() {
   const [showAgentModal, setShowAgentModal] = useState(false);
   const [selectedAgent, setSelectedAgent] = useState<Agent | null>(null);
   const [currentPhaseIndex, setCurrentPhaseIndex] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
+  const [totalCost, setTotalCost] = useState(0);
 
   const initialPhases: Phase[] = [
     {
@@ -157,6 +161,8 @@ export default function DashboardPage() {
 
   // Simulate automatic agent processing
   useEffect(() => {
+    if (isPaused) return; // Stop processing when paused
+
     const timer = setInterval(() => {
       setPhases((prevPhases) => {
         const newPhases = [...prevPhases];
@@ -190,6 +196,12 @@ export default function DashboardPage() {
                 agent.timestamp = "Concluído agora";
                 agent.badge = Math.random() > 0.3 ? "Aprovado" : "Aprovado com ajustes";
                 agent.badgeVariant = agent.badge === "Aprovado" ? "success" : "warning";
+
+                // Calculate tokens and cost (Gemini Pro: $0.001 per 1K tokens)
+                agent.tokensUsed = Math.floor(Math.random() * 5000 + 2000); // 2K-7K tokens
+                agent.cost = (agent.tokensUsed / 1000) * 0.001; // $0.001 per 1K tokens
+                setTotalCost((prev) => prev + agent.cost!);
+
                 delete agent.progress;
                 delete agent.estimatedTime;
               }
@@ -220,7 +232,7 @@ export default function DashboardPage() {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [currentPhaseIndex]);
+  }, [currentPhaseIndex, isPaused]);
 
   const handleViewResult = (agent: Agent) => {
     setSelectedAgent(agent);
@@ -251,9 +263,17 @@ export default function DashboardPage() {
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <Button variant="outline" size="md">
+              <div className="px-4 py-2 bg-[rgb(var(--card))] border border-[rgb(var(--card-border))] rounded-lg">
+                <p className="text-xs text-gray-400">Custo Total</p>
+                <p className="text-lg font-bold text-white">${totalCost.toFixed(4)}</p>
+              </div>
+              <Button
+                variant="outline"
+                size="md"
+                onClick={() => setIsPaused(!isPaused)}
+              >
                 <Pause className="h-4 w-4" />
-                Pausar
+                {isPaused ? "Retomar" : "Pausar"}
               </Button>
               <Button variant="ghost" size="md">
                 <SettingsIcon className="h-4 w-4" />
@@ -359,9 +379,16 @@ export default function DashboardPage() {
                                 </Badge>
                               )}
                             </div>
-                            <p className="text-sm text-[rgb(var(--foreground-secondary))]">
-                              {agent.timestamp || agent.estimatedTime || "Aguardando..."}
-                            </p>
+                            <div className="flex items-center gap-4">
+                              <p className="text-sm text-[rgb(var(--foreground-secondary))]">
+                                {agent.timestamp || agent.estimatedTime || "Aguardando..."}
+                              </p>
+                              {agent.tokensUsed && (
+                                <p className="text-xs text-gray-500">
+                                  {agent.tokensUsed.toLocaleString()} tokens • ${agent.cost?.toFixed(4)}
+                                </p>
+                              )}
+                            </div>
                             {agent.status === "processing" && agent.progress !== undefined && (
                               <div className="mt-2">
                                 <Progress value={agent.progress} showPercentage={false} />
