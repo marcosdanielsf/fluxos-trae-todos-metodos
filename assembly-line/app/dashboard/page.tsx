@@ -23,6 +23,9 @@ import {
 } from "lucide-react";
 import { useProject } from "@/contexts/ProjectContext";
 import { processAgent } from "@/lib/services/agent-processor";
+import { saveAgentResult, updateProject } from "@/lib/services/projects";
+import { ProjectStats } from "@/components/sections/ProjectStats";
+import { AgentResultCard } from "@/components/features/AgentResultCard";
 
 type AgentStatus = "completed" | "processing" | "pending" | "locked";
 
@@ -55,6 +58,26 @@ export default function DashboardPage() {
   const [currentPhaseIndex, setCurrentPhaseIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const [totalCost, setTotalCost] = useState(0);
+  const [currentProjectId, setCurrentProjectId] = useState<string | null>(null);
+
+  // Get current project ID from localStorage
+  useEffect(() => {
+    const projectId = localStorage.getItem("currentProjectId");
+    if (projectId) {
+      setCurrentProjectId(projectId);
+      console.log("📊 Projeto atual:", projectId);
+    }
+  }, []);
+
+  // Update project total cost in Supabase whenever it changes
+  useEffect(() => {
+    if (currentProjectId && totalCost > 0) {
+      updateProject(currentProjectId, {
+        totalCost,
+        currentPhase: currentPhaseIndex + 1,
+      }).catch(err => console.error("❌ Erro ao atualizar projeto:", err));
+    }
+  }, [totalCost, currentProjectId, currentPhaseIndex]);
 
   const initialPhases: Phase[] = [
     {
@@ -283,6 +306,19 @@ export default function DashboardPage() {
                         version: 1,
                       });
 
+                      // Save agent result to Supabase
+                      if (currentProjectId) {
+                        saveAgentResult(currentProjectId, {
+                          agentId: agent.id,
+                          agentName: agent.name,
+                          phaseNumber: currentPhaseIndex + 1,
+                          content: result.content,
+                          tokensUsed: result.tokensUsed,
+                          cost: result.cost,
+                          approved: false,
+                        }).catch(err => console.error("❌ Erro ao salvar agente no Supabase:", err));
+                      }
+
                       // Update agent in state
                       setPhases((prevPhases) => {
                         const updated = [...prevPhases];
@@ -402,6 +438,18 @@ export default function DashboardPage() {
           </div>
         </header>
 
+        {/* Project Stats */}
+        <div className="p-6 pb-0">
+          <ProjectStats
+            totalAgents={phases.reduce((acc, p) => acc + p.agents.length, 0)}
+            completedAgents={phases.reduce((acc, p) => acc + p.agents.filter(a => a.status === "completed").length, 0)}
+            processingAgents={phases.reduce((acc, p) => acc + p.agents.filter(a => a.status === "processing").length, 0)}
+            totalCost={totalCost}
+            currentPhase={currentPhaseIndex + 1}
+            totalPhases={phases.length}
+          />
+        </div>
+
         {/* Phases */}
         <div className="p-6 space-y-6">
           {phases.map((phase, index) => {
@@ -482,70 +530,24 @@ export default function DashboardPage() {
                         </div>
                       )}
 
-                      <div className="space-y-3">
-                        {phase.agents.map((agent) => (
-                        <div
-                          key={agent.id}
-                          className="flex items-center gap-4 p-4 rounded-lg bg-[rgb(var(--background-secondary))] border border-[rgb(var(--border))] hover:border-[rgb(var(--primary))]/50 transition-all"
-                        >
-                          {/* Status Icon */}
-                          <div>
-                            {agent.status === "completed" && (
-                              <div className="w-8 h-8 rounded-full bg-[rgb(var(--success))]/20 flex items-center justify-center">
-                                <Check className="h-5 w-5 text-[rgb(var(--success))]" />
-                              </div>
-                            )}
-                            {agent.status === "processing" && (
-                              <div className="w-8 h-8 rounded-full bg-[rgb(var(--primary))]/20 flex items-center justify-center">
-                                <Loader2 className="h-5 w-5 text-[rgb(var(--primary))] animate-spin" />
-                              </div>
-                            )}
-                            {agent.status === "pending" && (
-                              <div className="w-8 h-8 rounded-full bg-[rgb(var(--foreground-secondary))]/20 flex items-center justify-center">
-                                <div className="w-2 h-2 rounded-full bg-[rgb(var(--foreground-secondary))]" />
-                              </div>
-                            )}
-                          </div>
-
-                          {/* Agent Info */}
-                          <div className="flex-1">
-                            <div className="flex items-center gap-2 mb-1">
-                              <h4 className="font-medium">{agent.name}</h4>
-                              {agent.badge && (
-                                <Badge variant={agent.badgeVariant} size="sm">
-                                  {agent.badge}
-                                </Badge>
-                              )}
-                            </div>
-                            <div className="flex items-center gap-4">
-                              <p className="text-sm text-[rgb(var(--foreground-secondary))]">
-                                {agent.timestamp || agent.estimatedTime || "Aguardando..."}
-                              </p>
-                              {agent.tokensUsed && (
-                                <p className="text-xs text-gray-500">
-                                  {agent.tokensUsed.toLocaleString()} tokens • ${agent.cost?.toFixed(4)}
-                                </p>
-                              )}
-                            </div>
-                            {agent.status === "processing" && agent.progress !== undefined && (
-                              <div className="mt-2">
-                                <Progress value={agent.progress} showPercentage={false} />
-                              </div>
-                            )}
-                          </div>
-
-                          {/* Action Button */}
-                          {agent.status === "completed" && (
-                            <Button
-                              variant="ghost"
-                              size="sm"
-                              onClick={() => handleViewResult(agent)}
-                            >
-                              Ver Resultado
-                            </Button>
-                          )}
-                        </div>
-                      ))}
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        {phase.agents.map((agent) => {
+                          const agentResult = agentResults.find(r => r.agentId === agent.id);
+                          return (
+                            <AgentResultCard
+                              key={agent.id}
+                              agentName={agent.name}
+                              agentId={agent.id}
+                              content={agentResult?.content || ""}
+                              status={agent.status}
+                              tokensUsed={agent.tokensUsed}
+                              cost={agent.cost}
+                              approved={agentResult?.approved}
+                              phase={phase.id}
+                              onView={() => handleViewResult(agent)}
+                            />
+                          );
+                        })}
                       </div>
                     </>
                   )}

@@ -24,6 +24,7 @@ import { FileUpload } from "@/components/ui/file-upload";
 import { MessageSquare, Magnet, TrendingUp, ChevronRight } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useProject } from "@/contexts/ProjectContext";
+import { saveProject } from "@/lib/services/projects";
 
 type FormData = Step1FormData | Step2FormData | Step3FormData | Step4FormData;
 
@@ -79,6 +80,27 @@ export default function OnboardingPage() {
 
       // Save to context (which saves to localStorage)
       setOnboardingData(onboardingData);
+
+      // Save project to Supabase
+      try {
+        const projectId = await saveProject({
+          name: `${onboardingData.offerName} - ${onboardingData.clientName}`,
+          niche: onboardingData.niche,
+          description: onboardingData.description,
+          clientName: onboardingData.clientName,
+          currentPhase: 1,
+          status: "em-andamento",
+          totalCost: 0,
+        });
+
+        console.log("✅ Projeto salvo no Supabase com ID:", projectId);
+
+        // Store project ID in context for later use
+        localStorage.setItem("currentProjectId", projectId);
+      } catch (error) {
+        console.error("❌ Erro ao salvar projeto no Supabase:", error);
+        // Continue anyway - data is saved in context/localStorage
+      }
 
       await new Promise((resolve) => setTimeout(resolve, 1000));
 
