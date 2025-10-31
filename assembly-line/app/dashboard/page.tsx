@@ -49,7 +49,7 @@ interface Phase {
 }
 
 export default function DashboardPage() {
-  const { onboardingData, addAgentResult } = useProject();
+  const { onboardingData, addAgentResult, isPhaseApproved, agentResults } = useProject();
   const [showAgentModal, setShowAgentModal] = useState(false);
   const [selectedAgent, setSelectedAgent] = useState<Agent | null>(null);
   const [currentPhaseIndex, setCurrentPhaseIndex] = useState(0);
@@ -162,6 +162,35 @@ export default function DashboardPage() {
 
   const [phases, setPhases] = useState<Phase[]>(initialPhases);
 
+  // Check for agents that need regeneration
+  useEffect(() => {
+    const agentsNeedingRegeneration = agentResults.filter(
+      (result) => result.feedback && result.approved === false
+    );
+
+    if (agentsNeedingRegeneration.length > 0) {
+      setPhases((prevPhases) => {
+        const newPhases = [...prevPhases];
+        agentsNeedingRegeneration.forEach((agentResult) => {
+          // Find the agent in phases and reset it to pending
+          for (const phase of newPhases) {
+            const agent = phase.agents.find((a) => a.id === agentResult.agentId);
+            if (agent && agent.status === "completed") {
+              agent.status = "pending";
+              agent.badge = "Reprocessando com feedback";
+              agent.badgeVariant = "warning";
+              delete agent.timestamp;
+              delete agent.tokensUsed;
+              delete agent.cost;
+              break;
+            }
+          }
+        });
+        return newPhases;
+      });
+    }
+  }, [agentResults]);
+
   // Simulate automatic agent processing
   useEffect(() => {
     if (isPaused) return; // Stop processing when paused
@@ -196,8 +225,12 @@ export default function DashboardPage() {
               } else {
                 // Progress reached 100% - call API to generate real content
                 if (onboardingData) {
-                  // Process agent with Gemini API
-                  processAgent(agent.id, onboardingData)
+                  // Check if agent has feedback for regeneration
+                  const agentWithFeedback = agentResults.find(r => r.agentId === agent.id);
+                  const feedbackToUse = agentWithFeedback?.feedback;
+
+                  // Process agent with Gemini API (with optional feedback)
+                  processAgent(agent.id, onboardingData, feedbackToUse)
                     .then((result) => {
                       console.log(`✅ Agente ${agent.id} processado:`, result);
 
@@ -266,18 +299,24 @@ export default function DashboardPage() {
             const completedAgents = currentPhase.agents.filter((a) => a.status === "completed").length;
             currentPhase.progress = Math.floor((completedAgents / currentPhase.agents.length) * 100);
 
-            // Check if phase is complete
+            // Check if phase is complete and approved
             if (completedAgents === currentPhase.agents.length) {
-              currentPhase.status = "completed";
+              // Verify if all agents in this phase were approved
+              const phaseApproved = isPhaseApproved(currentPhaseIndex);
 
-              // Unlock next phase
-              if (currentPhaseIndex < newPhases.length - 1) {
-                newPhases[currentPhaseIndex + 1].status = "active";
-                newPhases[currentPhaseIndex + 1].agents.forEach((agent) => {
-                  agent.status = "pending";
-                });
-                setCurrentPhaseIndex(currentPhaseIndex + 1);
+              if (phaseApproved) {
+                currentPhase.status = "completed";
+
+                // Unlock next phase only if current phase is approved
+                if (currentPhaseIndex < newPhases.length - 1) {
+                  newPhases[currentPhaseIndex + 1].status = "active";
+                  newPhases[currentPhaseIndex + 1].agents.forEach((agent) => {
+                    agent.status = "pending";
+                  });
+                  setCurrentPhaseIndex(currentPhaseIndex + 1);
+                }
               }
+              // If not approved, phase stays active waiting for approval
             }
           }
         }
@@ -395,12 +434,34 @@ export default function DashboardPage() {
                     <div className="text-center py-8">
                       <Lock className="h-12 w-12 text-[rgb(var(--foreground-secondary))] mx-auto mb-3" />
                       <p className="text-[rgb(var(--foreground-secondary))]">
-                        Será desbloqueada após conclusão da Fase {phase.id - 1}
+                        {index > 0 && !isPhaseApproved(index - 1)
+                          ? `Aguardando aprovação da Fase ${phase.id - 1}`
+                          : `Será desbloqueada após conclusão da Fase ${phase.id - 1}`}
                       </p>
                     </div>
                   ) : (
-                    <div className="space-y-3">
-                      {phase.agents.map((agent) => (
+                    <>
+                      {/* Warning when phase is complete but not approved */}
+                      {phase.progress === 100 && !isPhaseApproved(index) && (
+                        <div className="mb-4 p-4 bg-[rgb(var(--warning))]/10 border border-[rgb(var(--warning))]/30 rounded-lg">
+                          <div className="flex items-start gap-3">
+                            <div className="w-5 h-5 rounded-full bg-[rgb(var(--warning))]/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                              <span className="text-[rgb(var(--warning))] text-sm font-bold">!</span>
+                            </div>
+                            <div>
+                              <h4 className="font-semibold text-[rgb(var(--warning))] mb-1">
+                                Fase Aguardando Aprovação
+                              </h4>
+                              <p className="text-sm text-[rgb(var(--foreground-secondary))]">
+                                Todos os agentes foram processados. Revise os resultados e aprove cada agente antes de avançar para a próxima fase.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      )}
+
+                      <div className="space-y-3">
+                        {phase.agents.map((agent) => (
                         <div
                           key={agent.id}
                           className="flex items-center gap-4 p-4 rounded-lg bg-[rgb(var(--background-secondary))] border border-[rgb(var(--border))] hover:border-[rgb(var(--primary))]/50 transition-all"
@@ -463,7 +524,8 @@ export default function DashboardPage() {
                           )}
                         </div>
                       ))}
-                    </div>
+                      </div>
+                    </>
                   )}
                 </CardContent>
               </Card>

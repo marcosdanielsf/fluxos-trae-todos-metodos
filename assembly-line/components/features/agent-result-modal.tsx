@@ -35,29 +35,36 @@ export function AgentResultModal({
   agentName,
   agentId,
 }: AgentResultModalProps) {
-  const { agentResults } = useProject();
+  const { agentResults, approveAgent, requestRegeneration } = useProject();
   const [feedback, setFeedback] = useState("");
   const [showFeedbackForm, setShowFeedbackForm] = useState(false);
 
   // Get the result for this specific agent
   const agentResult = agentResults.find((r) => r.agentId === agentId);
   const hasRealContent = !!agentResult?.content;
+  const isApproved = agentResult?.approved === true;
 
   const handleApprove = () => {
-    console.log("Approved:", agentId);
+    approveAgent(agentId);
     onOpenChange(false);
   };
 
   const handleFeedback = () => {
-    console.log("Feedback:", feedback);
-    setShowFeedbackForm(false);
-    setFeedback("");
+    if (feedback.trim()) {
+      requestRegeneration(agentId, feedback);
+      setShowFeedbackForm(false);
+      setFeedback("");
+      onOpenChange(false);
+      // Página será recarregada ou agente será reprocessado
+      window.location.reload();
+    }
   };
 
   const handleRedo = () => {
-    if (confirm("Tem certeza? O agente será executado novamente.")) {
-      console.log("Redo:", agentId);
+    if (confirm("Tem certeza? O agente será executado novamente do zero.")) {
+      requestRegeneration(agentId, "Refazer do zero conforme solicitado");
       onOpenChange(false);
+      window.location.reload();
     }
   };
 
@@ -89,8 +96,17 @@ export function AgentResultModal({
           <div className="space-y-6">
             {/* Status Badge */}
             {hasRealContent ? (
-              <div className="flex items-center gap-2">
-                <Badge variant="success" size="sm">
+              <div className="flex items-center gap-2 flex-wrap">
+                {isApproved ? (
+                  <Badge variant="success" size="sm">
+                    ✓ Aprovado
+                  </Badge>
+                ) : (
+                  <Badge variant="warning" size="sm">
+                    Aguardando Aprovação
+                  </Badge>
+                )}
+                <Badge variant="info" size="sm">
                   Gerado com IA
                 </Badge>
                 {agentResult.tokensUsed && (
@@ -162,63 +178,79 @@ export function AgentResultModal({
             )}
 
             {/* Avaliação do Cliente */}
-            <div className="p-4 bg-gradient-to-r from-[rgb(var(--primary))]/10 to-[rgb(var(--secondary))]/10 rounded-lg border border-[rgb(var(--primary))]/20">
-              <h3 className="font-bold mb-4">Este resultado representa você fielmente?</h3>
-
-              {!showFeedbackForm ? (
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-                  <Button
-                    variant="success"
-                    className="h-auto py-4 flex flex-col items-center gap-2"
-                    onClick={handleApprove}
-                  >
-                    <ThumbsUp className="h-5 w-5" />
-                    <span className="text-sm">Perfeito! Aprovar</span>
-                  </Button>
-
-                  <Button
-                    variant="outline"
-                    className="h-auto py-4 flex flex-col items-center gap-2 border-[rgb(var(--warning))] hover:bg-[rgb(var(--warning))]/10"
-                    onClick={() => setShowFeedbackForm(true)}
-                  >
-                    <Edit3 className="h-5 w-5 text-[rgb(var(--warning))]" />
-                    <span className="text-sm">Quase lá, dar feedback</span>
-                  </Button>
-
-                  <Button
-                    variant="outline"
-                    className="h-auto py-4 flex flex-col items-center gap-2 border-[rgb(var(--error))] hover:bg-[rgb(var(--error))]/10"
-                    onClick={handleRedo}
-                  >
-                    <RotateCcw className="h-5 w-5 text-[rgb(var(--error))]" />
-                    <span className="text-sm">Refazer do zero</span>
-                  </Button>
-                </div>
-              ) : (
-                <div className="space-y-3">
-                  <Textarea
-                    value={feedback}
-                    onChange={(e) => setFeedback(e.target.value)}
-                    placeholder="Ex: Adicionar que sempre uso metáforas de esportes..."
-                    rows={4}
-                  />
-                  <div className="flex gap-2">
-                    <Button onClick={handleFeedback} className="flex-1">
-                      Reprocessar com Feedback
-                    </Button>
-                    <Button
-                      variant="ghost"
-                      onClick={() => {
-                        setShowFeedbackForm(false);
-                        setFeedback("");
-                      }}
-                    >
-                      Cancelar
-                    </Button>
+            {hasRealContent && (
+              <div className="p-4 bg-gradient-to-r from-[rgb(var(--primary))]/10 to-[rgb(var(--secondary))]/10 rounded-lg border border-[rgb(var(--primary))]/20">
+                {isApproved ? (
+                  <div className="text-center py-4">
+                    <div className="w-12 h-12 rounded-full bg-[rgb(var(--success))]/20 flex items-center justify-center mx-auto mb-3">
+                      <ThumbsUp className="h-6 w-6 text-[rgb(var(--success))]" />
+                    </div>
+                    <h3 className="font-bold mb-2 text-[rgb(var(--success))]">Agente Aprovado!</h3>
+                    <p className="text-sm text-[rgb(var(--foreground-secondary))]">
+                      Este resultado foi aprovado e está pronto para uso.
+                    </p>
                   </div>
-                </div>
-              )}
-            </div>
+                ) : (
+                  <>
+                    <h3 className="font-bold mb-4">Este resultado representa você fielmente?</h3>
+
+                    {!showFeedbackForm ? (
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                        <Button
+                          variant="success"
+                          className="h-auto py-4 flex flex-col items-center gap-2"
+                          onClick={handleApprove}
+                        >
+                          <ThumbsUp className="h-5 w-5" />
+                          <span className="text-sm">Perfeito! Aprovar</span>
+                        </Button>
+
+                        <Button
+                          variant="outline"
+                          className="h-auto py-4 flex flex-col items-center gap-2 border-[rgb(var(--warning))] hover:bg-[rgb(var(--warning))]/10"
+                          onClick={() => setShowFeedbackForm(true)}
+                        >
+                          <Edit3 className="h-5 w-5 text-[rgb(var(--warning))]" />
+                          <span className="text-sm">Quase lá, dar feedback</span>
+                        </Button>
+
+                        <Button
+                          variant="outline"
+                          className="h-auto py-4 flex flex-col items-center gap-2 border-[rgb(var(--error))] hover:bg-[rgb(var(--error))]/10"
+                          onClick={handleRedo}
+                        >
+                          <RotateCcw className="h-5 w-5 text-[rgb(var(--error))]" />
+                          <span className="text-sm">Refazer do zero</span>
+                        </Button>
+                      </div>
+                    ) : (
+                      <div className="space-y-3">
+                        <Textarea
+                          value={feedback}
+                          onChange={(e) => setFeedback(e.target.value)}
+                          placeholder="Ex: Adicionar que sempre uso metáforas de esportes, falar mais sobre cases reais..."
+                          rows={4}
+                        />
+                        <div className="flex gap-2">
+                          <Button onClick={handleFeedback} className="flex-1" disabled={!feedback.trim()}>
+                            Reprocessar com Feedback
+                          </Button>
+                          <Button
+                            variant="ghost"
+                            onClick={() => {
+                              setShowFeedbackForm(false);
+                              setFeedback("");
+                            }}
+                          >
+                            Cancelar
+                          </Button>
+                        </div>
+                      </div>
+                    )}
+                  </>
+                )}
+              </div>
+            )}
 
             {/* Informações Adicionais */}
             {hasRealContent && agentResult.timestamp && (

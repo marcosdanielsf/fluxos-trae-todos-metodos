@@ -9,12 +9,16 @@ export interface ProcessedAgentResult {
 
 /**
  * Processa um agente específico chamando o método correto do Gemini
+ * @param agentId - ID do agente a processar
+ * @param onboardingData - Dados do onboarding
+ * @param feedback - Feedback opcional do usuário para regeneração
  */
 export async function processAgent(
   agentId: string,
-  onboardingData: OnboardingData
+  onboardingData: OnboardingData,
+  feedback?: string
 ): Promise<ProcessedAgentResult> {
-  console.log(`🤖 Processando agente: ${agentId}`);
+  console.log(`🤖 Processando agente: ${agentId}${feedback ? " (com feedback)" : ""}`);
 
   let content: string;
   let tokensUsed: number;
@@ -127,6 +131,28 @@ export async function processAgent(
       console.warn(`⚠️ Agente desconhecido: ${agentId}, usando conteúdo mockado`);
       content = generateMockContent(agentId, onboardingData);
       tokensUsed = Math.floor(Math.random() * 3000 + 2000);
+    }
+
+    // Se houver feedback, refinar o conteúdo com base nele
+    if (feedback) {
+      console.log(`🔄 Refinando com feedback: ${feedback}`);
+
+      const refinedContent = await geminiService.generateContent({
+        systemPrompt: "Você é um especialista em refinamento de conteúdo de marketing e branding.",
+        userQuery: `Refine o conteúdo abaixo com base no seguinte feedback do cliente:
+
+FEEDBACK: ${feedback}
+
+CONTEÚDO ORIGINAL:
+${content}
+
+Gere uma nova versão melhorada que incorpore o feedback do cliente, mantendo a qualidade e estrutura, mas ajustando conforme solicitado.`,
+        temperature: 0.7,
+        maxTokens: 2048,
+      });
+
+      content = refinedContent;
+      tokensUsed = estimateTokens(content);
     }
 
     // Calcula custo (Gemini Pro: $0.001 per 1K tokens)
