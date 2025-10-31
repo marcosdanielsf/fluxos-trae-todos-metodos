@@ -177,6 +177,70 @@ export async function deleteProject(projectId: string): Promise<void> {
 }
 
 /**
+ * Save agent result to Supabase
+ */
+export async function saveAgentResult(
+  projectId: string,
+  agentData: {
+    agentId: string;
+    agentName: string;
+    phaseNumber: number;
+    content: string;
+    tokensUsed: number;
+    cost: number;
+    approved: boolean;
+  }
+): Promise<void> {
+  if (isSupabaseConfigured && supabase) {
+    const { error } = await supabase.from("agents-assembly-epic").insert({
+      project_id: projectId,
+      agent_id: agentData.agentId,
+      agent_name: agentData.agentName,
+      phase_number: agentData.phaseNumber,
+      content: agentData.content,
+      tokens_used: agentData.tokensUsed,
+      cost: agentData.cost,
+      approved: agentData.approved,
+      status: "completed",
+    });
+
+    if (error) {
+      console.error("Error saving agent result to Supabase:", error);
+    } else {
+      console.log(`✅ Agente ${agentData.agentId} salvo no Supabase`);
+    }
+  }
+}
+
+/**
+ * Update agent approval status in Supabase
+ */
+export async function updateAgentApproval(
+  projectId: string,
+  agentId: string,
+  approved: boolean,
+  feedback?: string
+): Promise<void> {
+  if (isSupabaseConfigured && supabase) {
+    const { error } = await supabase
+      .from("agents-assembly-epic")
+      .update({
+        approved,
+        feedback: feedback || null,
+        updated_at: new Date().toISOString(),
+      })
+      .eq("project_id", projectId)
+      .eq("agent_id", agentId);
+
+    if (error) {
+      console.error("Error updating agent approval:", error);
+    } else {
+      console.log(`✅ Aprovação do agente ${agentId} atualizada no Supabase`);
+    }
+  }
+}
+
+/**
  * Helper: Get projects from localStorage
  */
 function getLocalProjects(): ProjectData[] {

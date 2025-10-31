@@ -242,6 +242,8 @@ export default function DashboardPage() {
                         timestamp: new Date().toISOString(),
                         tokensUsed: result.tokensUsed,
                         cost: result.cost,
+                        approved: false, // Precisa ser aprovado pelo cliente
+                        version: 1,
                       });
 
                       // Update agent in state

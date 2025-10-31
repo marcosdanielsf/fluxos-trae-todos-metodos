@@ -1,6 +1,7 @@
 "use client";
 
 import React, { createContext, useContext, useState, ReactNode } from "react";
+import { saveProject, saveAgentResult, updateAgentApproval } from "@/lib/services/projects";
 
 export interface OnboardingData {
   fullName: string;
@@ -50,20 +51,20 @@ const ProjectContext = createContext<ProjectContextType | undefined>(undefined);
 
 // Mapeamento de agentId para phase index
 const AGENT_PHASE_MAP: Record<string, number> = {
-  // Fase 1
+  // Fase 1: Clonagem de Identidade
   "dna-extractor": 0,
   "reverse-engineer": 0,
-  "configuration": 0,
+  "clone-configurator": 0,
   "expert-emulator": 0,
-  // Fase 2
-  "behavior-analyst": 1,
-  "market-intelligence": 1,
-  "market-analyst": 1,
-  // Fase 3
+  // Fase 2: Inteligência de Mercado
+  "behavioral-psychologist": 1,
+  "capivara-intelligence": 1,
+  "market-analyzer": 1,
+  // Fase 3: Criação de Conteúdo
   "copy-generator": 2,
-  "creative-brief": 2,
-  "stories-generator": 2,
-  // Fase 4
+  "creative-designer": 2,
+  "story-writer": 2,
+  // Fase 4: Estrutura de Funil
   "funnel-architect": 3,
   "conversion-optimizer": 3,
   "automation-builder": 3,
@@ -74,11 +75,32 @@ export function ProjectProvider({ children }: { children: ReactNode }) {
   const [agentResults, setAgentResults] = useState<AgentResult[]>([]);
   const [currentProjectId, setCurrentProjectId] = useState<string | null>(null);
 
-  const setOnboardingData = (data: OnboardingData) => {
+  const setOnboardingData = async (data: OnboardingData) => {
     setOnboardingDataState(data);
     // Save to localStorage for persistence
     if (typeof window !== "undefined") {
       localStorage.setItem("assembly-line-onboarding", JSON.stringify(data));
+    }
+
+    // Create project in Supabase if not exists
+    if (!currentProjectId) {
+      try {
+        const projectId = await saveProject({
+          name: `${data.offerName} - ${data.niche}`,
+          niche: data.niche,
+          description: data.description,
+          clientName: data.clientName,
+          currentPhase: 1,
+          status: "em-andamento",
+          totalCost: 0,
+        });
+        setCurrentProjectId(projectId);
+        if (typeof window !== "undefined") {
+          localStorage.setItem("assembly-line-project-id", projectId);
+        }
+      } catch (error) {
+        console.error("Erro ao criar projeto no Supabase:", error);
+      }
     }
   };
 
@@ -93,6 +115,22 @@ export function ProjectProvider({ children }: { children: ReactNode }) {
       }
       return updated;
     });
+
+    // Save to Supabase if project exists
+    if (currentProjectId) {
+      const phaseNumber = AGENT_PHASE_MAP[result.agentId] + 1; // Convert 0-indexed to 1-indexed
+      saveAgentResult(currentProjectId, {
+        agentId: result.agentId,
+        agentName: result.agentName,
+        phaseNumber,
+        content: result.content,
+        tokensUsed: result.tokensUsed,
+        cost: result.cost,
+        approved: result.approved || false,
+      }).catch((error) => {
+        console.error("Erro ao salvar agente no Supabase:", error);
+      });
+    }
   };
 
   const updateAgentResult = (agentId: string, updates: Partial<AgentResult>) => {
@@ -110,6 +148,13 @@ export function ProjectProvider({ children }: { children: ReactNode }) {
 
   const approveAgent = (agentId: string) => {
     updateAgentResult(agentId, { approved: true });
+
+    // Update in Supabase
+    if (currentProjectId) {
+      updateAgentApproval(currentProjectId, agentId, true).catch((error) => {
+        console.error("Erro ao atualizar aprovação no Supabase:", error);
+      });
+    }
   };
 
   const requestRegeneration = (agentId: string, feedback: string) => {
@@ -117,6 +162,13 @@ export function ProjectProvider({ children }: { children: ReactNode }) {
       approved: false,
       feedback,
     });
+
+    // Update in Supabase
+    if (currentProjectId) {
+      updateAgentApproval(currentProjectId, agentId, false, feedback).catch((error) => {
+        console.error("Erro ao atualizar feedback no Supabase:", error);
+      });
+    }
   };
 
   const getAgentsByPhase = (phaseIndex: number): AgentResult[] => {
@@ -153,6 +205,7 @@ export function ProjectProvider({ children }: { children: ReactNode }) {
     if (typeof window !== "undefined") {
       const savedOnboarding = localStorage.getItem("assembly-line-onboarding");
       const savedResults = localStorage.getItem("assembly-line-results");
+      const savedProjectId = localStorage.getItem("assembly-line-project-id");
 
       if (savedOnboarding) {
         setOnboardingDataState(JSON.parse(savedOnboarding));
@@ -160,6 +213,10 @@ export function ProjectProvider({ children }: { children: ReactNode }) {
 
       if (savedResults) {
         setAgentResults(JSON.parse(savedResults));
+      }
+
+      if (savedProjectId) {
+        setCurrentProjectId(savedProjectId);
       }
     }
   }, []);
