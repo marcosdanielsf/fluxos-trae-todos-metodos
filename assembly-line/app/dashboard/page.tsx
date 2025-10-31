@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Sidebar } from "@/components/layout/sidebar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -47,45 +47,35 @@ interface Phase {
 export default function DashboardPage() {
   const [showAgentModal, setShowAgentModal] = useState(false);
   const [selectedAgent, setSelectedAgent] = useState<Agent | null>(null);
+  const [currentPhaseIndex, setCurrentPhaseIndex] = useState(0);
 
-  const phases: Phase[] = [
+  const initialPhases: Phase[] = [
     {
       id: 1,
       title: "Clonagem de Identidade",
       icon: Dna,
-      progress: 75,
+      progress: 0,
       status: "active",
       agents: [
         {
           id: "dna-extractor",
           name: "DNA Extractor",
-          status: "completed",
-          timestamp: "Concluído há 2 min",
-          badge: "Aprovado",
-          badgeVariant: "success",
+          status: "pending",
         },
         {
           id: "reverse-engineer",
           name: "Reverse Engineer",
-          status: "completed",
-          timestamp: "Concluído há 1 min",
-          badge: "Aprovado com ajustes",
-          badgeVariant: "warning",
+          status: "pending",
         },
         {
           id: "clone-configurator",
           name: "Clone Configurator",
-          status: "completed",
-          timestamp: "Concluído agora",
-          badge: "Aprovado",
-          badgeVariant: "success",
+          status: "pending",
         },
         {
           id: "expert-emulator",
           name: "Expert Emulator",
-          status: "processing",
-          progress: 45,
-          estimatedTime: "~1m 30s restantes",
+          status: "pending",
         },
       ],
     },
@@ -104,6 +94,11 @@ export default function DashboardPage() {
         {
           id: "capivara-intelligence",
           name: "Capivara Intelligence",
+          status: "locked",
+        },
+        {
+          id: "market-analyzer",
+          name: "Market Analyzer",
           status: "locked",
         },
       ],
@@ -125,6 +120,11 @@ export default function DashboardPage() {
           name: "Creative Designer",
           status: "locked",
         },
+        {
+          id: "story-writer",
+          name: "Story Writer",
+          status: "locked",
+        },
       ],
     },
     {
@@ -144,9 +144,83 @@ export default function DashboardPage() {
           name: "Conversion Optimizer",
           status: "locked",
         },
+        {
+          id: "automation-builder",
+          name: "Automation Builder",
+          status: "locked",
+        },
       ],
     },
   ];
+
+  const [phases, setPhases] = useState<Phase[]>(initialPhases);
+
+  // Simulate automatic agent processing
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setPhases((prevPhases) => {
+        const newPhases = [...prevPhases];
+        const currentPhase = newPhases[currentPhaseIndex];
+
+        if (currentPhase && currentPhase.status === "active") {
+          // Find first pending or processing agent
+          const agentIndex = currentPhase.agents.findIndex(
+            (agent) => agent.status === "pending" || agent.status === "processing"
+          );
+
+          if (agentIndex !== -1) {
+            const agent = currentPhase.agents[agentIndex];
+
+            if (agent.status === "pending") {
+              // Start processing
+              agent.status = "processing";
+              agent.progress = 0;
+              agent.estimatedTime = "~" + Math.floor(Math.random() * 30 + 20) + "s restantes";
+            } else if (agent.status === "processing") {
+              // Increment progress
+              const currentProgress = agent.progress || 0;
+              if (currentProgress < 100) {
+                agent.progress = Math.min(currentProgress + 5, 100);
+
+                const remaining = Math.floor((100 - agent.progress) / 5) * 2;
+                agent.estimatedTime = remaining > 0 ? `~${remaining}s restantes` : "Finalizando...";
+              } else {
+                // Complete agent
+                agent.status = "completed";
+                agent.timestamp = "Concluído agora";
+                agent.badge = Math.random() > 0.3 ? "Aprovado" : "Aprovado com ajustes";
+                agent.badgeVariant = agent.badge === "Aprovado" ? "success" : "warning";
+                delete agent.progress;
+                delete agent.estimatedTime;
+              }
+            }
+
+            // Update phase progress
+            const completedAgents = currentPhase.agents.filter((a) => a.status === "completed").length;
+            currentPhase.progress = Math.floor((completedAgents / currentPhase.agents.length) * 100);
+
+            // Check if phase is complete
+            if (completedAgents === currentPhase.agents.length) {
+              currentPhase.status = "completed";
+
+              // Unlock next phase
+              if (currentPhaseIndex < newPhases.length - 1) {
+                newPhases[currentPhaseIndex + 1].status = "active";
+                newPhases[currentPhaseIndex + 1].agents.forEach((agent) => {
+                  agent.status = "pending";
+                });
+                setCurrentPhaseIndex(currentPhaseIndex + 1);
+              }
+            }
+          }
+        }
+
+        return newPhases;
+      });
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, [currentPhaseIndex]);
 
   const handleViewResult = (agent: Agent) => {
     setSelectedAgent(agent);
@@ -171,7 +245,9 @@ export default function DashboardPage() {
               </nav>
               <div className="flex items-center gap-4">
                 <h1 className="text-2xl font-bold">Lançamento Mentoria Premium</h1>
-                <Badge variant="info">FASE 1 - Em Progresso</Badge>
+                <Badge variant="info">
+                  FASE {currentPhaseIndex + 1} - {phases[currentPhaseIndex]?.status === "completed" ? "Concluída" : "Em Progresso"}
+                </Badge>
               </div>
             </div>
             <div className="flex items-center gap-3">
