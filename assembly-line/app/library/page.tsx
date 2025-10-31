@@ -18,7 +18,7 @@ import {
   Heart,
   Share2,
 } from "lucide-react";
-import Sidebar from "@/components/layout/sidebar";
+import { Sidebar } from "@/components/layout/sidebar";
 
 interface Asset {
   id: string;

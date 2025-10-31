@@ -16,7 +16,7 @@ import {
   CheckCircle,
   AlertCircle,
 } from "lucide-react";
-import Sidebar from "@/components/layout/sidebar";
+import { Sidebar } from "@/components/layout/sidebar";
 
 export default function SettingsPage() {
   const [activeTab, setActiveTab] = useState("profile");

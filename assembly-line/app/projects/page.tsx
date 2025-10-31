@@ -14,7 +14,7 @@ import {
   Search,
   Filter,
 } from "lucide-react";
-import Sidebar from "@/components/layout/sidebar";
+import { Sidebar } from "@/components/layout/sidebar";
 
 interface Project {
   id: string;
