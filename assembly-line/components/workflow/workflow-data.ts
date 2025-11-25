@@ -6,6 +6,7 @@ export interface WorkflowNodeData {
   phase: number;
   agentCount?: number;
   status?: "active" | "completed" | "pending";
+  [key: string]: unknown;
 }
 
 // MACRO VIEW: High-level 4 phases
