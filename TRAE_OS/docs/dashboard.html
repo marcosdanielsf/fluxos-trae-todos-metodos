@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAE OS - Brain Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .status-card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .modules-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .module-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .module-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .module-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .module-name {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .status-badge {
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .status-idle {
+            background: #e0e7ff;
+            color: #4c51bf;
+        }
+
+        .status-running {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+
+        .status-error {
+            background: #fed7d7;
+            color: #742a2a;
+        }
+
+        .module-metrics {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .metric {
+            background: #f7fafc;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .metric-label {
+            font-size: 12px;
+            color: #718096;
+            margin-bottom: 4px;
+        }
+
+        .metric-value {
+            font-size: 20px;
+            font-weight: 700;
+            color: #2d3748;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #5a67d8;
+        }
+
+        .btn-danger {
+            background: #f56565;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background: #e53e3e;
+        }
+
+        .btn-secondary {
+            background: #edf2f7;
+            color: #2d3748;
+        }
+
+        .btn-secondary:hover {
+            background: #e2e8f0;
+        }
+
+        .stats-overview {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-box {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: #718096;
+            margin-bottom: 8px;
+        }
+
+        .stat-value {
+            font-size: 32px;
+            font-weight: 700;
+            color: #2d3748;
+        }
+
+        .activity-log {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .log-entry {
+            padding: 12px;
+            border-left: 3px solid #667eea;
+            margin-bottom: 12px;
+            background: #f7fafc;
+            border-radius: 4px;
+        }
+
+        .log-time {
+            font-size: 12px;
+            color: #718096;
+            margin-bottom: 4px;
+        }
+
+        .log-message {
+            font-size: 14px;
+            color: #2d3748;
+        }
+
+        .brain-status {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .brain-status h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .health-indicator {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .health-circle {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #48bb78;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🧠 TRAE OS Brain</h1>
+            <p>Sistema Operacional Empresarial Autogerenciável</p>
+        </div>
+
+        <div class="brain-status">
+            <h2>Status do Cérebro</h2>
+            <div class="health-indicator">
+                <div class="health-circle" id="healthCircle">82</div>
+                <div>
+                    <h3>Saúde do Sistema</h3>
+                    <p>Sistema operando normalmente. Todos os módulos ativos.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn-primary" onclick="startBrain()">▶ Iniciar Cérebro</button>
+            <button class="btn-danger" onclick="stopBrain()">⏹ Parar Cérebro</button>
+            <button class="btn-secondary" onclick="refreshStatus()">🔄 Atualizar</button>
+        </div>
+
+        <div class="stats-overview">
+            <div class="stat-box">
+                <div class="stat-label">Leads Processados (30d)</div>
+                <div class="stat-value">1,250</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Reuniões Agendadas</div>
+                <div class="stat-value">187</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Deals Fechados</div>
+                <div class="stat-value">42</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Receita Gerada</div>
+                <div class="stat-value">R$ 420k</div>
+            </div>
+        </div>
+
+        <h2 style="color: white; margin-bottom: 20px;">Módulos Ativos</h2>
+
+        <div class="modules-grid" id="modulesGrid">
+            <!-- Módulos serão injetados via JavaScript -->
+        </div>
+
+        <h2 style="color: white; margin-bottom: 20px;">Log de Atividades</h2>
+
+        <div class="activity-log" id="activityLog">
+            <!-- Log será injetado via JavaScript -->
+        </div>
+    </div>
+
+    <script>
+        const API_URL = 'http://localhost:8000';
+
+        const modules = [
+            { name: 'Diagnóstico 360°', id: 'diagnostico', status: 'idle', tasks: 5, efficiency: 92 },
+            { name: 'Posicionamento', id: 'posicionamento', status: 'idle', tasks: 3, efficiency: 88 },
+            { name: 'Oferta & Produto', id: 'oferta', status: 'idle', tasks: 7, efficiency: 85 },
+            { name: 'Aquisição', id: 'aquisicao', status: 'running', tasks: 42, efficiency: 78 },
+            { name: 'Pré-Vendas (SDR)', id: 'pre_vendas', status: 'running', tasks: 187, efficiency: 94 },
+            { name: 'Vendas (Closer)', id: 'vendas', status: 'idle', tasks: 15, efficiency: 89 },
+            { name: 'Onboarding & CS', id: 'onboarding', status: 'idle', tasks: 23, efficiency: 91 },
+            { name: 'Gestão & CRM', id: 'gestao', status: 'running', tasks: 8, efficiency: 87 }
+        ];
+
+        const activityLogs = [
+            { time: '10:45:32', message: '✅ SDR Agent qualificou novo lead - Score: 85' },
+            { time: '10:42:15', message: '📧 Cadência automática enviada para 12 leads' },
+            { time: '10:38:00', message: '📅 3 reuniões agendadas automaticamente' },
+            { time: '10:35:22', message: '🎯 Módulo de Aquisição gerou 45 novos leads' },
+            { time: '10:30:15', message: '💚 Health Score atualizado para 3 clientes' },
+            { time: '10:28:50', message: '🧠 Motor de decisão otimizou alocação de recursos' },
+            { time: '10:25:00', message: '📊 Dashboard atualizado com novas métricas' },
+            { time: '10:20:18', message: '🔄 Workflow de onboarding executado com sucesso' }
+        ];
+
+        function renderModules() {
+            const grid = document.getElementById('modulesGrid');
+
+            grid.innerHTML = modules.map(module => `
+                <div class="module-card">
+                    <div class="module-header">
+                        <div class="module-name">${module.name}</div>
+                        <span class="status-badge status-${module.status}">${module.status}</span>
+                    </div>
+                    <div class="module-metrics">
+                        <div class="metric">
+                            <div class="metric-label">Tarefas</div>
+                            <div class="metric-value">${module.tasks}</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Eficiência</div>
+                            <div class="metric-value">${module.efficiency}%</div>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function renderLogs() {
+            const log = document.getElementById('activityLog');
+
+            log.innerHTML = activityLogs.map(entry => `
+                <div class="log-entry">
+                    <div class="log-time">${entry.time}</div>
+                    <div class="log-message">${entry.message}</div>
+                </div>
+            `).join('');
+        }
+
+        async function startBrain() {
+            console.log('Starting brain...');
+            alert('Cérebro TRAE OS iniciado com sucesso!');
+        }
+
+        async function stopBrain() {
+            console.log('Stopping brain...');
+            alert('Cérebro TRAE OS pausado.');
+        }
+
+        async function refreshStatus() {
+            console.log('Refreshing status...');
+            renderModules();
+            renderLogs();
+            alert('Status atualizado!');
+        }
+
+        // Auto-refresh a cada 30 segundos
+        setInterval(() => {
+            refreshStatus();
+        }, 30000);
+
+        // Inicialização
+        renderModules();
+        renderLogs();
+    </script>
+</body>
+</html>
